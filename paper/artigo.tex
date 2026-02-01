@@ -1,0 +1,209 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+\usepackage[brazilian]{babel}   
+\usepackage[T1]{fontenc} % Codificação para fontes com suporte a caracteres acentuados
+\usepackage[utf8]{inputenc} % Codificação UTF-8 (necessário apenas para pdflatex)
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx,url}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{soul}
+\usepackage{verbatim}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[shortlabels]{enumitem}
+\usepackage{scalefnt} % pacote para diminuir fonte das tabelas
+\usepackage{comment} % pacote de comentarios
+\usepackage{lscape}
+\usepackage{fancyhdr}
+\usepackage{sbgames}
+\usepackage[super]{nth}
+
+%previne hifenização
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\sloppy
+
+\input{sbgames_info}
+
+\title{Mitigação de Viés Algorítmico em Cenários de Desbalanceamento Sociodemográfico: Uma Análise Comparativa entre Foundation Models (TabPFN) e Gradient Boosting (XGBoost) nas Eleições Municipais do Ceará \\
+\medskip
+\small{
+    \textit{Algorithmic Bias Mitigation in Sociodemographic Imbalance Scenarios: A Comparative Analysis of Foundation Models (TabPFN) and Gradient Boosting (XGBoost) in Ceará Municipal Elections}
+}
+}
+
+\author{Nome Sobrenome\inst{1}, Nome Sobrenome\inst{2} }
+
+\address{Instituto de Informática -- Universidade Federal Imaginária
+  (UFI)\\
+  Caixa Postal 99.999 -- 99.999-999 -- Cidade  -- DF -- Brasil
+\nextinstitute
+  Department of Computing Computação -- University of Somewhere\\
+  Durham, U.K.
+\nextinstitute
+  Departamento de Sistemas e Computação\\
+  Universidade Regional de Algum Lugar (UFAL) -- Blumenau, SC -- Brasil
+  \email{\{author,author\}@inf.ufi.br, sobrenome@somewhere.ac.uk,
+  nome@inf.ufal.br}
+}
+
+
+\begin{document} 
+
+\maketitle
+
+\thispagestyle{plain}
+
+\begin{abstract}
+\textbf{Introduction}: Algorithmic bias in sociodemographic data often leads to unfair or inaccurate predictions, especially in highly imbalanced scenarios such as election poll worker absenteeism.
+\textbf{Objective}: This study aims to evaluate and mitigate algorithmic bias by comparing the performance of a modern Foundation Model (TabPFN) against a traditional Gradient Boosting baseline (XGBoost) in predicting absenteeism among poll workers in the 2024 Ceará Municipal Elections.
+\textbf{Methodology}: We utilized a real-world dataset from the Regional Electoral Court of Ceará (TRE-CE). The experimental setup involved sociodemographic feature engineering and a rigorous comparison using metrics robust to imbalance, such as Matthews Correlation Coefficient (MCC) and Area Under the Precision-Recall Curve (AUPRC). XGBoost was configured with class weighting, while TabPFN leveraged its in-context learning capabilities.
+\textbf{Results}: Preliminary results indicate that while XGBoost provides a strong baseline when properly tuned, TabPFN demonstrates superior generalization capabilities in few-shot scenarios without extensive hyperparameter optimization, offering a promising alternative for mitigating bias in public administration predictive tasks.
+\end{abstract}
+
+\keywords{Algorithmic Bias, TabPFN, XGBoost, Imbalanced Data, Election Administration.}
+     
+\begin{resumo} 
+  \textbf{Introdução:} O viés algorítmico em dados sociodemográficos frequentemente leva a previsões imprecisas ou injustas, especialmente em cenários altamente desbalanceados como o absenteísmo de mesários eleitorais.
+  \textbf{Objetivo:} Este estudo visa avaliar e mitigar o viés algorítmico comparando o desempenho de um Foundation Model moderno (TabPFN) contra um baseline tradicional de Gradient Boosting (XGBoost) na previsão de absenteísmo de mesários nas Eleições Municipais do Ceará em 2024.
+  \textbf{Metodologia:} Utilizou-se uma base de dados real do Tribunal Regional Eleitoral do Ceará (TRE-CE). O experimento envolveu engenharia de atributos sociodemográficos e uma comparação rigorosa utilizando métricas robustas ao desbalanceamento, como o Coeficiente de Correlação de Matthews (MCC) e a Área Sob a Curva Precision-Recall (AUPRC). O XGBoost foi configurado com ponderação de classes, enquanto o TabPFN utilizou suas capacidades de aprendizado em contexto.
+  \textbf{Resultados:} Os resultados preliminares indicam que, embora o XGBoost forneça um baseline robusto quando devidamente ajustado, o TabPFN demonstra capacidades superiores de generalização em cenários com poucas amostras e sem otimização extensiva de hiperparâmetros, oferecendo uma alternativa promissora para mitigação de viés em tarefas preditivas da administração pública.
+\end{resumo}
+
+\palavraschave{Viés Algorítmico, TabPFN, XGBoost, Dados Desbalanceados, Administração Eleitoral.}
+
+\section{Introdução}
+
+A administração eleitoral no Brasil enfrenta desafios logísticos significativos a cada ciclo eleitoral, sendo o recrutamento e a gestão de mesários um dos componentes mais críticos. O absenteísmo de mesários — a falha em comparecer no dia da eleição após a convocação — gera custos operacionais, filas e sobrecarga para os demais voluntários. Tentar prever quais convocados têm maior probabilidade de faltar é uma tarefa essencial para mitigar esses impactos.
+
+No entanto, modelos preditivos aplicados a dados sociodemográficos são suscetíveis a vieses algorítmicos, podendo discriminar grupos minoritários ou perpetuar desigualdades históricas se não forem devidamente calibrados. Além disso, o conjunto de dados inerente a esse problema é altamente desbalanceado, visto que a maioria esmagadora dos mesários comparece, tornando a classe de interesse (faltosos) minoritária.
+
+Tradicionalmente, algoritmos de Gradient Boosting, como o XGBoost, são o padrão da indústria para dados tabulares devido à sua alta performance e interpretabilidade. Contudo, o recente surgimento de Foundation Models voltados para dados tabulares, exemplificados pelo TabPFN (Prior-Data Fitted Network), promete revolucionar a área ao oferecer inferências robustas baseadas em aprendizado em contexto (In-Context Learning), sem a necessidade de treinamento iterativo tradicional.
+
+Este trabalho propõe uma análise comparativa entre o XGBoost e o TabPFN v2.5, focando na capacidade de cada modelo em lidar com o desbalanceamento de classes e na mitigação de viés algorítmico. Utilizando dados reais do Tribunal Regional Eleitoral do Ceará (TRE-CE) referentes às eleições de 2024, avaliamos o desempenho sob métricas rigorosas como o Coeficiente de Correlação de Matthews (MCC) e a AUPRC.
+
+\section{First Page} \label{sec:firstpage}
+
+The first page must display the paper title, the name and address of the
+authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
+required only for papers written in Portuguese). The title must be centered
+over the whole page, in 16 point boldface font and with 12 points of space
+before itself. Author names must be centered in 12 point font, bold, all of
+them disposed in the same line, separated by commas and with 12 points of
+space after the title. Addresses must be centered in 12 point font, also with
+12 points of space after the authors' names. E-mail addresses should be
+written using font Courier New, 10 point nominal size, with 6 points of space
+before and 6 points of space after.
+
+The abstract and ``resumo'' (if is the case) must be in 12 point Times font,
+indented 0.8cm on both sides. The word \textbf{Abstract} and \textbf{Resumo},
+should be written in boldface and must precede the text.
+
+\section{CD-ROMs and Printed Proceedings}
+
+In some conferences, the papers are published on CD-ROM while only the
+abstract is published in the printed Proceedings. In this case, authors are
+invited to prepare two final versions of the paper. One, complete, to be
+published on the CD and the other, containing only the first page, with
+abstract and ``resumo'' (for papers in Portuguese).
+
+\section{Sections and Paragraphs}
+
+Section titles must be in boldface, 13pt, flush left. There should be an extra
+12 pt of space before each title. Section numbering is optional. The first
+paragraph of each section should not be indented, while the first lines of
+subsequent paragraphs should be indented by 1.27 cm.
+
+\subsection{Subsections}
+
+The subsection titles must be in boldface, 12pt, flush left.
+
+\section{Figures and Captions}\label{sec:figs}
+
+
+Figure and table captions should be centered if less than one line
+(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
+both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
+be Helvetica, 10 point, boldface, with 6 points of space before and after each
+caption.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.5\textwidth]{Figuras/fig1.jpg}
+\caption{A typical figure}
+\label{fig:exampleFig1}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.3\textwidth]{Figuras/fig2.jpg}
+\caption{This figure is an example of a figure caption taking more than one
+  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
+\label{fig:exampleFig2}
+\end{figure}
+
+In tables, try to avoid the use of colored or shaded backgrounds, and avoid
+thick, doubled, or unnecessary framing lines. When reporting empirical data,
+do not use more decimal digits than warranted by their precision and
+reproducibility. Table caption must be placed before the table (see Table 1)
+and the font used must also be Helvetica, 10 point, boldface, with 6 points of
+space before and after each caption.
+
+\begin{table}[ht]
+\centering
+\caption{Variables to be considered on the evaluation of interaction
+  techniques}
+\label{tab:exTable1}
+\includegraphics[width=.7\textwidth]{Tabelas/table.jpg}
+\end{table}
+
+\section{Images}
+
+All images and illustrations should be in black-and-white, or gray tones,
+excepting for the papers that will be electronically available (on CD-ROMs,
+internet, etc.). The image resolution on paper should be about 600 dpi for
+black-and-white images, and 150-300 dpi for grayscale images.  Do not include
+images with excessive resolution, as they may take hours to print, without any
+visible difference in the result. 
+
+\section{References}
+
+Bibliographic references must be unambiguous and uniform.  We recommend giving
+the author names references in brackets, e.g. \cite{knuth:84},
+\cite{boulic:91}, and \cite{smith:99}.
+
+The references must be listed using 12 point font size, with 6 points of space
+before each reference. The first line of each reference should not be
+indented, while the subsequent should be indented by 0.5 cm.
+
+\bibliographystyle{sbc}
+\bibliography{Referencias/referencias}
+
+\end{document}
