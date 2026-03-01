@@ -1,0 +1,673 @@
+Ano de eleição;Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instrução;Município;Nome candidato;Número candidato;Ocupação;Partido;Região;Situação totalização;Turno;Zona;Votos válidos;Votos nominais;Data de carga
+2024;15172;Parda;Divorciado(a);50 a 54 anos;Masculino;Ensino Médio completo;PEREIRO;JOSE HERMANO DO NASCIMENTO NOGUEIRA;13;Empresário;PT;NORDESTE;Eleito;1;10;11360;9110;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;118;83731;41150;2026-02-28 19:30:47
+2024;15636;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;TABULEIRO DO NORTE;PEDRO NOGUEIRA FERREIRA;55;Agricultor;PSD;NORDESTE;Não Eleito;1;91;21089;9989;2026-02-28 19:30:47
+2024;13277;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;ARATUBA;CARLOS ALBERTO COLARES MENEZES;40;Empresário;PSB;NORDESTE;Não Eleito;1;105;10737;3750;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;94;79500;396;2026-02-28 19:30:47
+2024;13188;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;HORIZONTE;ALEXANDRE HOLANDA SABINO;12;Médico;PDT;NORDESTE;Não Eleito;1;78;49791;2548;2026-02-28 19:30:47
+2024;15474;Parda;Solteiro(a);50 a 54 anos;Masculino;Superior completo;SÃO BENEDITO;HENRIQUE PAULO SANTANA;12;Empresário;PDT;NORDESTE;Não Eleito;1;22;26608;7219;2026-02-28 19:30:47
+2024;15970;Branca;Solteiro(a);60 a 64 anos;Masculino;Ensino Médio completo;MILHÃ;MANOEL GECIMAR PINHEIRO;55;Empresário;PSD;NORDESTE;Não Eleito;1;55;9503;3034;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;3;72239;24973;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;117;84214;28150;2026-02-28 19:30:47
+2024;15130;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;PENAFORTE;LUIS FERNANDES BEZERRA FILHO;40;Técnico em Agronomia e Agrimensura;PSB;NORDESTE;Eleito;1;70;7721;4497;2026-02-28 19:30:47
+2024;15440;Preta;Casado(a);45 a 49 anos;Masculino;Superior completo;SALITRE;RONDILSON DE ALENCAR RIBEIRO;13;Agricultor;PT;NORDESTE;Eleito;1;38;12623;6358;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;2;83472;403;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;115;84003;450;2026-02-28 19:30:47
+2024;14613;Parda;Casado(a);35 a 39 anos;Masculino;Ensino Médio incompleto;MASSAPÊ;JOSE JÂNIO RICARDO;30;Outros;NOVO;NORDESTE;Não Eleito;1;45;27550;143;2026-02-28 19:30:47
+2024;13870;Branca;Casado(a);60 a 64 anos;Masculino;Ensino Médio completo;FARIAS BRITO;FRANCISCO AUSTRAGÉZIO SALES;12;Empresário;PDT;NORDESTE;Eleito;1;62;15497;8486;2026-02-28 19:30:47
+2024;15792;Parda;Solteiro(a);30 a 34 anos;Masculino;Ensino Médio completo;URUOCA;JAN KENNEDY PAIVA AQUINO;13;Prefeito;PT;NORDESTE;Eleito;1;25;9329;7932;2026-02-28 19:30:47
+2024;13935;Parda;Solteiro(a);30 a 34 anos;Masculino;Superior completo;GENERAL SAMPAIO;JOÃO PAULO SALES CORDEIRO;13;Advogado;PT;NORDESTE;Eleito;1;50;7411;4078;2026-02-28 19:30:47
+2024;15113;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;PEDRA BRANCA;MARIA IVONETH BRAGA DE SOUSA;13;Professor de Ensino Superior;PT;NORDESTE;Eleito;1;59;26824;14923;2026-02-28 19:30:47
+2024;13390;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;BARRO;HERICLES GEORGE FEITOSA ALBUQUERQUE;15;Médico;MDB;NORDESTE;Eleito;1;92;12835;8259;2026-02-28 19:30:47
+2024;14630;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;MAURITI;FRANCISCO WELINGTON PATRÍCIO DE FIGUEIRÊDO;12;Empresário;PDT;NORDESTE;Não Eleito;1;76;28644;8051;2026-02-28 19:30:47
+2024;13196;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;AQUIRAZ;PAULO SERGIO BARBOSA DA CUNHA;30;Servidor Público Estadual;NOVO;NORDESTE;Não Eleito;1;66;56085;1931;2026-02-28 19:30:47
+2024;14958;Parda;Casado(a);25 a 29 anos;Feminino;Superior incompleto;PACATUBA;LARISSA SOUZA TORRES CAMURÇA;44;Auxiliar de Escritório e Assemelhados;UNIÃO;NORDESTE;Eleito;1;57;47973;26322;2026-02-28 19:30:47
+2024;13226;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;EUSÉBIO;JOSE ARIMATEA LIMA BARROS JUNIOR;25;Médico;PRD;NORDESTE;Eleito;1;88;44781;36256;2026-02-28 19:30:47
+2024;13080;Parda;Solteiro(a);55 a 59 anos;Masculino;Ensino Médio completo;TURURU;FRANCISCO REGIS SERPA BARROSO;45;Outros;PSDB;NORDESTE;Não Eleito;1;17;13375;32;2026-02-28 19:30:47
+2024;14036;Parda;Casado(a);40 a 44 anos;Feminino;Superior completo;GUARAMIRANGA;YNARA FURTADO VASCONCELOS MOTA;10;Empresário;REPUBLICANOS;NORDESTE;Eleito;1;5;5880;3045;2026-02-28 19:30:47
+2024;14354;Parda;Casado(a);65 a 69 anos;Feminino;Superior completo;JAGUARETAMA;LUZIA CUNHA SALDANHA BRITO;45;Enfermeiro;PSDB;NORDESTE;Não Eleito;1;72;9192;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;1;94182;9950;2026-02-28 19:30:47
+2024;13307;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;OCARA;HUMBERTO MAIA DE QUEIROZ JÚNIOR;11;Advogado;PP;NORDESTE;Não Eleito;1;67;22746;10258;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;95;80638;33;2026-02-28 19:30:47
+2024;14451;Branca;Divorciado(a);30 a 34 anos;Feminino;Superior completo;JATI;MONICA ROSANY PEREIRA MARIANO;13;Empresário;PT;NORDESTE;Eleito;1;70;6051;3578;2026-02-28 19:30:47
+2024;13420;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;ARARENDÁ;ARISTEU ALVES EDUARDO;13;Contador;PT;NORDESTE;Eleito;1;48;7584;5870;2026-02-28 19:30:47
+2024;15210;Branca;Solteiro(a);35 a 39 anos;Masculino;Ensino Médio completo;PORANGA;ANTONIO ROBERTO UCHOA DE ALMEIDA;13;Empresário;PT;NORDESTE;Eleito;1;40;7979;4227;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;3;72239;8978;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Não Eleito;2;37;68509;30465;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;3;73527;38019;2026-02-28 19:30:47
+2024;13951;Preta;Casado(a);35 a 39 anos;Feminino;Superior completo;GRANJA;MARIA DO LIVRAMENTO OLIVEIRA DIAS;11;Fisioterapeuta e Terapeuta Ocupacional;PP;NORDESTE;Não Eleito;1;25;33805;7132;2026-02-28 19:30:47
+2024;15059;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;PARACURU;WEMBLEY GOMES COSTA;40;Pedagogo;PSB;NORDESTE;Não Eleito;1;109;27619;10793;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;95;80638;393;2026-02-28 19:30:47
+2024;14290;Branca;Solteiro(a);60 a 64 anos;Masculino;Superior completo;ITAPIPOCA;JOAO RIBEIRO BARROSO;45;Engenheiro;PSDB;NORDESTE;Não Eleito;1;17;82276;25915;2026-02-28 19:30:47
+2024;15881;Parda;Separado(a) judicialmente;55 a 59 anos;Masculino;Ensino Médio completo;CROATÁ;JOÃO DAMASCENO DE ABREU;30;Agricultor;NOVO;NORDESTE;Não Eleito;1;74;10951;1352;2026-02-28 19:30:47
+2024;13331;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio incompleto;AURORA;JOSE ADAILTON DE MACEDO;15;Agricultor;MDB;NORDESTE;Não Eleito;1;69;16685;7851;2026-02-28 19:30:47
+2024;14931;Parda;Divorciado(a);50 a 54 anos;Masculino;Ensino Médio completo;PACAJUS;DAVANILSON JOSE PINHEIRO LEITE;10;Comerciante;REPUBLICANOS;NORDESTE;Não Eleito;1;49;44843;7140;2026-02-28 19:30:47
+2024;13021;Parda;Casado(a);45 a 49 anos;Masculino;Superior incompleto;MADALENA;ANTONIO GILVAN INACIO DE SALES;10;Servidor Público Municipal;REPUBLICANOS;NORDESTE;Não Eleito;1;63;12415;4756;2026-02-28 19:30:47
+2024;15938;Parda;Casado(a);30 a 34 anos;Masculino;Superior completo;ICAPUÍ;JOBEDE REIS CIRILO DA SILVA;45;Advogado;PSDB;NORDESTE;Não Eleito;1;8;15326;6489;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;114;83366;656;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;117;84214;507;2026-02-28 19:30:47
+2024;13285;Parda;Solteiro(a);55 a 59 anos;Masculino;Ensino Médio completo;PINDORETAMA;JOSE MARIA MENDES LEITE;40;Policial Militar;PSB;NORDESTE;Eleito;1;7;17061;12784;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;95;80638;8186;2026-02-28 19:30:47
+2024;15792;Branca;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;URUOCA;RUBENS BÉSSIO PESSOA ALMEIDA;11;Vendedor Pracista, Representante, Caixeiro-Viajante e Assemelhados;PP;NORDESTE;Não Eleito;1;25;9329;1397;2026-02-28 19:30:47
+2024;14494;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental completo;JUCÁS;JOSE EDSONRIVA SOUZA CUNHA;40;Empresário;PSB;NORDESTE;Eleito;1;43;16461;9778;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;112;88807;38041;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;82;79979;28350;2026-02-28 19:30:47
+2024;13501;Branca;Solteiro(a);40 a 44 anos;Feminino;Superior completo;FORTIM;DELMA DA COSTA DOS SANTOS;15;Advogado;MDB;NORDESTE;Eleito;1;8;15376;10255;2026-02-28 19:30:47
+2024;15237;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;PORTEIRAS;RAIMUNDO CICERO DA SILVA;13;Agricultor;PT;NORDESTE;Não Eleito;1;70;12032;4967;2026-02-28 19:30:47
+2024;13005;Parda;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;JIJOCA DE JERICOACOARA;FRANCISCO EVERARDO GOMES;44;Vereador;UNIÃO;NORDESTE;Não Eleito;1;30;17991;1433;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;93;70741;364;2026-02-28 19:30:47
+2024;14150;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;IPAUMIRIM;WILSON ALVES DE FREITAS;55;Empresário;PSD;NORDESTE;Eleito;1;92;7916;6117;2026-02-28 19:30:47
+2024;14613;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MASSAPÊ;OZIRES ANDRADE PONTES;45;Empresário;PSDB;NORDESTE;Eleito;1;45;27550;13718;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;83;88362;44437;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;114;84969;43481;2026-02-28 19:30:47
+2024;14672;Branca;Solteiro(a);55 a 59 anos;Masculino;Ensino Médio completo;MILAGRES;JORGIANO ZUZA PEREIRA;45;Agricultor;PSDB;NORDESTE;Não Eleito;1;26;17869;168;2026-02-28 19:30:47
+2024;13757;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;CEDRO;SAMUEL ENEIAS PINHEIRO VIANA;13;Médico;PT;NORDESTE;Não Eleito;1;13;16670;7815;2026-02-28 19:30:47
+2024;13471;Parda;Solteiro(a);55 a 59 anos;Masculino;Superior incompleto;BOA VIAGEM;AMANCIO JOSE DE LIMA FILHO;50;Advogado;PSOL;NORDESTE;Não Eleito;1;63;33851;3242;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;114;83366;11464;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;113;84049;11021;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;2;83472;8117;2026-02-28 19:30:47
+2024;15474;Branca;Solteiro(a);50 a 54 anos;Masculino;Superior completo;SÃO BENEDITO;MICHELL DO AMARAL ALMEIDA;15;Médico;MDB;NORDESTE;Não Eleito;1;22;26608;1681;2026-02-28 19:30:47
+2024;14338;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental completo;ITATIRA;JOSE ICASSI GONÇALVES UMBELINO;20;Empresário;PODE;NORDESTE;Não Eleito;1;33;14692;2795;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;1;94182;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;83;86575;25;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;94;79500;43;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;85;74907;32;2026-02-28 19:30:47
+2024;13919;Parda;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;FRECHEIRINHA;FRANCISCO MESQUITA PORTELA;55;Empresário;PSD;NORDESTE;Eleito;1;81;11809;6172;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;94;80956;41293;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;2;84574;41864;2026-02-28 19:30:47
+2024;13692;Branca;Casado(a);45 a 49 anos;Feminino;Superior completo;CASCAVEL;ANA PAULA VILA REAL DANTAS;20;Contador;PODE;NORDESTE;Não Eleito;1;7;49302;552;2026-02-28 19:30:47
+2024;13773;Branca;Viúvo(a);55 a 59 anos;Masculino;Ensino Médio completo;CHAVAL;PAULO SERGIO DE ALMEIDA PACHECO;10;Outros;REPUBLICANOS;NORDESTE;Não Eleito;1;108;8887;3166;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;115;84003;615;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;ANTONIO AGINALDO DE OLIVEIRA;22;Militar Reformado;PL;NORDESTE;Não Eleito;1;123;75486;8964;2026-02-28 19:30:47
+2024;13854;Branca;Divorciado(a);50 a 54 anos;Masculino;Superior completo;CRATO;ALOISIO ANTONIO GOMES DE MATOS BRASIL;44;Médico;UNIÃO;NORDESTE;Não Eleito;1;27;76107;35747;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;115;84003;799;2026-02-28 19:30:47
+2024;13331;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;AURORA;MARCONE TAVARES DE LUNA;13;Empresário;PT;NORDESTE;Eleito;1;69;16685;8834;2026-02-28 19:30:47
+2024;15679;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;TAUÁ;PATRÍCIA PEQUENO COSTA GOMES DE AGUIAR;55;Advogado;PSD;NORDESTE;Eleito;1;19;37542;26291;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;93;72013;36499;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;116;90402;491;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;93;70741;419;2026-02-28 19:30:47
+2024;13307;Parda;Solteiro(a);45 a 49 anos;Masculino;Ensino Médio incompleto;OCARA;GILBERTO LOPES DA SILVA;12;Empresário;PDT;NORDESTE;Não Eleito;1;67;22746;107;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;117;84214;8701;2026-02-28 19:30:47
+2024;14834;Parda;Casado(a);35 a 39 anos;Feminino;Superior completo;MULUNGU;LYZIANE CRISTINA MALTA BITAR FARIAS LIMA;15;Vereador;MDB;NORDESTE;Não Eleito;1;5;8272;3148;2026-02-28 19:30:47
+2024;14931;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;PACAJUS;ALEXANDRE OLIVEIRA NOGUEIRA;20;Jornalista e Redator;PODE;NORDESTE;Não Eleito;1;49;44843;12357;2026-02-28 19:30:47
+2024;13412;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;BATURITÉ;RAIMUNDO IVO DOS SANTOS OLIVEIRA JÚNIOR;55;Empresário;PSD;NORDESTE;Não Eleito;1;5;22708;4650;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;85;74907;588;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;113;84049;1096;2026-02-28 19:30:47
+2024;13536;Branca;Casado(a);70 a 74 anos;Masculino;Ensino Médio completo;CAMPOS SALES;MOESIO LOIOLA DE MELO;40;Locutor e Comentarista de Rádio e Televisão e Radialista;PSB;NORDESTE;Eleito;1;38;16463;8572;2026-02-28 19:30:47
+2024;15695;Branca;Divorciado(a);40 a 44 anos;Masculino;Superior completo;TIANGUÁ;ALEX ANDERSON NUNES DA COSTA;40;Prefeito;PSB;NORDESTE;Eleito;1;81;46812;31126;2026-02-28 19:30:47
+2024;14478;Parda;Casado(a);65 a 69 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;LINO ALVES DE ALMEIDA;29;Aposentado (Exceto Servidor Público);PCO;NORDESTE;Não Eleito;1;28;65259;0;2026-02-28 19:30:47
+2024;13234;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;ARACOIABA;MARIA KAROLINE ALVES PINHEIRO;44;Farmacêutico;UNIÃO;NORDESTE;Não Eleito;1;67;21596;2670;2026-02-28 19:30:47
+2024;14095;Parda;Casado(a);50 a 54 anos;Feminino;Superior incompleto;ICÓ;MARIA CRISTIANA VIANA;10;Dona de Casa;REPUBLICANOS;NORDESTE;Não Eleito;1;15;38312;853;2026-02-28 19:30:47
+2024;13617;Parda;Divorciado(a);60 a 64 anos;Masculino;Ensino Médio completo;CARIRÉ;ANTONIO RUFINO MARTINS;12;Empresário;PDT;NORDESTE;Eleito;1;65;12722;9502;2026-02-28 19:30:47
+2024;15652;Parda;Solteiro(a);40 a 44 anos;Masculino;Superior completo;TAMBORIL;LUIZ MARCELO MOTA LEITE;40;Prefeito;PSB;NORDESTE;Eleito;1;61;17308;10303;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;85;74907;31121;2026-02-28 19:30:47
+2024;15954;Branca;Casado(a);30 a 34 anos;Masculino;Superior completo;ITAREMA;FELIPE MONTEIRO ANDRADE ARAÚJO;10;Advogado;REPUBLICANOS;NORDESTE;Não Eleito;1;98;28216;372;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;118;82603;426;2026-02-28 19:30:47
+2024;14257;Branca;Casado(a);30 a 34 anos;Masculino;Superior completo;ITAIÇABA;ANTONIEL MAX SILVA HOLANDA;13;Vereador;PT;NORDESTE;Eleito;1;75;4018;2550;2026-02-28 19:30:47
+2024;15199;Parda;Casado(a);40 a 44 anos;Feminino;Superior completo;PIQUET CARNEIRO;NEILA MARIA VITORIANO DE SOUSA;13;Professor de Ensino Fundamental;PT;NORDESTE;Eleito;1;12;10626;6025;2026-02-28 19:30:47
+2024;14850;Branca;Casado(a);30 a 34 anos;Masculino;Superior completo;NOVA OLINDA;LEONARDO PEREIRA DE BRITO NEVES;13;Advogado;PT;NORDESTE;Eleito;1;53;10490;6097;2026-02-28 19:30:47
+2024;15750;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;UMARI;ALEX SANDRO RUFINO FERREIRA;55;Prefeito;PSD;NORDESTE;Eleito;1;15;5544;4256;2026-02-28 19:30:47
+2024;15598;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;SOBRAL;OSCAR SPINDOLA RODRIGUES JUNIOR;44;Empresário;UNIÃO;NORDESTE;Eleito;1;24;71255;37701;2026-02-28 19:30:47
+2024;13196;Branca;Divorciado(a);40 a 44 anos;Masculino;Superior completo;AQUIRAZ;BRUNO BARROS GONÇALVES;25;Prefeito;PRD;NORDESTE;Eleito;1;66;56085;48113;2026-02-28 19:30:47
+2024;13579;Branca;Casado(a);60 a 64 anos;Masculino;Superior completo;CAPISTRANO;CLAUDIO BEZERRA SARAIVA;40;Produtor Agropecuário;PSB;NORDESTE;Eleito;1;105;13802;6769;2026-02-28 19:30:47
+2024;14133;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;INDEPENDÊNCIA;JOAO DE DEUS VIEIRA;35;Advogado;PMB;NORDESTE;Não Eleito;1;39;18120;18;2026-02-28 19:30:47
+2024;14915;Branca;Casado(a);45 a 49 anos;Feminino;Superior completo;ORÓS;LUHANNA URYA MACIEL BEZERRA;11;Advogado;PP;NORDESTE;Não Eleito;1;15;14188;5901;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;MARACANAÚ;SILVANA OLIVEIRA DE SOUSA;22;Médico;PL;NORDESTE;Não Eleito;1;122;71456;16809;2026-02-28 19:30:47
+2024;15253;Parda;Separado(a) judicialmente;30 a 34 anos;Masculino;Superior completo;POTENGI;LUA ALENCAR ALVES SOARES;13;Advogado;PT;NORDESTE;Não Eleito;1;68;6847;2601;2026-02-28 19:30:47
+2024;13072;Parda;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;AIUABA;SEBASTIÃO ARRAES OLIVEIRA PAIVA;55;Servidor Público Municipal;PSD;NORDESTE;Não Eleito;1;101;9443;4268;2026-02-28 19:30:47
+2024;15458;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;SANTA QUITÉRIA;ANTONIO EVELARDO VIEIRA BIÉ;30;Servidor Público Municipal;NOVO;NORDESTE;Não Eleito;1;54;27534;145;2026-02-28 19:30:47
+2024;15059;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;PARACURU;GALBA FREIRE MOITA;30;Engenheiro;NOVO;NORDESTE;Não Eleito;1;109;27619;137;2026-02-28 19:30:47
+2024;14958;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;PACATUBA;THIAGO MOREIRA RODRIGUES;55;Médico;PSD;NORDESTE;Não Eleito;1;57;47973;576;2026-02-28 19:30:47
+2024;15415;Parda;Casado(a);60 a 64 anos;Masculino;Ensino Fundamental incompleto;SANTANA DO ACARAÚ;FRANCISCO DAS CHAGAS MENDES;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;44;21772;15017;2026-02-28 19:30:47
+2024;13250;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;ARARIPE;JOSE PAULINO PEREIRA;13;Vereador;PT;NORDESTE;Eleito;1;68;14059;7146;2026-02-28 19:30:47
+2024;13234;Parda;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;ARACOIABA;WELLINGTON SILVA DE OLIVEIRA;11;Empresário;PP;NORDESTE;Eleito;1;67;21596;10946;2026-02-28 19:30:47
+2024;15636;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;TABULEIRO DO NORTE;RENATA THAIS DUARTE VASCONCELOS;11;Odontólogo;PP;NORDESTE;Eleito;1;91;21089;11100;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;112;88807;10179;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;115;85678;43125;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;116;92035;47084;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;117;85672;43394;2026-02-28 19:30:47
+2024;13323;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;TEJUÇUOCA;EDILARDO EUFRASIO DA CRUZ;15;Comerciante;MDB;NORDESTE;Não Eleito;1;41;13715;2972;2026-02-28 19:30:47
+2024;13935;Parda;Casado(a);55 a 59 anos;Feminino;Superior completo;GENERAL SAMPAIO;ELIENE LEITE ARAUJO BRASILEIRO;40;Advogado;PSB;NORDESTE;Não Eleito;1;50;7411;3333;2026-02-28 19:30:47
+2024;13196;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;AQUIRAZ;JAIR JOSE DA SILVA;13;Servidor Público Municipal;PT;NORDESTE;Não Eleito;1;66;56085;6041;2026-02-28 19:30:47
+2024;13293;Branca;Casado(a);45 a 49 anos;Masculino;Ensino Fundamental completo;ARNEIROZ;GIDEONNE FEITOSA DE OLIVEIRA;13;Comerciante;PT;NORDESTE;Não Eleito;1;101;5938;1779;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;118;82603;561;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;80;77849;626;2026-02-28 19:30:47
+2024;13854;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;CRATO;LUCAS GONÇALVES BRASIL;45;Administrador;PSDB;NORDESTE;Não Eleito;1;27;76107;3268;2026-02-28 19:30:47
+2024;13439;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;BEBERIBE;ANDERSON PEROBA GOMES;27;Advogado;DC;NORDESTE;Não Eleito;1;84;39441;177;2026-02-28 19:30:47
+2024;13951;Parda;Solteiro(a);30 a 34 anos;Masculino;Superior completo;GRANJA;JOÃO PAULO AGUIAR DA SILVA;55;Advogado;PSD;NORDESTE;Não Eleito;1;25;33805;3205;2026-02-28 19:30:47
+2024;14311;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;ITAPIÚNA;FRANCISCO MÁRCIO DE OLIVEIRA;36;Policial Militar;AGIR;NORDESTE;Não Eleito;1;105;14002;308;2026-02-28 19:30:47
+2024;13218;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;ARACATI;CAETANO GUEDES NETO;10;Empresário;REPUBLICANOS;NORDESTE;Não Eleito;1;8;46893;20068;2026-02-28 19:30:47
+2024;15920;Parda;Divorciado(a);40 a 44 anos;Masculino;Superior completo;IBICUITINGA;JOSE DE ARAUJO DANTAS FILHO;55;Policial Militar;PSD;NORDESTE;Não Eleito;1;47;11058;4352;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;3;72239;1776;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;118;82603;719;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;93;70741;471;2026-02-28 19:30:47
+2024;15750;Parda;Divorciado(a);55 a 59 anos;Masculino;Ensino Fundamental incompleto;UMARI;VALDEIR PINHEIRO DE MOURA;13;Empresário;PT;NORDESTE;Não Eleito;1;15;5544;1288;2026-02-28 19:30:47
+2024;14257;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;ITAIÇABA;GENILSON CESAR DE SENA;22;Comerciante;PL;NORDESTE;Não Eleito;1;75;4018;127;2026-02-28 19:30:47
+2024;15733;Branca;Divorciado(a);65 a 69 anos;Masculino;Ensino Médio completo;UBAJARA;FRANCISCO RENATO ALVES PESSOA;55;Empresário;PSD;NORDESTE;Não Eleito;1;73;22180;9316;2026-02-28 19:30:47
+2024;13552;Parda;Solteiro(a);25 a 29 anos;Masculino;Superior completo;CANINDÉ;FRANCISCO JARDEL SOUSA PINHO;40;Vereador;PSB;NORDESTE;Eleito;1;33;48519;27388;2026-02-28 19:30:47
+2024;14818;Parda;Solteiro(a);55 a 59 anos;Masculino;Ensino Médio completo;MUCAMBO;ELENILSON JOSE DA CONCEIÇÃO;40;Comerciante;PSB;NORDESTE;Eleito;1;79;6947;6947;2026-02-28 19:30:47
+2024;14060;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;IBARETAMA;ANTÔNIO RODRIGUES MORAES NETO;44;Médico;UNIÃO;NORDESTE;Não Eleito;1;6;11822;4467;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;117;84214;36296;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;114;83366;31807;2026-02-28 19:30:47
+2024;14036;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;GUARAMIRANGA;RICARDO PONTES CELESTINO DE BARROS;36;Empresário;AGIR;NORDESTE;Não Eleito;1;5;5880;5;2026-02-28 19:30:47
+2024;15415;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;SANTANA DO ACARAÚ;FRANCISCO ELIEZIO CUNHA;23;Comerciante;CIDADANIA;NORDESTE;Não Eleito;1;44;21772;248;2026-02-28 19:30:47
+2024;15032;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;PALMÁCIA;MARCONDES SOUSA BARBOSA;13;Comerciante;PT;NORDESTE;Eleito;1;4;8526;4330;2026-02-28 19:30:47
+2024;15490;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;SÃO GONÇALO DO AMARANTE;MARCELO FERREIRA TELES;13;Professor de Ensino Médio;PT;NORDESTE;Eleito;1;36;42747;28925;2026-02-28 19:30:47
+2024;14710;Parda;Casado(a);35 a 39 anos;Masculino;Superior incompleto;MOMBAÇA;ORLANDO BENEVIDES CAVALCANTE FILHO;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;46;25935;13804;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;85;76318;37799;2026-02-28 19:30:47
+2024;14656;Branca;Casado(a);35 a 39 anos;Feminino;Superior completo;MERUOCA;CARLA MARA DAVI MACEDO;40;Administrador;PSB;NORDESTE;Não Eleito;1;24;11368;4179;2026-02-28 19:30:47
+2024;14150;Branca;Casado(a);60 a 64 anos;Masculino;Ensino Médio completo;IPAUMIRIM;ESPEDITO MARCOS DE SOUSA;13;Outros;PT;NORDESTE;Não Eleito;1;92;7916;1799;2026-02-28 19:30:47
+2024;14079;Branca;Casado(a);35 a 39 anos;Masculino;Superior incompleto;IBIAPINA;ANTONIO LEANDRO GOMES LINHARES;55;Empresário;PSD;NORDESTE;Não Eleito;1;73;15874;6575;2026-02-28 19:30:47
+2024;13145;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;ACARAPE;FRANCISCO EDILBERTO BESERRA BARROSO;40;Prefeito;PSB;NORDESTE;Eleito;1;52;11074;7153;2026-02-28 19:30:47
+2024;13811;Branca;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;COREAÚ;JOSE EDEZIO VAZ DE SOUZA;40;Empresário;PSB;NORDESTE;Eleito;1;64;16238;12228;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;93;70741;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;115;84003;0;2026-02-28 19:30:47
+2024;14559;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;MARANGUAPE;SAMARA BEZERRA CORDEIRO DA SILVA;25;Terapeuta;PRD;NORDESTE;Não Eleito;1;4;62512;16258;2026-02-28 19:30:47
+2024;14974;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;PACOTI;SUELY MARIA NOGUEIRA DE SOUSA GUERRA;27;Professor de Ensino Fundamental;DC;NORDESTE;Não Eleito;1;5;9310;0;2026-02-28 19:30:47
+2024;13692;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;CASCAVEL;CLEITON PEREIRA DA SILVA;13;Servidor Público Estadual;PT;NORDESTE;Não Eleito;1;7;49302;21825;2026-02-28 19:30:47
+2024;15075;Branca;Solteiro(a);45 a 49 anos;Masculino;Lê e escreve;PARAMBU;ERASMO DE SOUSA LIMA;13;Agricultor;PT;NORDESTE;Não Eleito;1;19;20189;1739;2026-02-28 19:30:47
+2024;15377;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;RUSSAS;SÁVIO GURGEL NOGUEIRA;40;Prefeito;PSB;NORDESTE;Eleito;1;9;42562;39856;2026-02-28 19:30:47
+2024;14370;Parda;Solteiro(a);35 a 39 anos;Masculino;Superior completo;JAGUARIBARA;JOSÉ NUNES DOS SANTOS FILHO;40;Pedagogo;PSB;NORDESTE;Eleito;1;72;7585;4886;2026-02-28 19:30:47
+2024;98574;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;VARJOTA;FRANCISCO ELMO BEZERRA MONTE;40;Empresário;PSB;NORDESTE;Eleito;1;65;13869;8914;2026-02-28 19:30:47
+2024;14478;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;JUAZEIRO DO NORTE;SUED CARVALHO;80;Professor de Ensino Médio;UP;NORDESTE;Não Eleito;1;28;65259;936;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;118;82603;28240;2026-02-28 19:30:47
+2024;13269;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;POTIRETAMA;FREDERICO FREITAS CAMPELO BESSA;55;Médico;PSD;NORDESTE;Não Eleito;1;86;5127;1471;2026-02-28 19:30:47
+2024;14893;Branca;Casado(a);25 a 29 anos;Masculino;Superior incompleto;NOVO ORIENTE;EDUARDO COELHO ROSA CAVALCANTE;40;Empresário;PSB;NORDESTE;Eleito;1;99;17922;13563;2026-02-28 19:30:47
+2024;15733;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;UBAJARA;ADÉCIO MUNIZ PAIVA FILHO;40;Advogado;PSB;NORDESTE;Eleito;1;73;22180;10835;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;118;82603;33873;2026-02-28 19:30:47
+2024;13579;Branca;Casado(a);70 a 74 anos;Masculino;Ensino Médio completo;CAPISTRANO;JOSE RENATO CAVALCANTE LIMA;11;Outros;PP;NORDESTE;Não Eleito;1;105;13802;6499;2026-02-28 19:30:47
+2024;15490;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;SÃO GONÇALO DO AMARANTE;FRANCISCO CLAUDIO PINTO PINHO;12;Tabelião;PDT;NORDESTE;Não Eleito;1;36;42747;12994;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;117;85672;42278;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;113;85766;47359;2026-02-28 19:30:47
+2024;15733;Parda;Divorciado(a);45 a 49 anos;Masculino;Ensino Médio completo;UBAJARA;MANOEL NONATO DE SOUZA;15;Gari ou Lixeiro;MDB;NORDESTE;Não Eleito;1;73;22180;2029;2026-02-28 19:30:47
+2024;14192;Parda;Casado(a);60 a 64 anos;Masculino;Ensino Médio completo;IPUEIRAS;RAIMUNDO MELO SAMPAIO;40;Empresário;PSB;NORDESTE;Não Eleito;1;40;24326;8161;2026-02-28 19:30:47
+2024;14397;Branca;Divorciado(a);70 a 74 anos;Masculino;Superior completo;JAGUARIBE;JOSÉ ABNER NOGUEIRA DIÓGENES PINHEIRO;11;Empresário;PP;NORDESTE;Não Eleito;1;10;24126;9203;2026-02-28 19:30:47
+2024;15555;Branca;Solteiro(a);50 a 54 anos;Masculino;Superior completo;SENADOR POMPEU;LUIZ FLAVIO MENDES DE CARVALHO;13;Advogado;PT;NORDESTE;Não Eleito;1;12;17003;7783;2026-02-28 19:30:47
+2024;14990;Parda;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;PACUJÁ;JOAO PAULO DE ARAUJO MARQUES;23;Agricultor;CIDADANIA;NORDESTE;Não Eleito;1;79;5461;1560;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;94;79500;12109;2026-02-28 19:30:47
+2024;15490;Branca;Casado(a);45 a 49 anos;Feminino;Superior completo;SÃO GONÇALO DO AMARANTE;LAMARKA LOPES PEREIRA;22;Empresário;PL;NORDESTE;Não Eleito;1;36;42747;828;2026-02-28 19:30:47
+2024;14052;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;HIDROLÂNDIA;FRANCISCO JERBERSON TIMBO MAGALHAES;20;Empresário;PODE;NORDESTE;Não Eleito;1;54;13788;6631;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;116;90402;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;82;79979;0;2026-02-28 19:30:47
+2024;13161;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CHOROZINHO;EMILIANO ALEXANDRE DE FREITAS NETO;33;Outros;MOBILIZA;NORDESTE;Não Eleito;1;49;15788;110;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;118;82603;47;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;117;84214;44;2026-02-28 19:30:47
+2024;13340;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;IPAPORANGA;FRANCISCO CARDOSO LIMA;44;Contador;UNIÃO;NORDESTE;Não Eleito;1;20;8432;678;2026-02-28 19:30:47
+2024;14273;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;ITAPAJÉ;VILAMAR ARAUJO SOUSA;22;Vereador;PL;NORDESTE;Não Eleito;1;41;32835;1853;2026-02-28 19:30:47
+2024;13480;Branca;Divorciado(a);45 a 49 anos;Masculino;Ensino Médio completo;ITAITINGA;DENIS GOMES DA SILVA;20;Vereador;PODE;NORDESTE;Não Eleito;1;78;30384;547;2026-02-28 19:30:47
+2024;14095;Parda;Solteiro(a);45 a 49 anos;Feminino;Superior completo;ICÓ;AURINEIDE AMARO DE SOUSA;13;Professor de Ensino Superior;PT;NORDESTE;Eleito;1;15;38312;24944;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;94;79500;7756;2026-02-28 19:30:47
+2024;14117;Branca;Casado(a);65 a 69 anos;Masculino;Ensino Médio completo;IGUATU;CARLOS AUGUSTO CORREIA LIMA;33;Outros;MOBILIZA;NORDESTE;Não Eleito;1;13;58796;0;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Não Eleito;2;120;41437;19312;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;83;88362;43925;2026-02-28 19:30:47
+2024;15717;Parda;Solteiro(a);45 a 49 anos;Feminino;Superior completo;TRAIRI;GLEICIVANIA PIRES MAGALHAES;55;Professor de Ensino Fundamental;PSD;NORDESTE;Não Eleito;1;97;40582;10655;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;114;83366;27850;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;3;72239;612;2026-02-28 19:30:47
+2024;13137;Preta;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;ALTO SANTO;DAMIÃO AMÂNCIO DA SILVA;50;Técnico em Edificações;PSOL;NORDESTE;Não Eleito;1;86;10476;530;2026-02-28 19:30:47
+2024;14494;Branca;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;JUCÁS;DENIS OSTERNE LUCAS FERNANDES;15;Empresário;MDB;NORDESTE;Não Eleito;1;43;16461;473;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;CAUCAIA;MARIA EMILIA PESSOA DE LIMA CARNEIRO;45;Deputado;PSDB;NORDESTE;Não Eleito;1;123;75486;16941;2026-02-28 19:30:47
+2024;13650;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental completo;CARIÚS;ANTONIO CLAUDIO HOLANDA BORGES;55;Agricultor;PSD;NORDESTE;Não Eleito;1;43;13490;38;2026-02-28 19:30:47
+2024;15059;Branca;Solteiro(a);45 a 49 anos;Feminino;Superior completo;PARACURU;GABRIELA CORDEIRO FAÇANHA;10;Odontólogo;REPUBLICANOS;NORDESTE;Eleito;1;109;27619;16022;2026-02-28 19:30:47
+2024;13390;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;BARRO;PAULO VINICIUS LAURINDO DA SILVA;55;Empresário;PSD;NORDESTE;Não Eleito;1;92;12835;4576;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;112;88807;1390;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;2;83472;794;2026-02-28 19:30:47
+2024;15920;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;IBICUITINGA;ROGERIO BARREIRA PINHEIRO;13;Servidor Público Estadual;PT;NORDESTE;Eleito;1;47;11058;6706;2026-02-28 19:30:47
+2024;15113;Parda;Casado(a);40 a 44 anos;Masculino;Ensino Médio incompleto;PEDRA BRANCA;FRANCISCO NAZIEL DE SOUZA CAVALCANTE;10;Empresário;REPUBLICANOS;NORDESTE;Não Eleito;1;59;26824;11901;2026-02-28 19:30:47
+2024;15075;Parda;Solteiro(a);25 a 29 anos;Masculino;Superior completo;PARAMBU;ROMULO MATEUS NORONHA;77;Prefeito;SOLIDARIEDADE;NORDESTE;Eleito;1;19;20189;16282;2026-02-28 19:30:47
+2024;13412;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;BATURITÉ;HÉRBERLH FREITAS REIS CAVALCANTE MOTA;10;Empresário;REPUBLICANOS;NORDESTE;Eleito;1;5;22708;18058;2026-02-28 19:30:47
+2024;13315;Branca;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;ASSARÉ;ERIGILSON BEZERRA LIMA;15;Empresário;MDB;NORDESTE;Não Eleito;1;18;14746;2457;2026-02-28 19:30:47
+2024;13153;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;ANTONINA DO NORTE;ELMAR ALVES DA SILVA;15;Servidor Público Municipal;MDB;NORDESTE;Não Eleito;1;18;5613;994;2026-02-28 19:30:47
+2024;13404;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;BARROQUINHA;TAINAH GOMES MARINHO DE OLIVEIRA;13;Engenheiro;PT;NORDESTE;Não Eleito;1;108;12742;6338;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;118;82603;9099;2026-02-28 19:30:47
+2024;14117;Branca;Casado(a);65 a 69 anos;Masculino;Superior completo;IGUATU;JOSÉ DE SÁ VILAROUCA;40;Empresário;PSB;NORDESTE;Não Eleito;1;13;58796;2031;2026-02-28 19:30:47
+2024;15296;Branca;Casado(a);70 a 74 anos;Masculino;Superior completo;QUIXERAMOBIM;CIRILO ANTÔNIO PIMENTA LIMA;40;Prefeito;PSB;NORDESTE;Eleito;1;11;48430;30357;2026-02-28 19:30:47
+2024;15091;Parda;Casado(a);45 a 49 anos;Feminino;Superior completo;PARAMOTI;ANTONIA TELVANIA FERREIRA BRAZ BARRETO;40;Prefeito;PSB;NORDESTE;Eleito;1;111;8731;6232;2026-02-28 19:30:47
+2024;14613;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;MASSAPÊ;ANALBERTO JARDAS FERNANDES MOREIRA;50;Professor de Ensino Médio;PSOL;NORDESTE;Não Eleito;1;45;27550;77;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Segundo turno;1;37;73422;24552;2026-02-28 19:30:47
+2024;15091;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;PARAMOTI;PAULO SERGIO MARIZ SANTOS;13;Agrônomo;PT;NORDESTE;Não Eleito;1;111;8731;2499;2026-02-28 19:30:47
+2024;14931;Parda;Solteiro(a);35 a 39 anos;Masculino;Superior completo;PACAJUS;JOSÉ WILSON ALVES CHAVES JUNIOR;11;Administrador;PP;NORDESTE;Não Eleito;1;49;44843;12163;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;1;94182;34;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;3;72239;33;2026-02-28 19:30:47
+2024;13200;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;ERERÉ;GLAUBER LOPES DE HOLANDA;13;Enfermeiro;PT;NORDESTE;Eleito;1;10;4847;2438;2026-02-28 19:30:47
+2024;15016;Parda;Casado(a);25 a 29 anos;Masculino;Ensino Médio completo;PALHANO;JOSE LUCIANO SILVA;13;Prefeito;PT;NORDESTE;Eleito;1;9;8803;4723;2026-02-28 19:30:47
+2024;13951;Branca;Solteiro(a);55 a 59 anos;Masculino;Superior completo;GRANJA;FRANCISCO ANIBAL OLIVEIRA DE ARRUDA COELHO FILHO;13;Prefeito;PT;NORDESTE;Eleito;1;25;33805;23080;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;83;86575;9216;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;95;80638;11709;2026-02-28 19:30:47
+2024;15679;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;TAUÁ;MURILLO PEDROSA DE CARVALHO;22;Advogado;PL;NORDESTE;Não Eleito;1;19;37542;794;2026-02-28 19:30:47
+2024;13005;Parda;Solteiro(a);35 a 39 anos;Masculino;Superior completo;JIJOCA DE JERICOACOARA;LEANDRO CESAR DE SOUSA;11;Empresário;PP;NORDESTE;Eleito;1;30;17991;10680;2026-02-28 19:30:47
+2024;13358;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental completo;BAIXIO;RAIMUNDO AMAURILIO ARAUJO OLIVEIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;92;4916;2374;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;114;83366;424;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;112;88807;607;2026-02-28 19:30:47
+2024;14052;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;HIDROLÂNDIA;JOZÉ IVAN ARAÚJO MORORÓ;13;Médico;PT;NORDESTE;Não Eleito;1;54;13788;120;2026-02-28 19:30:47
+2024;15296;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;QUIXERAMOBIM;ANTÔNIO EUGÊNIO GOMES DE ALMEIDA;12;Vereador;PDT;NORDESTE;Não Eleito;1;11;48430;11417;2026-02-28 19:30:47
+2024;14516;Parda;Casado(a);45 a 49 anos;Feminino;Superior completo;LAVRAS DA MANGABEIRA;JANE JADNA NOBRE DE FRANÇA GOMES;44;Enfermeiro;UNIÃO;NORDESTE;Não Eleito;1;14;19391;3601;2026-02-28 19:30:47
+2024;13110;Parda;Casado(a);55 a 59 anos;Feminino;Ensino Fundamental incompleto;ALTANEIRA;MARIA SILVANIA DE ANDRADE;13;Vereador;PT;NORDESTE;Não Eleito;1;53;6163;2908;2026-02-28 19:30:47
+2024;15610;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;SOLONÓPOLE;JOSE WEBSTON NOGUEIRA PINHEIRO;55;Engenheiro;PSD;NORDESTE;Eleito;1;55;12648;7153;2026-02-28 19:30:47
+2024;13595;Branca;Casado(a);60 a 64 anos;Feminino;Ensino Médio completo;CARIDADE;MARIA SIMONE FERNANDES TAVARES;40;Prefeito;PSB;NORDESTE;Eleito;1;111;14652;8540;2026-02-28 19:30:47
+2024;98558;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;UMIRIM;JUDISON HENRIQUE LOPES ARAÚJO;40;Militar Reformado;PSB;NORDESTE;Eleito;1;23;13673;8124;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;85;74907;25626;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;83;86575;30503;2026-02-28 19:30:47
+2024;14680;Branca;Casado(a);70 a 74 anos;Feminino;Ensino Fundamental completo;MIRAÍMA;OZANA COELHO RODRIGUES TEIXEIRA;11;Aposentado (Exceto Servidor Público);PP;NORDESTE;Eleito;1;89;10379;7664;2026-02-28 19:30:47
+2024;13250;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental completo;ARARIPE;CICERO FERREIRA DA SILVA;15;Prefeito;MDB;NORDESTE;Não Eleito;1;68;14059;6913;2026-02-28 19:30:47
+2024;14192;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;IPUEIRAS;REVSON MOURAO MORAIS;11;Servidor Público Estadual;PP;NORDESTE;Não Eleito;1;40;24326;1148;2026-02-28 19:30:47
+2024;13714;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;CATARINA;RENAN BARROS GUEDES;15;Vereador;MDB;NORDESTE;Eleito;1;60;8718;4996;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;114;84969;41488;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;80;79149;36886;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;112;90014;46886;2026-02-28 19:30:47
+2024;13129;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;BARREIRA;MARIA AUXILIADORA BEZERRA FECHINE;55;Médico;PSD;NORDESTE;Não Eleito;1;52;16805;7432;2026-02-28 19:30:47
+2024;13234;Parda;Casado(a);35 a 39 anos;Masculino;Superior incompleto;ARACOIABA;ISAAC FURTADO DE FIGUEIREDO VASCONCELOS;10;Empresário;REPUBLICANOS;NORDESTE;Não Eleito;1;67;21596;7980;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;117;84214;441;2026-02-28 19:30:47
+2024;13056;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;ACOPIARA;FABIA COLARES ALVES DE ALMEIDA BARBOSA;15;Farmacêutico;MDB;NORDESTE;Não Eleito;1;60;32778;14005;2026-02-28 19:30:47
+2024;13650;Parda;Solteiro(a);40 a 44 anos;Feminino;Ensino Médio completo;CARIÚS;NATALIA FERREIRA GOMES;15;Dona de Casa;MDB;NORDESTE;Não Eleito;1;43;13490;6019;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;MARACANAÚ;LUCINILDO DA FROTA BRITO;12;Deputado;PDT;NORDESTE;Não Eleito;1;104;66985;6702;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;83;86575;714;2026-02-28 19:30:47
+2024;15393;Branca;Casado(a);65 a 69 anos;Masculino;Superior completo;SABOEIRO;MARCONDES HERBSTER FERRAZ;13;Prefeito;PT;NORDESTE;Não Eleito;1;43;10922;4934;2026-02-28 19:30:47
+2024;15334;Parda;Divorciado(a);50 a 54 anos;Feminino;Superior incompleto;REDENÇÃO;SELMA MARINHO FERNANDES;40;Administrador;PSB;NORDESTE;Eleito;1;52;18470;14076;2026-02-28 19:30:47
+2024;98531;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;QUIXELÔ;JOSÉ ADIL VIEIRA JUNIOR;40;Prefeito;PSB;NORDESTE;Eleito;1;13;12811;9551;2026-02-28 19:30:47
+2024;13080;Preta;Casado(a);55 a 59 anos;Masculino;Ensino Médio incompleto;TURURU;PEDRO SANTANA DE ALMEIDA FILHO;13;Policial Militar;PT;NORDESTE;Não Eleito;1;17;13375;4993;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Segundo turno;1;120;44092;12965;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;95;80638;25065;2026-02-28 19:30:47
+2024;13188;Branca;Casado(a);35 a 39 anos;Masculino;Superior incompleto;HORIZONTE;RHENAN CAVALCANTE ASSUNÇÃO;25;Empresário;PRD;NORDESTE;Não Eleito;1;78;49791;10845;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);80 a 84 anos;Masculino;Superior completo;MARACANAÚ;ROBERTO SOARES PESSOA;44;Administrador;UNIÃO;NORDESTE;Eleito;1;104;66985;41883;2026-02-28 19:30:47
+2024;14699;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;MISSÃO VELHA;LUIZ ROSEMBERG DANTAS MACEDO FILHO;40;Médico;PSB;NORDESTE;Eleito;1;16;24703;13720;2026-02-28 19:30:47
+2024;14893;Branca;Solteiro(a);55 a 59 anos;Masculino;Superior completo;NOVO ORIENTE;JOSE VALDENOR RODRIGUES CAVALCANTE;12;Empresário;PDT;NORDESTE;Não Eleito;1;99;17922;4359;2026-02-28 19:30:47
+2024;13048;Branca;Casado(a);30 a 34 anos;Feminino;Superior completo;PIRES FERREIRA;LIVIA MARIA MESQUITA MORORO MUNIZ MARQUES;40;Prefeito;PSB;NORDESTE;Eleito;1;21;7527;5391;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;3;73527;35508;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;112;90014;43128;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;115;85678;42553;2026-02-28 19:30:47
+2024;14230;Preta;Solteiro(a);35 a 39 anos;Feminino;Superior completo;IRAUÇUBA;HELOISA PINTO ARAUJO;22;Advogado;PL;NORDESTE;Não Eleito;1;41;16055;697;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;112;88807;8275;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;3;72239;6605;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;116;90402;10091;2026-02-28 19:30:47
+2024;14591;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Fundamental incompleto;MARTINÓPOLE;FRANCISCO EDIBERTO DE SOUZA;11;Prefeito;PP;NORDESTE;Eleito;1;25;9285;5997;2026-02-28 19:30:47
+2024;15890;Não Informado;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;CRUZ;ODAIR JOSÉ MENDES DE VASCONCELOS;15;Outros;MDB;NORDESTE;Não Eleito;1;30;19089;1581;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;112;88807;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;115;84003;30;2026-02-28 19:30:47
+2024;15458;Branca;Casado(a);70 a 74 anos;Masculino;Superior completo;SANTA QUITÉRIA;TOMÁS ANTÔNIO ALBUQUERQUE DE PAULA PESSOA;15;Outros;MDB;NORDESTE;Não Eleito;1;54;27534;8106;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;116;90402;39902;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;3;72239;28946;2026-02-28 19:30:47
+2024;14753;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;MORADA NOVA;JOSE JEOVANE MAIA BARROS;30;Produtor Agropecuário;NOVO;NORDESTE;Não Eleito;1;47;48016;254;2026-02-28 19:30:47
+2024;13420;Branca;Viúvo(a);80 a 84 anos;Masculino;Superior completo;ARARENDÁ;LUIZ FREIRES MELO;25;Advogado;PRD;NORDESTE;Não Eleito;1;48;7584;1714;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;117;84214;423;2026-02-28 19:30:47
+2024;15253;Parda;Casado(a);30 a 34 anos;Masculino;Superior completo;POTENGI;SALVIANO LINARD DE ALENCAR;12;Empresário;PDT;NORDESTE;Eleito;1;68;6847;4246;2026-02-28 19:30:47
+2024;13340;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;IPAPORANGA;ANTONIO AMARO PEREIRA OLIVEIRA;13;Prefeito;PT;NORDESTE;Eleito;1;20;8432;7754;2026-02-28 19:30:47
+2024;15598;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;SOBRAL;OSCAR SPINDOLA RODRIGUES JUNIOR;44;Empresário;UNIÃO;NORDESTE;Eleito;1;121;53018;27437;2026-02-28 19:30:47
+2024;13692;Branca;Casado(a);35 a 39 anos;Feminino;Superior completo;CASCAVEL;ANA AFIF MATEUS SARQUIS QUEIROZ;11;Médico;PP;NORDESTE;Eleito;1;7;49302;26925;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;82;80780;43560;2026-02-28 19:30:47
+2024;14214;Branca;Casado(a);70 a 74 anos;Masculino;Superior completo;IRACEMA;JOSÉ JUAREZ DIÓGENES TAVARES;40;Administrador;PSB;NORDESTE;Não Eleito;1;86;10362;5031;2026-02-28 19:30:47
+2024;14958;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;PACATUBA;RAFAEL MARQUES BASTOS;40;Administrador;PSB;NORDESTE;Não Eleito;1;57;47973;21031;2026-02-28 19:30:47
+2024;13870;Branca;Divorciado(a);60 a 64 anos;Masculino;Superior completo;FARIAS BRITO;JOSÉ VANDEVELDER FREITAS FRANCELINO;13;Médico;PT;NORDESTE;Não Eleito;1;62;15497;7011;2026-02-28 19:30:47
+2024;13056;Branca;Solteiro(a);50 a 54 anos;Feminino;Superior completo;ACOPIARA;ANA PATRICIA DE LIMA BARBOSA;10;Médico;REPUBLICANOS;NORDESTE;Não Eleito;1;60;32778;764;2026-02-28 19:30:47
+2024;15270;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;QUIXADÁ;RICARDO JOSÉ ARAÚJO SILVEIRA;55;Prefeito;PSD;NORDESTE;Eleito;1;6;49282;34121;2026-02-28 19:30:47
+2024;15458;Parda;Solteiro(a);35 a 39 anos;Feminino;Superior completo;SANTA QUITÉRIA;LIGIA MARIA BENEVINUTO DE SOUSA PROTASIO;13;Médico;PT;NORDESTE;Não Eleito;1;54;24735;6218;2026-02-28 19:30:47
+2024;13170;Branca;Solteiro(a);35 a 39 anos;Feminino;Superior completo;APUIARÉS;IRIS MARIA CRUZ DE LIMA;13;Prefeito;PT;NORDESTE;Não Eleito;1;50;11136;3628;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;85;74907;10032;2026-02-28 19:30:47
+2024;14176;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;IPU;CARLOS SÉRGIO RUFINO MOREIRA;40;Administrador;PSB;NORDESTE;Não Eleito;1;21;27936;13417;2026-02-28 19:30:47
+2024;13579;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;CAPISTRANO;FÉLIX SÉRGIO ARAÚJO;44;Vereador;UNIÃO;NORDESTE;Não Eleito;1;105;13802;534;2026-02-28 19:30:47
+2024;14834;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;MULUNGU;LUCAS ARRUDA MARTINS;40;Empresário;PSB;NORDESTE;Eleito;1;5;8272;5124;2026-02-28 19:30:47
+2024;14230;Branca;Solteiro(a);35 a 39 anos;Feminino;Superior incompleto;IRAUÇUBA;PATRICIA MARIA SANTOS BARRETO;40;Prefeito;PSB;NORDESTE;Eleito;1;41;16055;10178;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Segundo turno;1;123;75486;35623;2026-02-28 19:30:47
+2024;14931;Parda;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;PACAJUS;JOSÉ EDILSON DE CARVALHO LIMA;44;Empresário;UNIÃO;NORDESTE;Eleito;1;49;44843;12660;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;3;72239;0;2026-02-28 19:30:47
+2024;13978;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;GRANJEIRO;FRANCISCO CLEMENTINO DE ALMEIDA;15;Comerciante;MDB;NORDESTE;Eleito;1;62;5496;3282;2026-02-28 19:30:47
+2024;14133;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;INDEPENDÊNCIA;ANTONIO ITALO COUTINHO MACHADO;55;Empresário;PSD;NORDESTE;Não Eleito;1;39;18120;7083;2026-02-28 19:30:47
+2024;15571;Parda;Casado(a);35 a 39 anos;Feminino;Superior completo;SENADOR SÁ;ZILMA SOUSA ARAUJO CORDEIRO;40;Vereador;PSB;NORDESTE;Não Eleito;1;45;1875;1875;2026-02-28 19:30:47
+2024;14613;Branca;Divorciado(a);40 a 44 anos;Feminino;Superior completo;MASSAPÊ;ALINE AGUIAR ALBUQUERQUE;10;Prefeito;REPUBLICANOS;NORDESTE;Não Eleito;1;45;27550;13612;2026-02-28 19:30:47
+2024;15695;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;TIANGUÁ;JOSÉ JAYDSON SARAIVA DE AGUIAR;12;Médico;PDT;NORDESTE;Não Eleito;1;81;46812;15081;2026-02-28 19:30:47
+2024;13137;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;ALTO SANTO;JOSE JOENI HOLANDA DE ARAUJO;11;Empresário;PP;NORDESTE;Eleito;1;86;10476;8572;2026-02-28 19:30:47
+2024;13480;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;ITAITINGA;EDUARDO CESAR BEZERRA DIOGENES;30;Empresário;NOVO;NORDESTE;Não Eleito;1;78;30384;823;2026-02-28 19:30:47
+2024;13676;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;CARNAUBAL;ELLAYNE MARIA CHAVES MARTINS;15;Vereador;MDB;NORDESTE;Não Eleito;1;22;11359;3501;2026-02-28 19:30:47
+2024;14672;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;MILAGRES;ABRAAO SAMPAIO DE LACERDA;77;Médico;SOLIDARIEDADE;NORDESTE;Não Eleito;1;26;17869;8305;2026-02-28 19:30:47
+2024;14770;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;MORAÚJO;RUAN VICTOR ARAÚJO DE OLIVEIRA LIMA;55;Empresário;PSD;NORDESTE;Eleito;1;64;7402;4028;2026-02-28 19:30:47
+2024;15512;Branca;Solteiro(a);50 a 54 anos;Masculino;Superior completo;SÃO JOÃO DO JAGUARIBE;RAIMUNDO CESAR MORAIS MAIA;55;Prefeito;PSD;NORDESTE;Eleito;1;91;4528;4528;2026-02-28 19:30:47
+2024;13129;Parda;Solteiro(a);35 a 39 anos;Masculino;Ensino Médio completo;BARREIRA;MARCIO GLEY NASCIMENTO SILVA;40;Vereador;PSB;NORDESTE;Eleito;1;52;16805;7994;2026-02-28 19:30:47
+2024;15695;Branca;Casado(a);65 a 69 anos;Masculino;Ensino Médio incompleto;TIANGUÁ;JOSE CARDOSO TERCEIRO;33;Aposentado (Exceto Servidor Público);MOBILIZA;NORDESTE;Não Eleito;1;81;46812;605;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;116;90402;30016;2026-02-28 19:30:47
+2024;13471;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;BOA VIAGEM;JOSE CARNEIRO DANTAS FILHO;40;Empresário;PSB;NORDESTE;Eleito;1;63;33851;30609;2026-02-28 19:30:47
+2024;13170;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;APUIARÉS;ANARACY PINTO PINHO RUFINO;40;Fiscal;PSB;NORDESTE;Eleito;1;50;11136;6832;2026-02-28 19:30:47
+2024;14575;Branca;Solteiro(a);25 a 29 anos;Masculino;Superior incompleto;MARCO;FRANCISCO ROGERIO OSTERNO AGUIAR NETO;40;Empresário;PSB;NORDESTE;Eleito;1;96;19092;12933;2026-02-28 19:30:47
+2024;14311;Parda;Casado(a);65 a 69 anos;Masculino;Superior completo;ITAPIÚNA;RAIMUNDO LOPES JUNIOR;40;Outros;PSB;NORDESTE;Eleito;1;105;14002;7286;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;113;84049;28050;2026-02-28 19:30:47
+2024;14435;Branca;Casado(a);65 a 69 anos;Masculino;Superior completo;JARDIM;ANTONIO FERNANDO COUTINHO;13;Médico;PT;NORDESTE;Eleito;1;119;17800;10326;2026-02-28 19:30:47
+2024;15954;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Fundamental completo;ITAREMA;FRANCISCO MAGALHAES MOTA;44;Empresário;UNIÃO;NORDESTE;Não Eleito;1;98;28216;2071;2026-02-28 19:30:47
+2024;15199;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;PIQUET CARNEIRO;ISMAEL EDILTHON MARTINS NASCIMENTO;11;Médico;PP;NORDESTE;Não Eleito;1;12;10626;4601;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;82;79979;29420;2026-02-28 19:30:47
+2024;13307;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;OCARA;LEONILDO PEIXOTO FARIAS;40;Médico;PSB;NORDESTE;Eleito;1;67;22746;12381;2026-02-28 19:30:47
+2024;15555;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;SENADOR POMPEU;MARCIA LIMA DE OLIVEIRA FREIRE;40;Advogado;PSB;NORDESTE;Eleito;1;12;17003;9220;2026-02-28 19:30:47
+2024;15350;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;RERIUTABA;PEDRO HUMBERTO COELHO MARQUES;40;Prefeito;PSB;NORDESTE;Eleito;1;79;13482;8477;2026-02-28 19:30:47
+2024;13510;Branca;Divorciado(a);50 a 54 anos;Feminino;Superior completo;CAMOCIM;MARIA ELIZABETE MAGALHÃES;40;Prefeito;PSB;NORDESTE;Eleito;1;32;40552;22021;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;95;80638;34344;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;115;84003;34705;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;112;88807;460;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;94;79500;415;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;82;79979;384;2026-02-28 19:30:47
+2024;14532;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;LIMOEIRO DO NORTE;MARIA JOSÉ MAIA;55;Advogado;PSD;NORDESTE;Não Eleito;1;29;36455;8147;2026-02-28 19:30:47
+2024;14710;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;MOMBAÇA;EDUARDO PEDROZA;55;Comerciante;PSD;NORDESTE;Não Eleito;1;46;25935;12131;2026-02-28 19:30:47
+2024;14419;Parda;Casado(a);60 a 64 anos;Masculino;Ensino Fundamental completo;JAGUARUANA;JOSE ELIAS DE OLIVEIRA;13;Prefeito;PT;NORDESTE;Eleito;1;75;23699;15677;2026-02-28 19:30:47
+2024;13854;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;CRATO;ANDRÉ BARRETO ESMERALDO;13;Farmacêutico;PT;NORDESTE;Eleito;1;27;76107;37092;2026-02-28 19:30:47
+2024;14010;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;GUARACIABA DO NORTE;JOSÉ CEFAS PONTES MELO;55;Cientista Político;PSD;NORDESTE;Eleito;1;74;26801;15984;2026-02-28 19:30:47
+2024;14133;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Médio incompleto;INDEPENDÊNCIA;ERIVAN SOARES MOTA;30;Comerciante;NOVO;NORDESTE;Não Eleito;1;39;18120;79;2026-02-28 19:30:47
+2024;13480;Branca;Divorciado(a);40 a 44 anos;Masculino;Ensino Médio completo;ITAITINGA;ANTONIO MARCOS TAVARES;25;Empresário;PRD;NORDESTE;Eleito;1;78;30384;19603;2026-02-28 19:30:47
+2024;14796;Branca;Solteiro(a);25 a 29 anos;Masculino;Superior completo;MORRINHOS;MANOEL AIRTON BRUNO NETO;45;Outros;PSDB;NORDESTE;Não Eleito;1;44;17345;8344;2026-02-28 19:30:47
+2024;14478;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;FERNANDO MATOS SANTANA;13;Deputado;PT;NORDESTE;Não Eleito;1;119;91494;40609;2026-02-28 19:30:47
+2024;15954;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;ITAREMA;ALISANDRE MIRANDA COELHO;55;Empresário;PSD;NORDESTE;Não Eleito;1;98;28216;8333;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;80;77849;7097;2026-02-28 19:30:47
+2024;15440;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;SALITRE;DORGIVAL PEREIRA FILHO;40;Agricultor;PSB;NORDESTE;Não Eleito;1;38;12623;6182;2026-02-28 19:30:47
+2024;14753;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;MORADA NOVA;SÉRGIO RICARDO MAIA ISAIAS;50;Servidor Público Civil Aposentado;PSOL;NORDESTE;Não Eleito;1;47;48016;127;2026-02-28 19:30:47
+2024;13757;Branca;Casado(a);60 a 64 anos;Masculino;Superior completo;CEDRO;FRANCISCO NILSON ALVES DINIZ;40;Médico;PSB;NORDESTE;Eleito;1;13;16670;8855;2026-02-28 19:30:47
+2024;15539;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;SÃO LUÍS DO CURU;TIAGO AGUIAR ABREU PORTELA BARROSO;40;Advogado;PSB;NORDESTE;Eleito;1;23;10467;5474;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;112;88807;34;2026-02-28 19:30:47
+2024;13650;Branca;Casado(a);55 a 59 anos;Masculino;Lê e escreve;CARIÚS;ANTÔNIO WILAMAR PALACIO DE OLIVEIRA;13;Prefeito;PT;NORDESTE;Eleito;1;43;13490;7433;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;80;77849;10656;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;85;74907;6717;2026-02-28 19:30:47
+2024;15415;Branca;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;SANTANA DO ACARAÚ;PAULO SERGIO BRAZ;15;Outros;MDB;NORDESTE;Não Eleito;1;44;21772;6507;2026-02-28 19:30:47
+2024;15610;Não Informado;Solteiro(a);40 a 44 anos;Masculino;Ensino Fundamental completo;SOLONÓPOLE;THIAGO NOGUEIRA PINHEIRO;11;Empresário;PP;NORDESTE;Não Eleito;1;55;12648;5495;2026-02-28 19:30:47
+2024;13811;Branca;Divorciado(a);65 a 69 anos;Masculino;Ensino Médio completo;COREAÚ;PAULO MOREIRA DE CARVALHO;15;Empresário;MDB;NORDESTE;Não Eleito;1;64;16238;133;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;112;88807;29821;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;2;83472;27626;2026-02-28 19:30:47
+2024;15032;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;PALMÁCIA;LEONARDO ARAÚJO DE SOUZA;40;Advogado;PSB;NORDESTE;Não Eleito;1;4;8526;4196;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;82;79979;542;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;85;74907;438;2026-02-28 19:30:47
+2024;13366;Parda;Casado(a);75 a 79 anos;Masculino;Superior completo;TARRAFAS;FRANCISCO PALACIO LEITE;13;Professor de Ensino Médio;PT;NORDESTE;Não Eleito;1;18;6268;2690;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;1;94182;559;2026-02-28 19:30:47
+2024;14273;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;ITAPAJÉ;RAIMUNDO NONATO SOUZA SILVA;10;Outros;REPUBLICANOS;NORDESTE;Eleito;1;41;32835;16845;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;80;77849;1294;2026-02-28 19:30:47
+2024;13978;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;GRANJEIRO;LUIZ ALMIR SOARES;45;Agricultor;PSDB;NORDESTE;Não Eleito;1;62;5496;2214;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Segundo turno;1;37;73422;20694;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;113;84049;32829;2026-02-28 19:30:47
+2024;15970;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;MILHÃ;LUIZ ALAN PINHEIRO MACEDO;40;Administrador;PSB;NORDESTE;Eleito;1;55;9503;6469;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;94;79500;31858;2026-02-28 19:30:47
+2024;15458;Branca;Solteiro(a);30 a 34 anos;Masculino;Ensino Médio completo;SANTA QUITÉRIA;JOEL MADEIRA BARROSO;40;Administrador;PSB;NORDESTE;Eleito;1;54;24735;13161;2026-02-28 19:30:47
+2024;15318;Parda;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;QUIXERÉ;ALDENIR JOSE DE BRITO;45;Agricultor;PSDB;NORDESTE;Não Eleito;1;29;15590;5594;2026-02-28 19:30:47
+2024;14257;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;ITAIÇABA;IRANILSON LIMA BEZERRA;11;Prefeito;PP;NORDESTE;Não Eleito;1;75;4018;1341;2026-02-28 19:30:47
+2024;15814;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;VÁRZEA ALEGRE;LUCIANA SOARES BARBOSA ROLIM;40;Médico;PSB;NORDESTE;Não Eleito;1;62;25137;12339;2026-02-28 19:30:47
+2024;14656;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;MERUOCA;JOSE HERTON ALVES DE SOUSA;13;Prefeito;PT;NORDESTE;Eleito;1;24;11368;7017;2026-02-28 19:30:47
+2024;14532;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;LIMOEIRO DO NORTE;DILMARA AMARAL SILVA;25;Odontólogo;PRD;NORDESTE;Eleito;1;29;36455;28308;2026-02-28 19:30:47
+2024;13358;Parda;Divorciado(a);45 a 49 anos;Masculino;Ensino Médio completo;BAIXIO;LUCIO ALVES BARROSO;10;Empresário;REPUBLICANOS;NORDESTE;Eleito;1;92;4916;2542;2026-02-28 19:30:47
+2024;15954;Parda;Casado(a);30 a 34 anos;Masculino;Superior incompleto;ITAREMA;MARCOS ROBÉRIO RIBEIRO MONTEIRO FILHO;40;Empresário;PSB;NORDESTE;Eleito;1;98;28216;17440;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;116;92035;44951;2026-02-28 19:30:47
+2024;14680;Parda;Solteiro(a);30 a 34 anos;Masculino;Superior completo;MIRAÍMA;FRANCISCO FRANK SINATRA DIAS BRAGA;55;Advogado;PSD;NORDESTE;Não Eleito;1;89;10379;2715;2026-02-28 19:30:47
+2024;14230;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;IRAUÇUBA;ROBERTO BADGER LOPES DE SOUZA FILHO;13;Contador;PT;NORDESTE;Não Eleito;1;41;16055;5180;2026-02-28 19:30:47
+2024;13285;Preta;Solteiro(a);30 a 34 anos;Feminino;Superior completo;PINDORETAMA;SABRYNA LAYS CUNHA DA ROCHA;13;Advogado;PT;NORDESTE;Não Eleito;1;7;17061;4197;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;93;70741;7291;2026-02-28 19:30:47
+2024;13170;Branca;Casado(a);70 a 74 anos;Masculino;Superior completo;APUIARÉS;FRANCISCO JOSE BARBOSA GOIS;10;Administrador;REPUBLICANOS;NORDESTE;Não Eleito;1;50;11136;676;2026-02-28 19:30:47
+2024;14559;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MARANGUAPE;ATILA CORDEIRO CAMARA;40;Advogado;PSB;NORDESTE;Eleito;1;4;62512;46254;2026-02-28 19:30:47
+2024;14079;Parda;Casado(a);60 a 64 anos;Masculino;Superior completo;IBIAPINA;MARCOS ANTONIO DA SILVA LIMA;40;Prefeito;PSB;NORDESTE;Eleito;1;73;15874;9299;2026-02-28 19:30:47
+2024;15156;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;PENTECOSTE;VICENTE DE PAULO SOUSA E SILVA;40;Outros;PSB;NORDESTE;Eleito;1;50;26942;16283;2026-02-28 19:30:47
+2024;13021;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;MADALENA;CRISPIANO BARROS UCHOA;15;Professor de Ensino Fundamental;MDB;NORDESTE;Eleito;1;63;12415;7659;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;114;83366;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;83;86575;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;2;83472;0;2026-02-28 19:30:47
+2024;13455;Preta;Casado(a);40 a 44 anos;Masculino;Superior completo;BELA CRUZ;FERNANDO NUNES DE VASCONCELOS;11;Servidor Público Federal;PP;NORDESTE;Não Eleito;1;96;17683;5196;2026-02-28 19:30:47
+2024;13676;Parda;Casado(a);45 a 49 anos;Masculino;Superior incompleto;CARNAUBAL;JOSE WELITON SOUZA LEITE;13;Prefeito;PT;NORDESTE;Eleito;1;22;11359;6387;2026-02-28 19:30:47
+2024;15679;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;TAUÁ;EDYR LINCON CAVALCANTE DIAS;15;Médico;MDB;NORDESTE;Não Eleito;1;19;37542;10457;2026-02-28 19:30:47
+2024;13994;Branca;Solteiro(a);45 a 49 anos;Feminino;Superior completo;GROAÍRAS;VIRGINA SOUZA AGUIAR;12;Advogado;PDT;NORDESTE;Eleito;1;65;8375;4198;2026-02-28 19:30:47
+2024;14591;Branca;Casado(a);35 a 39 anos;Feminino;Superior completo;MARTINÓPOLE;BRUNA SAYURI KYOMEN RORIZ;55;Vereador;PSD;NORDESTE;Não Eleito;1;25;9285;787;2026-02-28 19:30:47
+2024;13242;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;GUAIÚBA;SANDRO HENRIQUE COSTA MENEZES;55;Empresário;PSD;NORDESTE;Não Eleito;1;57;17532;3259;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;115;84003;28394;2026-02-28 19:30:47
+2024;13919;Branca;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;FRECHEIRINHA;MAIKE BISPO PONTES;40;Servidor Público Municipal;PSB;NORDESTE;Não Eleito;1;81;11809;5637;2026-02-28 19:30:47
+2024;14656;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;MERUOCA;MAURÍCIO MASCARENHAS SANFORD;20;Administrador;PODE;NORDESTE;Não Eleito;1;24;11368;172;2026-02-28 19:30:47
+2024;15652;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;TAMBORIL;FRANCISCO FELIX MELO FARIAS;12;Enfermeiro;PDT;NORDESTE;Não Eleito;1;61;17308;7005;2026-02-28 19:30:47
+2024;13048;Branca;Casado(a);40 a 44 anos;Masculino;Ensino Médio completo;PIRES FERREIRA;FRANCISCO EDUARDO SAMPAIO XIMENES;11;Vereador;PP;NORDESTE;Não Eleito;1;21;7527;40;2026-02-28 19:30:47
+2024;13773;Branca;Divorciado(a);40 a 44 anos;Masculino;Ensino Médio completo;CHAVAL;CARLOS EMÍLIO MAGALHÃES GOMES;40;Técnico em Edificações;PSB;NORDESTE;Eleito;1;108;8887;5721;2026-02-28 19:30:47
+2024;14478;Branca;Solteiro(a);25 a 29 anos;Feminino;Superior completo;JUAZEIRO DO NORTE;SUED CARVALHO;80;Professor de Ensino Médio;UP;NORDESTE;Não Eleito;1;119;91494;1367;2026-02-28 19:30:47
+2024;14451;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental completo;JATI;ANTÔNIO NOGUEIRA NETO;40;Agricultor;PSB;NORDESTE;Não Eleito;1;70;6051;2473;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;116;90402;406;2026-02-28 19:30:47
+2024;13439;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;BEBERIBE;PAULO FELIPE SABOIA DINO;55;Advogado;PSD;NORDESTE;Não Eleito;1;84;39441;15264;2026-02-28 19:30:47
+2024;15598;Branca;Casado(a);60 a 64 anos;Feminino;Superior completo;SOBRAL;MARIA IZOLDA CELA DE ARRUDA COELHO;40;Psicólogo;PSB;NORDESTE;Não Eleito;1;121;53018;25581;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;113;84049;399;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;95;80638;387;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;2;83472;34;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;116;90402;41;2026-02-28 19:30:47
+2024;13005;Branca;Casado(a);30 a 34 anos;Masculino;Ensino Médio completo;JIJOCA DE JERICOACOARA;ELIVANDRO BRITO DOS SANTOS;22;Outros;PL;NORDESTE;Não Eleito;1;30;17991;187;2026-02-28 19:30:47
+2024;13161;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental incompleto;CHOROZINHO;LUIZ ALBERTO BRAGA DE FREITAS;12;Comerciante;PDT;NORDESTE;Não Eleito;1;49;15788;5255;2026-02-28 19:30:47
+2024;98558;Amarela;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;UMIRIM;FRANCISCO JOSE SOUSA;15;Servidor Público Municipal;MDB;NORDESTE;Não Eleito;1;23;13673;5549;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;118;82603;9638;2026-02-28 19:30:47
+2024;14630;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MAURITI;JOÃO PAULO FURTADO;13;Prefeito;PT;NORDESTE;Eleito;1;76;28644;20593;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;82;80780;37220;2026-02-28 19:30:47
+2024;13129;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;BARREIRA;FRANCISCO HERMES DANTAS DE SOUSA;22;Servidor Público Municipal;PL;NORDESTE;Não Eleito;1;52;16805;314;2026-02-28 19:30:47
+2024;15075;Branca;Divorciado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;PARAMBU;ROMULO CESAR FEITOSA SOUSA;40;Agricultor;PSB;NORDESTE;Não Eleito;1;19;20189;2168;2026-02-28 19:30:47
+2024;14397;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;JAGUARIBE;ALEXANDRE GOMES DIOGENES;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;10;24126;14923;2026-02-28 19:30:47
+2024;13838;Parda;Solteiro(a);45 a 49 anos;Masculino;Ensino Médio completo;CRATEÚS;ANTONIO MARCELO SOARES BARBOSA;45;Empresário;PSDB;NORDESTE;Não Eleito;1;20;47932;21877;2026-02-28 19:30:47
+2024;13374;Branca;Divorciado(a);55 a 59 anos;Masculino;Superior completo;BARBALHA;ANTONIO COSTA SAMPAIO NETO;45;Engenheiro;PSDB;NORDESTE;Não Eleito;1;31;41190;17220;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;82;79979;733;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;95;80638;521;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;1;94182;1588;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;94;79500;640;2026-02-28 19:30:47
+2024;13382;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;BANABUIÚ;FRANCISCO MARCÍLIO COELHO BRITO;40;Servidor Público Municipal;PSB;NORDESTE;Eleito;1;6;13550;7583;2026-02-28 19:30:47
+2024;14478;Parda;Casado(a);65 a 69 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;LINO ALVES DE ALMEIDA;29;Aposentado (Exceto Servidor Público);PCO;NORDESTE;Não Eleito;1;119;91494;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;94;79500;26283;2026-02-28 19:30:47
+2024;13242;Parda;Divorciado(a);40 a 44 anos;Feminino;Superior completo;GUAIÚBA;IZABELLA MARIA FERNANDES DA SILVA;40;Advogado;PSB;NORDESTE;Eleito;1;57;17532;13860;2026-02-28 19:30:47
+2024;15911;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;FORQUILHA;GERLÁSIO MARTINS DE LOIOLA;13;Servidor Público Federal;PT;NORDESTE;Não Eleito;1;121;17170;7739;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;114;83366;440;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;80;77849;350;2026-02-28 19:30:47
+2024;15474;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;SÃO BENEDITO;SAUL LIMA MACIEL;13;Advogado;PT;NORDESTE;Eleito;1;22;26608;17708;2026-02-28 19:30:47
+2024;98574;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;VARJOTA;SEBASTIÃO SILVINO DE OLIVEIRA;15;Administrador;MDB;NORDESTE;Não Eleito;1;65;13869;4955;2026-02-28 19:30:47
+2024;13994;Branca;Casado(a);60 a 64 anos;Masculino;Ensino Médio completo;GROAÍRAS;ADAIL ALBUQUERQUE MELO;40;Prefeito;PSB;NORDESTE;Não Eleito;1;65;8375;4177;2026-02-28 19:30:47
+2024;14036;Branca;Divorciado(a);35 a 39 anos;Masculino;Superior completo;GUARAMIRANGA;JAIRO DE CARVALHO CASTELO BRANCO;65;Advogado;PC do B;NORDESTE;Não Eleito;1;5;5880;286;2026-02-28 19:30:47
+2024;13382;Branca;Casado(a);30 a 34 anos;Feminino;Superior completo;BANABUIÚ;ANNE VILENE MACHADO NOBRE DE VASCONCELOS;15;Vereador;MDB;NORDESTE;Não Eleito;1;6;13550;5967;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;95;82115;40575;2026-02-28 19:30:47
+2024;14974;Branca;Casado(a);25 a 29 anos;Masculino;Superior incompleto;PACOTI;DAVI SILVEIRA NEPOMUCENO;45;Estudante, Bolsista, Estagiário e Assemelhados;PSDB;NORDESTE;Não Eleito;1;5;9310;131;2026-02-28 19:30:47
+2024;15130;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;PENAFORTE;RAFAEL FERREIRA ANGELO;13;Médico;PT;NORDESTE;Não Eleito;1;70;7721;3224;2026-02-28 19:30:47
+2024;15350;Branca;Casado(a);35 a 39 anos;Masculino;Superior incompleto;RERIUTABA;OSVALDO HONORIO LEMOS NETO;13;Empresário;PT;NORDESTE;Não Eleito;1;79;13482;5005;2026-02-28 19:30:47
+2024;14117;Branca;Casado(a);30 a 34 anos;Masculino;Superior completo;IGUATU;JOSE ILO ALVES DANTAS NETO;13;Engenheiro;PT;NORDESTE;Não Eleito;1;13;58796;27046;2026-02-28 19:30:47
+2024;14060;Parda;Casado(a);60 a 64 anos;Feminino;Superior completo;IBARETAMA;ELIRIA MARIA FREITAS DE QUEIROZ;55;Sociólogo;PSD;NORDESTE;Eleito;1;6;11822;6499;2026-02-28 19:30:47
+2024;14494;Parda;Casado(a);40 a 44 anos;Masculino;Superior incompleto;JUCÁS;JOSE LUNA;44;Empresário;UNIÃO;NORDESTE;Não Eleito;1;43;16461;6210;2026-02-28 19:30:47
+2024;13099;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;ALCÂNTARAS;CHARLYNE CUNHA FREIRE;40;Agente Administrativo;PSB;NORDESTE;Eleito;1;24;8255;5434;2026-02-28 19:30:47
+2024;13188;Branca;Casado(a);65 a 69 anos;Masculino;Ensino Médio incompleto;HORIZONTE;MANOEL GOMES DE FARIAS NETO;40;Prefeito;PSB;NORDESTE;Eleito;1;78;49791;36398;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Segundo turno;1;120;44092;13971;2026-02-28 19:30:47
+2024;13439;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;BEBERIBE;MICHELE CARIELLO DE SÁ QUEIROZ ROCHA;11;Prefeito;PP;NORDESTE;Eleito;1;84;39441;24000;2026-02-28 19:30:47
+2024;15393;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;SABOEIRO;ANTONIO FRANCISCO DE LIMA;15;Empresário;MDB;NORDESTE;Eleito;1;43;10922;5988;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;113;84049;0;2026-02-28 19:30:47
+2024;14370;Parda;Solteiro(a);35 a 39 anos;Masculino;Superior completo;JAGUARIBARA;LUIZ MISAEL ALMEIDA SILVEIRA;12;Engenheiro;PDT;NORDESTE;Não Eleito;1;72;7585;2699;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;82;79979;29;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;113;84049;41;2026-02-28 19:30:47
+2024;14931;Branca;Casado(a);70 a 74 anos;Masculino;Superior completo;PACAJUS;FRANCISCO JOSE CUNHA DE QUEIROZ;36;Aposentado (Exceto Servidor Público);AGIR;NORDESTE;Não Eleito;1;49;44843;523;2026-02-28 19:30:47
+2024;13293;Parda;Solteiro(a);50 a 54 anos;Masculino;Ensino Médio completo;ARNEIROZ;ANTONIO MONTEIRO PEDROSA FILHO;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;101;5938;4159;2026-02-28 19:30:47
+2024;15997;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;PARAIPABA;ARIANA CORDEIRO FAÇANHA DE AQUINO;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;109;20496;20496;2026-02-28 19:30:47
+2024;15318;Branca;Casado(a);60 a 64 anos;Masculino;Superior completo;QUIXERÉ;ANTONIO JOAQUIM GONÇALVES DE OLIVEIRA;13;Prefeito;PT;NORDESTE;Eleito;1;29;15590;9996;2026-02-28 19:30:47
+2024;13102;Branca;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental completo;QUITERIANÓPOLIS;RAIMUNDO ALEXANDRE VIEIRA;13;Agricultor;PT;NORDESTE;Não Eleito;1;99;13880;4249;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;114;83366;10687;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;116;90402;8863;2026-02-28 19:30:47
+2024;13595;Parda;Solteiro(a);40 a 44 anos;Masculino;Superior completo;CARIDADE;JOSÉ RENATO BARROS TIMBÓ;13;Advogado;PT;NORDESTE;Não Eleito;1;111;14652;6112;2026-02-28 19:30:47
+2024;15431;Parda;Divorciado(a);55 a 59 anos;Masculino;Ensino Médio incompleto;SANTANA DO CARIRI;FRANCISCO PEDRO LOPES DA CRUZ;15;Empresário;MDB;NORDESTE;Não Eleito;1;53;11581;4549;2026-02-28 19:30:47
+2024;13510;Parda;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio incompleto;CAMOCIM;MAURO FERREIRA DE SOUSA;33;Taxista;MOBILIZA;NORDESTE;Não Eleito;1;32;40552;211;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;113;85766;38407;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;95;82115;41540;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;1;95769;47996;2026-02-28 19:30:47
+2024;13145;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;ACARAPE;VIVIAN TORRES RAMOS DE FREITAS;10;Fisioterapeuta e Terapeuta Ocupacional;REPUBLICANOS;NORDESTE;Não Eleito;1;52;11074;3921;2026-02-28 19:30:47
+2024;15873;Parda;Solteiro(a);55 a 59 anos;Masculino;Superior completo;AMONTADA;EDIVALDO ASSIS DE JESUS;55;Agricultor;PSD;NORDESTE;Não Eleito;1;89;29961;10085;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;113;84049;822;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;2;83472;487;2026-02-28 19:30:47
+2024;15830;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;VIÇOSA DO CEARÁ;SILVANA MARIA CARNEIRO FONTENELE SOARES;45;Outros;PSDB;NORDESTE;Não Eleito;1;35;37777;13122;2026-02-28 19:30:47
+2024;15377;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior incompleto;RUSSAS;DAMIÃO GONÇALVES D OLIVEIRA JUNIOR;15;Locutor e Comentarista de Rádio e Televisão e Radialista;MDB;NORDESTE;Não Eleito;1;9;42562;2706;2026-02-28 19:30:47
+2024;13536;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;CAMPOS SALES;JOÃO LUIZ LIMA SANTOS;13;Enfermeiro;PT;NORDESTE;Não Eleito;1;38;16463;7891;2026-02-28 19:30:47
+2024;15989;Parda;Solteiro(a);25 a 29 anos;Masculino;Superior completo;DEPUTADO IRAPUAN PINHEIRO;FRANCISCO CARLOS DE MELO;13;Advogado;PT;NORDESTE;Não Eleito;1;55;6411;2528;2026-02-28 19:30:47
+2024;13315;Branca;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;ASSARÉ;JOSÉ LIBÓRIO LEITE NETO;40;Empresário;PSB;NORDESTE;Eleito;1;18;14746;12289;2026-02-28 19:30:47
+2024;14990;Branca;Solteiro(a);21 a 24 anos;Masculino;Superior incompleto;PACUJÁ;PEDRO ALLAN DE SOUSA LEOPOLDINO;40;Estudante, Bolsista, Estagiário e Assemelhados;PSB;NORDESTE;Eleito;1;79;5461;3901;2026-02-28 19:30:47
+2024;15857;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MARACANAÚ;DEMYSON ERNESTO BARBOSA DA SILVA;50;Professor de Ensino Fundamental;PSOL;NORDESTE;Não Eleito;1;122;71456;798;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Segundo turno;1;123;75486;13958;2026-02-28 19:30:47
+2024;13480;Parda;Casado(a);60 a 64 anos;Masculino;Ensino Médio completo;ITAITINGA;LUIZ CARLOS FEITOSA ARRAIS;55;Servidor Público Estadual;PSD;NORDESTE;Não Eleito;1;78;30384;9411;2026-02-28 19:30:47
+2024;13030;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;ACARAÚ;ANA FLÁVIA RIBEIRO MONTEIRO;40;Prefeito;PSB;NORDESTE;Eleito;1;30;40535;26903;2026-02-28 19:30:47
+2024;14354;Branca;Solteiro(a);25 a 29 anos;Masculino;Superior completo;JAGUARETAMA;MARCOS VINICIUS DE ABREU CUNHA;40;Médico;PSB;NORDESTE;Eleito;1;72;9192;9192;2026-02-28 19:30:47
+2024;13056;Branca;Casado(a);65 a 69 anos;Masculino;Superior completo;ACOPIARA;FRANCISCO VILMAR FELIX MARTINS;40;Médico;PSB;NORDESTE;Eleito;1;60;32778;18009;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;80;77849;28640;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;2;83472;34087;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;83;86575;34581;2026-02-28 19:30:47
+2024;13153;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;ANTONINA DO NORTE;ANTONIO ROSENO FILHO;12;Prefeito;PDT;NORDESTE;Eleito;1;18;5613;4619;2026-02-28 19:30:47
+2024;13374;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;BARBALHA;GUILHERME SAMPAIO SARAIVA;13;Médico;PT;NORDESTE;Eleito;1;31;41190;23970;2026-02-28 19:30:47
+2024;14672;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;MILAGRES;ANDERSON EUGÊNIO DE OLIVEIRA;15;Advogado;MDB;NORDESTE;Eleito;1;26;17869;9396;2026-02-28 19:30:47
+2024;15598;Branca;Casado(a);60 a 64 anos;Feminino;Superior completo;SOBRAL;MARIA IZOLDA CELA DE ARRUDA COELHO;40;Psicólogo;PSB;NORDESTE;Não Eleito;1;24;71255;33554;2026-02-28 19:30:47
+2024;15881;Parda;Casado(a);40 a 44 anos;Masculino;Ensino Fundamental completo;CROATÁ;RONILSON FRANCISCO DE OLIVEIRA;13;Empresário;PT;NORDESTE;Eleito;1;74;10951;9599;2026-02-28 19:30:47
+2024;13552;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;CANINDÉ;JOSE KLEDEON VIANA PAULINO;10;Professor de Ensino Fundamental;REPUBLICANOS;NORDESTE;Não Eleito;1;33;48519;21131;2026-02-28 19:30:47
+2024;14311;Branca;Divorciado(a);45 a 49 anos;Masculino;Superior completo;ITAPIÚNA;FRANCISCO ARNALDO ARAUJO BATISTA;10;PROFESSOR DE ENSINO DE PRIMEIRO E SEGUNDO GRAUS;REPUBLICANOS;NORDESTE;Não Eleito;1;105;14002;6408;2026-02-28 19:30:47
+2024;14117;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;IGUATU;CARLOS ROBERTO COSTA FILHO;45;Advogado;PSDB;NORDESTE;Eleito;1;13;58796;29069;2026-02-28 19:30:47
+2024;13633;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;CARIRIAÇU;ADRIANA CALIXTO BEZERRA COSTA;15;Vereador;MDB;NORDESTE;Não Eleito;1;71;20440;9504;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;80;79149;42263;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;94;80956;39663;2026-02-28 19:30:47
+2024;15890;Branca;Solteiro(a);45 a 49 anos;Masculino;Superior completo;CRUZ;ERLANDSON MUNIZ DE ARAÚJO MARTINS;13;Corretor de Imóveis, Seguros, Títulos e Valores;PT;NORDESTE;Não Eleito;1;30;19089;4853;2026-02-28 19:30:47
+2024;14575;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;MARCO;JOSE ERASMO RAMOS SOARES;44;Advogado;UNIÃO;NORDESTE;Não Eleito;1;96;19092;6159;2026-02-28 19:30:47
+2024;13510;Parda;Casado(a);60 a 64 anos;Feminino;Superior completo;CAMOCIM;EUVALDETE FERRO DA ROCHA OLIVEIRA;13;Pedagogo;PT;NORDESTE;Não Eleito;1;32;40552;18320;2026-02-28 19:30:47
+2024;13498;Parda;Divorciado(a);55 a 59 anos;Masculino;Superior completo;BREJO SANTO;EUSEBIO FERREIRA DA SILVA;13;Empresário;PT;NORDESTE;Não Eleito;1;70;28059;9735;2026-02-28 19:30:47
+2024;15890;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CRUZ;JOSÉ WALDERY MUNIZ;40;Comerciante;PSB;NORDESTE;Eleito;1;30;19089;12655;2026-02-28 19:30:47
+2024;14770;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;MORAÚJO;ANTONIO CARLOS OLIVEIRA BELCHIOR;22;Vereador;PL;NORDESTE;Não Eleito;1;64;7402;35;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;117;84214;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;118;82603;0;2026-02-28 19:30:47
+2024;13714;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;CATARINA;STELA MACLA FEITOSA DE MATOS RODRIGUES;55;Administrador;PSD;NORDESTE;Não Eleito;1;60;8718;3722;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;93;70741;39;2026-02-28 19:30:47
+2024;13811;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;COREAÚ;ANTONINO DOURADO ARAUJO;22;Comerciante;PL;NORDESTE;Não Eleito;1;64;16238;3877;2026-02-28 19:30:47
+2024;13838;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;CRATEÚS;JANAINA CARLA FARIAS;13;Senador;PT;NORDESTE;Eleito;1;20;47932;26055;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Eleito;2;37;68509;38044;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;1;94182;11177;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;115;84003;8820;2026-02-28 19:30:47
+2024;13633;Parda;Casado(a);60 a 64 anos;Masculino;Superior completo;CARIRIAÇU;LUIZ ACACIO MACHADO LEITE;13;Empresário;PT;NORDESTE;Eleito;1;71;20440;10778;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;115;84003;10190;2026-02-28 19:30:47
+2024;14214;Parda;Solteiro(a);30 a 34 anos;Masculino;Superior completo;IRACEMA;RUMMENYGGE OLIVEIRA ARAUJO;22;Estudante, Bolsista, Estagiário e Assemelhados;PL;NORDESTE;Não Eleito;1;86;10362;52;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;ANTONIO AGINALDO DE OLIVEIRA;22;Militar Reformado;PL;NORDESTE;Não Eleito;1;37;73422;9712;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;ANTONIO AGINALDO DE OLIVEIRA;22;Militar Reformado;PL;NORDESTE;Não Eleito;1;120;44092;4952;2026-02-28 19:30:47
+2024;13161;Branca;Solteiro(a);65 a 69 anos;Feminino;Superior completo;CHOROZINHO;CÉLIA MARINHO ALBANO;10;Vereador;REPUBLICANOS;NORDESTE;Eleito;1;49;15788;10423;2026-02-28 19:30:47
+2024;13064;Parda;Divorciado(a);60 a 64 anos;Feminino;Ensino Médio completo;GRAÇA;MARIA IRALDICE DE ALCANTARA;11;Prefeito;PP;NORDESTE;Eleito;1;79;11160;5820;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;MARACANAÚ;LUCINILDO DA FROTA BRITO;12;Deputado;PDT;NORDESTE;Não Eleito;1;122;71456;8756;2026-02-28 19:30:47
+2024;15458;Branca;Solteiro(a);30 a 34 anos;Feminino;Superior completo;SANTA QUITÉRIA;LIGIA MARIA BENEVINUTO DE SOUSA PROTASIO;13;Médico;PT;NORDESTE;Não Eleito;1;54;27534;7991;2026-02-28 19:30:47
+2024;15911;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;FORQUILHA;EDINARDO RODRIGUES FILHO;40;Administrador;PSB;NORDESTE;Eleito;1;121;17170;9431;2026-02-28 19:30:47
+2024;15857;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MARACANAÚ;DEMYSON ERNESTO BARBOSA DA SILVA;50;Professor de Ensino Fundamental;PSOL;NORDESTE;Não Eleito;1;104;66985;930;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;93;70741;23032;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;1;94182;33198;2026-02-28 19:30:47
+2024;15458;Parda;Divorciado(a);65 a 69 anos;Masculino;Ensino Médio completo;SANTA QUITÉRIA;JOSE BRAGA BARROZO;40;Empresário;PSB;NORDESTE;Eleito;1;54;27534;11292;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;93;70741;30433;2026-02-28 19:30:47
+2024;15776;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;URUBURETAMA;FRANCISCO ALDIR CHAVES DA SILVA;13;Prefeito;PT;NORDESTE;Eleito;1;23;15599;11685;2026-02-28 19:30:47
+2024;13080;Branca;Solteiro(a);45 a 49 anos;Masculino;Ensino Médio completo;TURURU;FRANCISCO ALEXANDRE LIMA PINTO;12;Servidor Público Municipal;PDT;NORDESTE;Não Eleito;1;17;13375;3082;2026-02-28 19:30:47
+2024;13129;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;BARREIRA;ANTONIO ALAILSON OLIVEIRA SALDANHA;13;Empresário;PT;NORDESTE;Não Eleito;1;52;16805;1065;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;3;72239;316;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;83;86575;422;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;85;74907;353;2026-02-28 19:30:47
+2024;15873;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;AMONTADA;FLAVIO CESAR BRUNO TEIXEIRA FILHO;13;Prefeito;PT;NORDESTE;Eleito;1;89;29961;19876;2026-02-28 19:30:47
+2024;14699;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;MISSÃO VELHA;DIEGO GONDIM FEITOSA;15;Advogado;MDB;NORDESTE;Não Eleito;1;16;24703;10983;2026-02-28 19:30:47
+2024;13404;Parda;Casado(a);60 a 64 anos;Masculino;Superior completo;BARROQUINHA;JAIME VERAS SILVA FILHO;55;Prefeito;PSD;NORDESTE;Eleito;1;108;12742;6404;2026-02-28 19:30:47
+2024;13226;Branca;Divorciado(a);60 a 64 anos;Masculino;Superior completo;EUSÉBIO;MAURO HENRIQUE NASCIMENTO RAMALHO;44;Médico;UNIÃO;NORDESTE;Não Eleito;1;88;44781;8525;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;93;72013;35514;2026-02-28 19:30:47
+2024;14753;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;MORADA NOVA;MARCO ANTONIO DE ARAUJO BICA JUNIOR;13;Advogado;PT;NORDESTE;Não Eleito;1;47;48016;23206;2026-02-28 19:30:47
+2024;14478;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;FERNANDO MATOS SANTANA;13;Deputado;PT;NORDESTE;Não Eleito;1;28;65259;30327;2026-02-28 19:30:47
+2024;14737;Parda;Solteiro(a);40 a 44 anos;Masculino;Superior completo;MONSENHOR TABOSA;JOSE AILTON SILVA DOMINGOS;10;Empresário;REPUBLICANOS;NORDESTE;Não Eleito;1;61;12197;4982;2026-02-28 19:30:47
+2024;14877;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;NOVA RUSSAS;FRANCISCO PEDRO GONÇALVES DE SOUZA XIMENES;13;Médico;PT;NORDESTE;Não Eleito;1;48;20037;3301;2026-02-28 19:30:47
+2024;13242;Preta;Solteiro(a);40 a 44 anos;Masculino;Superior completo;GUAIÚBA;SORIANO FRANCISCO EDINILSON RIBEIRO DA SILVA;18;Administrador;REDE;NORDESTE;Não Eleito;1;57;17532;166;2026-02-28 19:30:47
+2024;14338;Parda;Casado(a);65 a 69 anos;Masculino;Ensino Fundamental completo;ITATIRA;JOSE FERREIRA MATEUS;11;Prefeito;PP;NORDESTE;Eleito;1;33;14692;11897;2026-02-28 19:30:47
+2024;15059;Parda;Casado(a);70 a 74 anos;Masculino;Superior completo;PARACURU;JULIO CESAR ALCANTARA;33;Médico;MOBILIZA;NORDESTE;Não Eleito;1;109;27619;384;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;85;74907;0;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;80;77849;0;2026-02-28 19:30:47
+2024;15539;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;SÃO LUÍS DO CURU;DANIEL BEZERRA LIMA;65;Médico;PC do B;NORDESTE;Não Eleito;1;23;10467;4993;2026-02-28 19:30:47
+2024;13277;Parda;Solteiro(a);35 a 39 anos;Masculino;Ensino Médio completo;ARATUBA;JOERLY RODRIGUES VICTOR;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;105;10737;6987;2026-02-28 19:30:47
+2024;14176;Parda;Casado(a);40 a 44 anos;Feminino;Superior completo;IPU;MILENA DAMASCENO CARNEIRO;13;Empresário;PT;NORDESTE;Eleito;1;21;27936;14519;2026-02-28 19:30:47
+2024;13951;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;GRANJA;DANIEL FÉLIX DE BRITO;22;Professor de Ensino Fundamental;PL;NORDESTE;Não Eleito;1;25;33805;304;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Eleito;2;123;71903;49666;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);55 a 59 anos;Masculino;Ensino Médio completo;CAUCAIA;NAUMI GOMES DE AMORIM;55;Empresário;PSD;NORDESTE;Eleito;2;120;41437;22125;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;2;83472;11924;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;117;84214;9652;2026-02-28 19:30:47
+2024;14036;Parda;Casado(a);60 a 64 anos;Masculino;Superior completo;GUARAMIRANGA;MARCOS ANTONIO CARACAS DE SOUZA;12;Advogado;PDT;NORDESTE;Não Eleito;1;5;5880;2544;2026-02-28 19:30:47
+2024;14192;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;IPUEIRAS;FRANCISCO SOUTO DE VASCONCELOS JÚNIOR;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;40;24326;15017;2026-02-28 19:30:47
+2024;15989;Não Informado;Solteiro(a);35 a 39 anos;Masculino;Superior completo;DEPUTADO IRAPUAN PINHEIRO;FRANCISCO GILDECARLOS PINHEIRO;40;Prefeito;PSB;NORDESTE;Eleito;1;55;6411;3883;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;2;84574;42710;2026-02-28 19:30:47
+2024;15156;Branca;Casado(a);40 a 44 anos;Feminino;Superior completo;PENTECOSTE;ILANNA MOURA AZEVEDO CIRILO;13;Psicólogo;PT;NORDESTE;Não Eleito;1;50;26942;10546;2026-02-28 19:30:47
+2024;98531;Branca;Casado(a);65 a 69 anos;Feminino;Superior completo;QUIXELÔ;MARIA DE FÁTIMA ARAUJO;13;Professor de Ensino Fundamental;PT;NORDESTE;Não Eleito;1;13;12811;3260;2026-02-28 19:30:47
+2024;14516;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;LAVRAS DA MANGABEIRA;RONALDO PEDROSA LIMA;55;Prefeito;PSD;NORDESTE;Eleito;1;14;19391;15790;2026-02-28 19:30:47
+2024;15156;Parda;Casado(a);35 a 39 anos;Feminino;Ensino Fundamental incompleto;PENTECOSTE;ANTÔNIA ERINEIDE BRASILEIRO DE OLIVEIRA;35;Agricultor;PMB;NORDESTE;Não Eleito;1;50;26942;113;2026-02-28 19:30:47
+2024;13501;Parda;Solteiro(a);45 a 49 anos;Masculino;Superior completo;FORTIM;MARCOS CAVALCANTE DE SOUZA;40;Vereador;PSB;NORDESTE;Não Eleito;1;8;15376;5121;2026-02-28 19:30:47
+2024;14257;Parda;Divorciado(a);60 a 64 anos;Masculino;Superior completo;ITAIÇABA;FRANK GOMES FREITAS;40;Prefeito;PSB;NORDESTE;Não Eleito;1;75;4018;0;2026-02-28 19:30:47
+2024;15431;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior incompleto;SANTANA DO CARIRI;JOÃO PAULO CABRAL ALVES;18;Outros;REDE;NORDESTE;Não Eleito;1;53;11581;1176;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;95;80638;0;2026-02-28 19:30:47
+2024;13463;Parda;Casado(a);50 a 54 anos;Masculino;Superior completo;CHORÓ;ANTÔNIO FRANCISCO DELMIRO;13;Vereador;PT;NORDESTE;Não Eleito;1;6;9772;3801;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;80;77849;38;2026-02-28 19:30:47
+2024;13048;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;PIRES FERREIRA;MARIA DO SOCORRO PEREIRA TORRES;13;Pedagogo;PT;NORDESTE;Não Eleito;1;21;7527;2096;2026-02-28 19:30:47
+2024;13447;Parda;Divorciado(a);70 a 74 anos;Masculino;Ensino Médio completo;CATUNDA;ANTONIO PEREIRA LEITAO;44;Empresário;UNIÃO;NORDESTE;Não Eleito;1;54;8255;3045;2026-02-28 19:30:47
+2024;13617;Branca;Casado(a);30 a 34 anos;Feminino;Superior completo;CARIRÉ;LUYZA GURGEL DE ALENCAR GONDIM PONTE;25;Psicólogo;PRD;NORDESTE;Não Eleito;1;65;12722;3220;2026-02-28 19:30:47
+2024;14133;Parda;Casado(a);25 a 29 anos;Masculino;Superior completo;INDEPENDÊNCIA;WILLIAM VIEIRA;13;Engenheiro;PT;NORDESTE;Eleito;1;39;18120;10940;2026-02-28 19:30:47
+2024;14974;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;PACOTI;MARCOS VENICIOS NORJOSA GONZAGA;13;Prefeito;PT;NORDESTE;Eleito;1;5;9310;3959;2026-02-28 19:30:47
+2024;15717;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;TRAIRI;CARLOS GUSTAVO MONTEIRO MOREIRA;11;Empresário;PP;NORDESTE;Eleito;1;97;40582;29927;2026-02-28 19:30:47
+2024;15334;Branca;Viúvo(a);55 a 59 anos;Feminino;Superior completo;REDENÇÃO;FRANCISCA ANGELA PINHEIRO DE SOUZA MEDEIROS;15;Servidor Público Civil Aposentado;MDB;NORDESTE;Não Eleito;1;52;18470;4394;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;82;79979;9947;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;93;70741;8692;2026-02-28 19:30:47
+2024;13242;Preta;Casado(a);55 a 59 anos;Masculino;Ensino Fundamental incompleto;GUAIÚBA;JOSÉ GERARDO RODRIGUES;15;Empresário;MDB;NORDESTE;Não Eleito;1;57;17532;247;2026-02-28 19:30:47
+2024;13730;Preta;Casado(a);55 a 59 anos;Masculino;Superior completo;CAUCAIA;WALDEMIR CATANHO DE SENA JUNIOR;13;Jornalista e Redator;PT;NORDESTE;Não Eleito;2;123;71903;22237;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;GEORGE LIMA DE ARAÚJO;77;Empresário;SOLIDARIEDADE;NORDESTE;Não Eleito;1;1;94182;405;2026-02-28 19:30:47
+2024;14214;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;IRACEMA;CELSO GOMES DA SILVA NETO;13;Prefeito;PT;NORDESTE;Eleito;1;86;10362;5279;2026-02-28 19:30:47
+2024;15814;Parda;Solteiro(a);25 a 29 anos;Masculino;Superior incompleto;VÁRZEA ALEGRE;FLÁVIO SALVIANO LIMA FILHO;15;Gerente;MDB;NORDESTE;Eleito;1;62;25137;12798;2026-02-28 19:30:47
+2024;14974;Branca;Casado(a);60 a 64 anos;Masculino;Superior completo;PACOTI;ALBER CASTELO BRANCO;12;Advogado;PDT;NORDESTE;Não Eleito;1;5;9310;1710;2026-02-28 19:30:47
+2024;14117;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;IGUATU;PEDRO HELDER DE OLIVEIRA;22;Militar Reformado;PL;NORDESTE;Não Eleito;1;13;58796;650;2026-02-28 19:30:47
+2024;13323;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;TEJUÇUOCA;JOSE ANTUNIZIO DE BRITO;10;Prefeito;REPUBLICANOS;NORDESTE;Eleito;1;41;13715;10743;2026-02-28 19:30:47
+2024;15997;Parda;Divorciado(a);60 a 64 anos;Feminino;Superior completo;PARAIPABA;JOANA D' ARC BATISTA CARVALHO;55;Aposentado (Exceto Servidor Público);PSD;NORDESTE;Não Eleito;1;109;20496;0;2026-02-28 19:30:47
+2024;13285;Preta;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;PINDORETAMA;JEOVÁ DA SILVA;22;Outros;PL;NORDESTE;Não Eleito;1;7;17061;80;2026-02-28 19:30:47
+2024;15270;Branca;Solteiro(a);40 a 44 anos;Masculino;Superior completo;QUIXADÁ;VICTOR XIMENES MARQUES;13;Professor de Ensino Superior;PT;NORDESTE;Não Eleito;1;6;49282;15161;2026-02-28 19:30:47
+2024;14435;Parda;Casado(a);40 a 44 anos;Feminino;Superior completo;JARDIM;MARIA CLEA ANCILON PEREIRA DA LUZ NETA;12;Servidor Público Municipal;PDT;NORDESTE;Não Eleito;1;119;17800;7474;2026-02-28 19:30:47
+2024;13676;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;CARNAUBAL;FRANCISCO DARIO MARTINS NETO;44;Advogado;UNIÃO;NORDESTE;Não Eleito;1;22;11359;1471;2026-02-28 19:30:47
+2024;14419;Parda;Solteiro(a);25 a 29 anos;Masculino;Superior incompleto;JAGUARUANA;SAMUEL QUIRINO DA SILVA;40;Empresário;PSB;NORDESTE;Não Eleito;1;75;23699;8022;2026-02-28 19:30:47
+2024;14273;Parda;Casado(a);65 a 69 anos;Feminino;Superior completo;ITAPAJÉ;MARIA GORETE BARROSO MAGALHAES CAETANO;40;Médico;PSB;NORDESTE;Não Eleito;1;41;32835;14137;2026-02-28 19:30:47
+2024;13897;Preta;Separado(a) judicialmente;35 a 39 anos;Masculino;Ensino Médio completo;FORTALEZA;TECIO NUNES SALGADO;50;Outros;PSOL;NORDESTE;Não Eleito;1;83;86575;490;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;CAUCAIA;MARIA EMILIA PESSOA DE LIMA CARNEIRO;45;Deputado;PSDB;NORDESTE;Não Eleito;1;120;44092;12204;2026-02-28 19:30:47
+2024;14095;Branca;Casado(a);50 a 54 anos;Feminino;Superior completo;ICÓ;SENIA APARECIDA RODRIGUES DE SOUSA TORRES;15;Pedagogo;MDB;NORDESTE;Não Eleito;1;15;38312;12515;2026-02-28 19:30:47
+2024;13013;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;ABAIARA;FRANCISCO ELISEU MOREIRA FILHO;12;Psicólogo;PDT;NORDESTE;Não Eleito;1;26;6579;3150;2026-02-28 19:30:47
+2024;13897;Parda;Casado(a);50 a 54 anos;Masculino;Superior incompleto;FORTALEZA;LUIS EDUARDO GRANGEIRO GIRÃO;30;Senador;NOVO;NORDESTE;Não Eleito;1;116;90402;592;2026-02-28 19:30:47
+2024;13633;Preta;Casado(a);45 a 49 anos;Masculino;Superior completo;CARIRIAÇU;CÉLIO DE MENDONÇA CLEMENTE;50;Professor de Ensino Médio;PSOL;NORDESTE;Não Eleito;1;71;20440;158;2026-02-28 19:30:47
+2024;15016;Parda;Casado(a);55 a 59 anos;Masculino;Superior completo;PALHANO;JOÃO BATISTA DE SANTIAGO;55;Outros;PSD;NORDESTE;Não Eleito;1;9;8803;4080;2026-02-28 19:30:47
+2024;13455;Branca;Solteiro(a);35 a 39 anos;Masculino;Superior completo;BELA CRUZ;JOSE OTACILIO DE MORAIS NETO;40;Prefeito;PSB;NORDESTE;Eleito;1;96;17683;12487;2026-02-28 19:30:47
+2024;13498;Branca;Viúvo(a);60 a 64 anos;Feminino;Superior incompleto;BREJO SANTO;MARIA GISLAINE SANTANA SAMPAIO LANDIM;40;Prefeito;PSB;NORDESTE;Eleito;1;70;28059;18324;2026-02-28 19:30:47
+2024;14060;Branca;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;IBARETAMA;MAGNO ALEXANDRE CASTRO DE SOUSA;13;Empresário;PT;NORDESTE;Não Eleito;1;6;11822;856;2026-02-28 19:30:47
+2024;15210;Branca;Casado(a);35 a 39 anos;Masculino;Superior incompleto;PORANGA;IGOR DE ALMEIDA PINHO;55;Empresário;PSD;NORDESTE;Não Eleito;1;40;7979;3723;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Segundo turno;1;80;77849;29148;2026-02-28 19:30:47
+2024;14591;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;MARTINÓPOLE;FILIPE FELIX SOUSA;44;Contador;UNIÃO;NORDESTE;Não Eleito;1;25;9285;2501;2026-02-28 19:30:47
+2024;13137;Branca;Casado(a);50 a 54 anos;Masculino;Superior completo;ALTO SANTO;FERNANDO ANTONIO BEZERRA FREIRE;55;Advogado;PSD;NORDESTE;Não Eleito;1;86;10476;1374;2026-02-28 19:30:47
+2024;14478;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;GLÊDSON LIMA BEZERRA;20;Policial Civil;PODE;NORDESTE;Eleito;1;28;65259;33996;2026-02-28 19:30:47
+2024;13463;Parda;Solteiro(a);45 a 49 anos;Masculino;Ensino Médio completo;CHORÓ;CARLOS ALBERTO QUEIROZ PEREIRA;40;Empresário;PSB;NORDESTE;Eleito;1;6;9772;5971;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Segundo turno;1;1;94182;37271;2026-02-28 19:30:47
+2024;14737;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;MONSENHOR TABOSA;FRANCISCO SALOMÃO DE ARAÚJO SOUSA;13;Advogado;PT;NORDESTE;Eleito;1;61;12197;7215;2026-02-28 19:30:47
+2024;13099;Branca;Solteiro(a);30 a 34 anos;Feminino;Superior completo;ALCÂNTARAS;SHIRLIANE MOREIRA FERREIRA;13;Comerciante;PT;NORDESTE;Não Eleito;1;24;8255;2821;2026-02-28 19:30:47
+2024;15377;Parda;Casado(a);45 a 49 anos;Feminino;Superior completo;RUSSAS;ADRIANA RIBEIRO DE LIMA;13;Servidor Público Municipal;PT;NORDESTE;Não Eleito;1;9;42562;0;2026-02-28 19:30:47
+2024;15210;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;PORANGA;JOAO DAMASCENO CHAVES;50;Agricultor;PSOL;NORDESTE;Não Eleito;1;40;7979;29;2026-02-28 19:30:47
+2024;13064;Branca;Divorciado(a);45 a 49 anos;Masculino;Ensino Médio completo;GRAÇA;GADYEL GONÇALVES DE AGUIAR PAULA;13;Empresário;PT;NORDESTE;Não Eleito;1;79;11160;5340;2026-02-28 19:30:47
+2024;13897;Parda;Solteiro(a);60 a 64 anos;Masculino;Superior completo;FORTALEZA;FRANCISCO RAIMUNDO MALTA DE ARAUJO;21;Advogado;PCB;NORDESTE;Não Eleito;1;94;79500;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental incompleto;FORTALEZA;JOSÉ BATISTA NETO;16;Trabalhador de Construção Civil;PSTU;NORDESTE;Não Eleito;1;114;83366;38;2026-02-28 19:30:47
+2024;13218;Parda;Casado(a);45 a 49 anos;Feminino;Superior incompleto;ARACATI;ROBERTA CARDOSO BARBOSA DE ALMEIDA;20;Vereador;PODE;NORDESTE;Eleito;1;8;46893;26825;2026-02-28 19:30:47
+2024;15431;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;SANTANA DO CARIRI;SAMUEL CIDADE WERTON;13;Prefeito;PT;NORDESTE;Eleito;1;53;11581;5856;2026-02-28 19:30:47
+2024;14290;Branca;Casado(a);50 a 54 anos;Masculino;Ensino Médio completo;ITAPIPOCA;FELIPE SOUZA PINHEIRO;13;Prefeito;PT;NORDESTE;Eleito;1;17;82276;56361;2026-02-28 19:30:47
+2024;14354;Parda;Casado(a);65 a 69 anos;Masculino;Superior incompleto;JAGUARETAMA;FRANCIJAIME PINHEIRO COSTA;10;Tabelião;REPUBLICANOS;NORDESTE;Não Eleito;1;72;9192;0;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);25 a 29 anos;Masculino;Superior completo;FORTALEZA;ANDRE FERNANDES DE MOURA;22;Deputado;PL;NORDESTE;Não Eleito;2;85;76318;38519;2026-02-28 19:30:47
+2024;15059;Parda;Casado(a);45 a 49 anos;Masculino;Superior completo;PARACURU;MÁRCIO BATISTA BARBOSA;25;Servidor Público Federal;PRD;NORDESTE;Não Eleito;1;109;27619;283;2026-02-28 19:30:47
+2024;13030;Branca;Divorciado(a);80 a 84 anos;Masculino;Superior completo;ACARAÚ;MANOEL DUCA DA SILVEIRA NETO;10;Empresário;REPUBLICANOS;NORDESTE;Não Eleito;1;30;40535;13632;2026-02-28 19:30:47
+2024;13951;Branca;Casado(a);80 a 84 anos;Masculino;Superior completo;GRANJA;RAIMUNDO NONATO DA ROCHA FRANCO;50;Servidor Público Civil Aposentado;PSOL;NORDESTE;Não Eleito;1;25;33805;84;2026-02-28 19:30:47
+2024;13730;Parda;Casado(a);50 a 54 anos;Feminino;Superior completo;CAUCAIA;MARIA EMILIA PESSOA DE LIMA CARNEIRO;45;Deputado;PSDB;NORDESTE;Não Eleito;1;37;73422;18464;2026-02-28 19:30:47
+2024;15938;Parda;Casado(a);40 a 44 anos;Masculino;Superior incompleto;ICAPUÍ;FRANCISCO KLEITON PEREIRA;55;Vereador;PSD;NORDESTE;Eleito;1;8;15326;8837;2026-02-28 19:30:47
+2024;13072;Branca;Solteiro(a);50 a 54 anos;Masculino;Superior completo;AIUABA;JOSE MORAES FEITOSA;13;Professor de Ensino Superior;PT;NORDESTE;Eleito;1;101;9443;5175;2026-02-28 19:30:47
+2024;14796;Parda;Casado(a);60 a 64 anos;Masculino;Superior completo;MORRINHOS;JERÔNIMO NETO BRANDÃO;13;Prefeito;PT;NORDESTE;Eleito;1;44;17345;9001;2026-02-28 19:30:47
+2024;13102;Branca;Solteiro(a);40 a 44 anos;Feminino;Superior completo;QUITERIANÓPOLIS;JULIANA MONTEIRO ABREU;55;Médico;PSD;NORDESTE;Eleito;1;99;13880;9631;2026-02-28 19:30:47
+2024;13005;Branca;Solteiro(a);45 a 49 anos;Masculino;Superior incompleto;JIJOCA DE JERICOACOARA;MARCIO ALDIGUERI ARRUDA;55;Empresário;PSD;NORDESTE;Não Eleito;1;30;17991;5691;2026-02-28 19:30:47
+2024;15237;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;PORTEIRAS;ALBOINO MIRANDA TAVARES NETO;40;Médico;PSB;NORDESTE;Eleito;1;70;12032;7065;2026-02-28 19:30:47
+2024;15458;Branca;Casado(a);70 a 74 anos;Feminino;Superior completo;SANTA QUITÉRIA;CANDIDA MARIA SARAIVA DE PAULA PESSOA;44;Aposentado (Exceto Servidor Público);UNIÃO;NORDESTE;Não Eleito;1;54;24735;5356;2026-02-28 19:30:47
+2024;14974;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;PACOTI;FRANCISCO JOSE SAMPAIO LEITE;55;Empresário;PSD;NORDESTE;Não Eleito;1;5;9310;3510;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);80 a 84 anos;Masculino;Superior completo;MARACANAÚ;ROBERTO SOARES PESSOA;44;Administrador;UNIÃO;NORDESTE;Eleito;1;122;71456;45093;2026-02-28 19:30:47
+2024;14478;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;JUAZEIRO DO NORTE;GLÊDSON LIMA BEZERRA;20;Policial Civil;PODE;NORDESTE;Eleito;1;119;91494;49518;2026-02-28 19:30:47
+2024;14052;Branca;Solteiro(a);30 a 34 anos;Masculino;Superior completo;HIDROLÂNDIA;LUAN PEREIRA XAVIER GOMES;40;Enfermeiro;PSB;NORDESTE;Eleito;1;54;13788;7037;2026-02-28 19:30:47
+2024;14753;Branca;Solteiro(a);30 a 34 anos;Feminino;Superior completo;MORADA NOVA;NAIARA CARNEIRO CASTRO;40;Vereador;PSB;NORDESTE;Eleito;1;47;48016;24429;2026-02-28 19:30:47
+2024;13110;Branca;Casado(a);45 a 49 anos;Feminino;Superior completo;ALTANEIRA;ANA KESIA DE ALCANTARA SOARES;40;Empresário;PSB;NORDESTE;Eleito;1;53;6163;3255;2026-02-28 19:30:47
+2024;13080;Parda;Casado(a);40 a 44 anos;Masculino;Superior incompleto;TURURU;RAIMUNDO NONATO MONTEIRO DO NASCIMENTO;44;Comerciante;UNIÃO;NORDESTE;Eleito;1;17;13375;5268;2026-02-28 19:30:47
+2024;14010;Branca;Solteiro(a);50 a 54 anos;Masculino;Superior completo;GUARACIABA DO NORTE;JOSE ELISIARIO DE MELO NOBRE JUNIOR;15;Servidor Público Estadual;MDB;NORDESTE;Não Eleito;1;74;26801;10817;2026-02-28 19:30:47
+2024;15776;Parda;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;URUBURETAMA;CARLOS EDUARDO DAVID FERREIRA;55;Comerciante;PSD;NORDESTE;Não Eleito;1;23;15599;3914;2026-02-28 19:30:47
+2024;13269;Branca;Solteiro(a);30 a 34 anos;Masculino;Ensino Médio completo;POTIRETAMA;LUAN DANTAS FELIX;11;Prefeito;PP;NORDESTE;Eleito;1;86;5127;3656;2026-02-28 19:30:47
+2024;15440;Preta;Casado(a);40 a 44 anos;Feminino;Superior completo;SALITRE;ELIANE BATISTA PEREIRA;15;Professor de Ensino Fundamental;MDB;NORDESTE;Não Eleito;1;38;12623;83;2026-02-28 19:30:47
+2024;14877;Branca;Casado(a);35 a 39 anos;Feminino;Superior completo;NOVA RUSSAS;GIORDANNA SILVA BRAGA MANO;25;Prefeito;PRD;NORDESTE;Eleito;1;48;20037;16736;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;1;95769;47773;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;FORTALEZA;EVANDRO SA BARRETO LEITAO;13;Deputado;PT;NORDESTE;Eleito;2;118;83731;42581;2026-02-28 19:30:47
+2024;14850;Parda;Casado(a);40 a 44 anos;Feminino;Superior completo;NOVA OLINDA;DIÓGENA HERMÓGENES LANDIM SAMPAIO;11;Farmacêutico;PP;NORDESTE;Não Eleito;1;53;10490;4393;2026-02-28 19:30:47
+2024;15296;Branca;Casado(a);40 a 44 anos;Masculino;Superior completo;QUIXERAMOBIM;PAULO JOSE GOMES FERREIRA;13;Técnico em Agronomia e Agrimensura;PT;NORDESTE;Não Eleito;1;11;48430;6656;2026-02-28 19:30:47
+2024;15571;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;SENADOR SÁ;JOSE MARTINS BARROS JUNIOR;11;Prefeito;PP;NORDESTE;Não Eleito;1;45;1875;0;2026-02-28 19:30:47
+2024;14770;Branca;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;MORAÚJO;JOSÉ MARIA MOREIRA JUNIOR;40;Empresário;PSB;NORDESTE;Não Eleito;1;64;7402;3339;2026-02-28 19:30:47
+2024;15857;Branca;Casado(a);55 a 59 anos;Feminino;Superior completo;MARACANAÚ;SILVANA OLIVEIRA DE SOUSA;22;Médico;PL;NORDESTE;Não Eleito;1;104;66985;17470;2026-02-28 19:30:47
+2024;14915;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;ORÓS;SIMÃO PEDRO ALVES PEQUENO;55;Administrador;PSD;NORDESTE;Eleito;1;15;14188;8287;2026-02-28 19:30:47
+2024;14958;Parda;Casado(a);75 a 79 anos;Masculino;Superior completo;PACATUBA;LUIZ CLAUDIO ALVES BRITO;33;Aposentado (Exceto Servidor Público);MOBILIZA;NORDESTE;Não Eleito;1;57;47973;44;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;82;79979;10574;2026-02-28 19:30:47
+2024;13897;Branca;Casado(a);45 a 49 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;44;Policial Militar;UNIÃO;NORDESTE;Não Eleito;1;83;86575;10624;2026-02-28 19:30:47
+2024;13447;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;CATUNDA;DOUGLAS RODRIGUES NEGREIROS;40;Contador;PSB;NORDESTE;Eleito;1;54;8255;5210;2026-02-28 19:30:47
+2024;13366;Parda;Casado(a);35 a 39 anos;Masculino;Ensino Médio completo;TARRAFAS;ERONILDES FRANCISCO DOS SANTOS;40;Comerciante;PSB;NORDESTE;Eleito;1;18;6268;3578;2026-02-28 19:30:47
+2024;15172;Parda;Casado(a);45 a 49 anos;Masculino;Ensino Médio completo;PEREIRO;JOSÉ ROSEAN DE SOUSA;10;Agente de Saúde e Sanitarista;REPUBLICANOS;NORDESTE;Não Eleito;1;10;11360;2250;2026-02-28 19:30:47
+2024;15830;Parda;Casado(a);35 a 39 anos;Masculino;Superior completo;VIÇOSA DO CEARÁ;EURICO JOSE CARNEIRO FONTENELE ARRUDA;15;Empresário;MDB;NORDESTE;Eleito;1;35;37777;24655;2026-02-28 19:30:47
+2024;13013;Branca;Casado(a);55 a 59 anos;Masculino;Superior completo;ABAIARA;ANGELO FURTADO SAMPAIO;13;Administrador;PT;NORDESTE;Eleito;1;26;6579;3429;2026-02-28 19:30:47
+2024;13897;Branca;Divorciado(a);65 a 69 anos;Masculino;Superior completo;FORTALEZA;JOSE SARTO NOGUEIRA MOREIRA;12;Prefeito;PDT;NORDESTE;Não Eleito;1;113;84049;9791;2026-02-28 19:30:47
+2024;13200;Branca;Casado(a);35 a 39 anos;Feminino;Superior completo;ERERÉ;EMANUELLE GOMES MARTINS;40;Enfermeiro;PSB;NORDESTE;Não Eleito;1;10;4847;2409;2026-02-28 19:30:47
