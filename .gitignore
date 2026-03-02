@@ -63,3 +63,4 @@ src/*.csv
 # Keep specific results if needed, but usually logs are ignored
 benchmark_*.txt
 docs/Aula 03 - Método Científico.pdf
+old/*
