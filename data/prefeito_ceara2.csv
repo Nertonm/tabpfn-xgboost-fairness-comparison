@@ -1,4 +1,4 @@
-Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instrução;Município;Nome candidato;Número candidato;Ocupação;Partido;Situação totalização;Votos válidos;Votos nominais;Data de carga
+Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instrução;Município;Nome candidato;Número candidato;Ocupação;Partido;Região;Situação totalização;Votos válidos;Votos nominais;Data de carga
 13412;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;BATURITÉ;HERBERLH FREITAS REIS CAVALCANTE MOTA;22;Empresário;PL;NORDESTE;Eleito;20203;7419;2026-01-06 16:45:04
 15938;Parda;Solteiro(a);45 a 49 anos;Masculino;Ensino Fundamental incompleto;ICAPUÍ;ODIVAN PEDRO DA SILVA;18;Outros;REDE;NORDESTE;Não Eleito;13647;46;2026-01-06 16:45:04
 15857;Parda;Casado(a);40 a 44 anos;Masculino;Superior incompleto;MARACANAÚ;MARCOS JOSE GOMES DOS SANTOS;28;Servidor Público Municipal;PRTB;NORDESTE;Não Eleito;118899;137;2026-01-06 16:45:04
@@ -564,4 +564,5 @@ Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instruç
 13536;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;CAMPOS SALES;JOÃO LUIZ LIMA SANTOS;12;Enfermeiro;PDT;NORDESTE;Eleito;15167;8955;2026-01-06 16:45:04
 14613;Parda;Casado(a);70 a 74 anos;Masculino;Superior completo;MASSAPÊ;JOÃO PONTES MOTA;45;Engenheiro;PSDB;NORDESTE;Não Eleito;25109;6450;2026-01-06 16:45:04
 15377;Parda;Casado(a);35 a 39 anos;Masculino;Superior incompleto;RUSSAS;DAMIÃO GONÇALVES D'OLIVEIRA JÚNIOR;25;Locutor e Comentarista de Rádio e Televisão e Radialista;DEM;NORDESTE;Não Eleito;45599;2421;2026-01-06 16:45:04
+
 
