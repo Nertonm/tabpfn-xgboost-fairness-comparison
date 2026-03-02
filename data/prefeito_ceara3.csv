@@ -1,4 +1,4 @@
-Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instrução;Município;Nome candidato;Número candidato;Ocupação;Partido;Situação totalização;Votos válidos;Votos nominais;Data de carga
+Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instrução;Município;Nome candidato;Número candidato;Ocupação;Partido;Região;Situação totalização;Votos válidos;Votos nominais;Data de carga
 13897;Branca;Casado(a);35 a 39 anos;Masculino;Superior completo;FORTALEZA;WAGNER SOUSA GOMES;22;Militar Reformado;PR;NORDESTE;Segundo turno;1286510;400802;2026-01-19 14:01:28
 13510;Parda;Casado(a);50 a 54 anos;Masculino;Ensino Fundamental completo;CAMOCIM;PAULO ROGER VIEIRA DE ARAÚJO;10;Empresário;PRB;NORDESTE;Não Eleito;36581;1078;2026-01-19 14:01:28
 13498;Branca;Solteiro(a);40 a 44 anos;Masculino;Ensino Médio completo;BREJO SANTO;JORGE ADRIANO DE SOUSA;15;Eletricista e Assemelhados;PMDB;NORDESTE;Não Eleito;26268;6382;2026-01-19 14:01:28
@@ -501,4 +501,5 @@ Código município;Cor/raça;Estado civil;Faixa etária;Gênero;Grau de instruç
 13080;Parda;Casado(a);75 a 79 anos;Masculino;Superior completo;TURURU;RAIMUNDO SERPA BARROSO;15;Vereador;PMDB;NORDESTE;Não Eleito;11534;4998;2026-01-19 14:01:28
 15350;Parda;Casado(a);40 a 44 anos;Masculino;Superior completo;RERIUTABA;CLERTON ASSIS FURTADO;13;Empresário;PT;NORDESTE;Não Eleito;11406;2746;2026-01-19 14:01:28
 15113;Branca;Casado(a);65 a 69 anos;Masculino;Ensino Fundamental completo;PEDRA BRANCA;PEDRO VIEIRA FILHO;15;Pecuarista;PMDB;NORDESTE;Não Eleito;26608;9812;2026-01-19 14:01:28
+
 
