@@ -1,0 +1,18 @@
+{
+  "test": "combined_ftest_5x2cv",
+  "reference": "Alpaydin 1999 / Dietterich 1998",
+  "F_statistic": 1.177182919056727,
+  "p_value": 0.4546410300217973,
+  "p_valor": 0.4546410300217973,
+  "alpha": 0.05,
+  "significant": false,
+  "significativo": false,
+  "n_splits": 5,
+  "n_repeats": 2,
+  "random_seed": 42,
+  "scoring": "matthews_corrcoef",
+  "models": {
+    "model1": "XGBoost + IsotonicCalibration + ThresholdOptimizer",
+    "model2": "TabPFNClassifier + IsotonicCalibration + ThresholdOptimizer"
+  }
+}
