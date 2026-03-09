@@ -60,12 +60,12 @@
 }
 }
 
-\author{Luana Teles Alves\inst{1}, Luann Alves Pereira de Lima\inst{1}, Thiago Nerton Macedo Alves\inst{1}\\ e Vitória do Nascimento Pontes\inst{1}}
+\author{Luana Teles Alves\inst{1}, Luann Alves Pereira de Lima\inst{1}, Thiago Nerton Macedo Alves\inst{1},\\ Vitória do Nascimento Pontes\inst{1}}
 
 \address{Centro de Ciências e Tecnologia (CCT) -- Universidade Federal do Cariri (UFCA)\\
   Juazeiro do Norte -- CE -- Brasil
-  \email{thiago.nerton@aluno.ufca.edu.br, vitoria.pontes@aluno.ufca.edu.br}
   \email{luana.teles@aluno.ufca.edu.br, luann.alves@aluno.ufca.edu.br}
+  \email{thiago.nerton@aluno.ufca.edu.br, vitoria.pontes@aluno.ufca.edu.br}
 }
 
 
@@ -77,27 +77,26 @@
 \thispagestyle{plain}
 
 
-Sob validação cruzada ($K=10$, $N=2.178$) com atributos demográficos, ambos atingiram desempenho preditivo equivalente (MCC $\approx$ 0,28).
-Contudo, o XGBoost apresentou viés de gênero e raça significativo (DIR = 1,17 e 0,88, respectivamente), amplificando padrões históricos de auto-seleção.
-Em contrapartida, o TabPFN manteve paridade relativa em ambas as dimensões (DIR $\approx$ 1,01 e 0,91), evidenciando que diferenças arquiteturais entre foundation models e gradient boosting podem gerar disparidades de equidade relevantes mesmo sob acurácia preditiva equivalente.
-
 \begin{abstract}
-\textbf{Introduction}: Algorithmic bias in sociodemographic data often leads to unfair or inaccurate predictions, especially in highly imbalanced scenarios such as election poll worker absenteeism.
-\textbf{Objective}: This study aims to evaluate and mitigate algorithmic bias by comparing the performance of a modern Foundation Model (TabPFN) against a traditional Gradient Boosting baseline (XGBoost) in predicting absenteeism among poll workers in the 2024 Ceará Municipal Elections.
-\textbf{Methodology}: We utilized a real-world dataset from the Regional Electoral Court of Ceará (TRE-CE). The experimental setup involved sociodemographic feature engineering and a rigorous comparison using metrics robust to imbalance, such as Matthews Correlation Coefficient (MCC) and Area Under the Precision-Recall Curve (AUPRC). XGBoost was configured with class weighting, while TabPFN leveraged its in-context learning capabilities.
-\textbf{Results}: Preliminary results indicate that while XGBoost provides a strong baseline when properly tuned, TabPFN demonstrates superior generalization capabilities in few-shot scenarios without extensive hyperparameter optimization, offering a promising alternative for mitigating bias in public administration predictive tasks.
+  Under cross-validation ($K=10$, $N=2,178$) with demographic attributes, both
+  achieved equivalent predictive performance (MCC $\approx$ 0.28). However, XGBoost
+  exhibited significant gender and racial bias (DIR = 1.17 and 0.88, respectively),
+  amplifying historical patterns of self-selection. In contrast, TabPFN maintained
+  relative parity in both dimensions (DIR $\approx$ 1.01 and 0.91), evidencing that
+  architectural differences between foundation models and gradient boosting can produce
+  relevant fairness disparities even under equivalent predictive accuracy.
 \end{abstract}
-
-\keywords{Algorithmic Bias, TabPFN, XGBoost, Imbalanced Data, Election Administration.}
      
 \begin{resumo} 
-  \textbf{Introdução:} O viés algorítmico em dados sociodemográficos frequentemente leva a previsões imprecisas ou injustas, especialmente em cenários altamente desbalanceados como o absenteísmo de mesários eleitorais.
-  \textbf{Objetivo:} Este estudo visa avaliar e mitigar o viés algorítmico comparando o desempenho de um Foundation Model moderno (TabPFN) contra um baseline tradicional de Gradient Boosting (XGBoost) na previsão de absenteísmo de mesários nas Eleições Municipais do Ceará em 2024.
-  \textbf{Metodologia:} Utilizou-se uma base de dados real do Tribunal Regional Eleitoral do Ceará (TRE-CE). O experimento envolveu engenharia de atributos sociodemográficos e uma comparação rigorosa utilizando métricas robustas ao desbalanceamento, como o Coeficiente de Correlação de Matthews (MCC) e a Área Sob a Curva Precision-Recall (AUPRC). O XGBoost foi configurado com ponderação de classes, enquanto o TabPFN utilizou suas capacidades de aprendizado em contexto.
-  \textbf{Resultados:} Os resultados preliminares indicam que, embora o XGBoost forneça um baseline robusto quando devidamente ajustado, o TabPFN demonstra capacidades superiores de generalização em cenários com poucas amostras e sem otimização extensiva de hiperparâmetros, oferecendo uma alternativa promissora para mitigação de viés em tarefas preditivas da administração pública.
+  Sob validação cruzada ($K=10$, $N=2.178$) com atributos demográficos, ambos
+  atingiram desempenho preditivo equivalente (MCC $\approx$ 0,28). Contudo, o
+  XGBoost apresentou viés de gênero e raça significativo (DIR = 1,17 e 0,88,
+  respectivamente), amplificando padrões históricos de auto-seleção. Em
+  contrapartida, o TabPFN manteve paridade relativa em ambas as dimensões
+  (DIR $\approx$ 1,01 e 0,91), evidenciando que diferenças arquiteturais entre
+  foundation models e gradient boosting podem gerar disparidades de equidade
+  relevantes mesmo sob acurácia preditiva equivalente.
 \end{resumo}
-
-\palavraschave{Viés Algorítmico, TabPFN, XGBoost, Dados Desbalanceados, Administração Eleitoral.}
 
 \section{Introdução}
 
@@ -112,13 +111,13 @@ tomadas de decisões em diferentes domínios sociais, surge a preocupação urge
 amplificação de preconceitos contra um grupo de pessoas, baseados em características sensíveis
 como raça e gênero. Modelos baseados em árvores de decisão, frequentemente utilizados em
 dados tabulares, operam sob a lógica de otimização da acurácia global, o que pode resultar
-em padrões de classificação distintos para diferentes grupos populacionais \cite{grari:2020}. 
+em padrões de classificação distintos para diferentes grupos populacionais [1]. 
 
 Historicamente algoritmos que se baseiam no Gradient Boosting, como o XGBoost, viraram padrão
 na indústria quando se trata de dados tabulares devido a suas taxas de acurácia geralmente mais
 altas. Sua eficácia reside na construção iterativa de árvores de decisão, que, através da
 otimização de uma função de perda global, conseguem capturar relações não-lineares complexas
-com alta eficiência computacional \cite{ravichandran:2020}. No entanto, esse paradigma de "minimização de perda empírica"
+com alta eficiência computacional [3]. No entanto, esse paradigma de "minimização de perda empírica"
 impõe limitações estruturais: modelos dependentes exclusivamente de conjuntos de dados locais são
 suscetíveis à cristalização de vieses presentes no histórico de treinamento, além de exigirem uma
 otimização exaustiva de hiperparâmetros para alcançar estabilidade preditiva em “small data”.
@@ -126,18 +125,18 @@ otimização exaustiva de hiperparâmetros para alcançar estabilidade preditiva
 Nesse cenário, emerge o paradigma dos Foundation Models para dados tabulares, representados de forma
 proeminente pelo TabPFN (Prior-Data Fitted Network). Diferente dos métodos de boosting, o TabPFN é
 uma rede neural baseada na arquitetura Transformer que realiza inferência através de Aprendizado em
-Contexto (In-Context Learning) \cite{garg:2025,qu:2025}. Em vez de aprender os pesos durante um processo de treinamento
+Contexto (In-Context Learning) [4, 8]. Em vez de aprender os pesos durante um processo de treinamento
 interativo, o modelo utiliza um conhecimento prévio consolidado durante um vasto treinamento em datasets
 sintéticos e reais, permitindo que a predição em novos dados seja executada como uma consulta bayesiana
 sobre as distribuições previamente aprendidas [4, 9]. Embora a literatura internacional apresenta avanços
 significativos na mitigação desses vieses em aprendizado de máquina, sua aplicação prática na área eleitoral
 em específico é baixa ou quase nula. Estudos recentes têm comparado o desempenho de arquiteturas de fundação
-e métodos tradicionais em benchmarks sintéticos \cite{robertson:2024,garg:2025}, porém, carecem de validação em contextos reais de
+e métodos tradicionais em benchmarks sintéticos [2, 4], porém, carecem de validação em contextos reais de
 eleições municipais brasileiras. 
 
 Neste artigo, o objetivo central é realizar uma análise comparativa do desempenho preditivo e das métricas
 de equidade entre o TabPFN e o XGBoost, utilizando dados do Tribunal Superior
-Eleitoral \cite{basedosdados:2026}. A investigação baseia-se em uma abordagem de validação cruzada estratificada
+Eleitoral [5]. A investigação baseia-se em uma abordagem de validação cruzada estratificada
 (StratifiedKFold, $K=10$), buscando observar como essas arquiteturas se comportam frente ao desbalanceamento
 das classes e à presença de atributos sensíveis.  Com base nas propriedades arquiteturais contrastantes
 entre o TabPFN e o XGBoost, formulam-se as seguintes hipóteses de trabalho: H1 (Paridade de Performance):
@@ -163,7 +162,7 @@ considerações finais e perspectivas para trabalhos futuros.
 \subsection{Fonte de dados}
 
 Os dados utilizados neste estudo foram obtidos diretamente do repositório de dados
-abertos do Tribunal Superior Eleitoral (TSE) \cite{basedosdados:2026}, órgão responsável pela organização
+abertos do Tribunal Superior Eleitoral (TSE) [5], órgão responsável pela organização
 e fiscalização do processo eleitoral brasileiro. Para fins desta pesquisa, foi feito
 um recorte temporal compreende quatro ciclos eleitorais municipais, entre 2012 e 2024,
 e aplicou-se um filtro geográfico restrito ao estado do Ceará. Além disso, foram mantidas
@@ -192,7 +191,7 @@ Variáveis que introduzem data leakage foram excluídas do processo de modelagem
 os campos de votos válidos e votos nominais foram descartados, uma vez que constituem informações
 geradas pelo próprio processo eleitoral que se busca predizer. Afinal, sua inclusão como preditores
 produziria modelos trivialmente precisos, porém sem qualquer capacidade de generalização para
-cenários de predição pré-eleitoral \cite{kaufman:2012}.
+cenários de predição pré-eleitoral (INSERIR REFERENCIA PARA DATALEAKAGE).
 
 \subsection{Distribuições relevantes}
 
@@ -209,9 +208,43 @@ e 333 do sexo feminino (15%), distribuição que reflete a histórica sub-repres
 cargos executivos municipais brasileiros e que se mantém consistente com padrões identificados em
 estudos anteriores sobre o perfil das candidaturas no país [12]. Entre as candidatas do sexo feminino,
 a taxa de êxito eleitoral é proporcionalmente inferior à dos candidatos masculinos, o que pode levar
-os modelos a carregar esse preconceito em suas predições \cite{grari:2020}.
+os modelos a carregar esse preconceito em suas predições [11].
 
-\bibliographystyle{sbc}
-\bibliography{Referencias/referencias}
+\section{Referências Bibliográficas}
+
+[1] Grari, V., Ruf, B., Lamprier, S., Detyniecki, M. Achieving Fairness with
+Decision Trees: An Adversarial Approach. Data Sci. Eng. 5, 99–110, 2020.
+
+[2] ROBERTSON, J. et al. FairPFN: Transformers Can do Counterfactual Fairness.
+International Conference on Machine Learning (ICML), 2024.
+
+[3] RAVICHANDRAN, S. et al. FairXGBoost: Fairness-aware Classification in
+XGBoost. KDD Workshop on Machine Learning in Finance, 2020.
+
+[4] GARG, A. et al. Real-TabPFN: Improving Tabular Foundation Models via
+Continued Pre-training With Real-World Data. arXiv preprint, 2025.
+
+[5] BASE DOS DADOS. Eleições Brasileiras. Dados do Tribunal Superior Eleitoral
+(TSE) tratados. 2026.
+
+[6] CHICCO, D.; JURMAN, G. The Matthews correlation coefficient (MCC) should
+replace the ROC AUC as the standard metric for assessing binary classification.
+BioData Mining, 2023.
+
+[7] IMANI, M. et al. Why ROC-AUC Alone Is Insufficient for Highly Imbalanced
+Data. Preprints.org, 2025.
+
+[8] QU, J. et al. TabICL: A Tabular Foundation Model for In-Context Learning
+on Large Data. arXiv preprint, 2025.
+
+[9] WIKIPEDIA CONTRIBUTORS. TabPFN. Wikipedia, The Free Encyclopedia, 2025.
+(Documentação sobre a versão v2.5 e funcionamento interno).
+
+[10] referência data leakage
+
+[11] MIGUEL, Luis Felipe e BIROLI, Flávia. Práticas de gênero e carreiras
+políticas: vertentes explicativas. Rev. Estud. Fem. [online]. 2010, vol.18,
+n.03, pp.653-679. ISSN 1806-9584.
+
 
 \end{document}

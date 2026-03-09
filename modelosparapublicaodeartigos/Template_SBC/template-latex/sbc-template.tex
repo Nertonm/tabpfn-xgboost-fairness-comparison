@@ -4,28 +4,18 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-\usepackage[latin1]{inputenc}  
 
-     
 \sloppy
 
-\title{Instructions for Authors of SBC Conferences\\ Papers and Abstracts}
+\title{Mitigação de Viés Algorítmico em Cenários de Desbalanceamento Sociodemográfico: Uma Análise Comparativa entre Foundation Models (TabPFN) e Gradient Boosting (XGBoost) nas Eleições Municipais do Ceará\\ Papers and Abstracts}
 
-\author{Luciana P. Nedel\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
-  Wagner\inst{1}, Jomi F. Hübner\inst{3} }
+\author{Luana Teles Alves\inst{1}, Luann Alves Pereira de Lima\inst{1}, Thiago Nerton Macedo\\ 
+  Alves\inst{1}, Vitória do Nascimento Pontes\inst{1} }
 
-
-\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul
-  (UFRGS)\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
-\nextinstitute
-  Department of Computer Science -- University of Durham\\
-  Durham, U.K.
-\nextinstitute
-  Departamento de Sistemas e Computação\\
-  Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
-  \email{\{nedel,flavio\}@inf.ufrgs.br, R.Bordini@durham.ac.uk,
-  jomi@inf.furb.br}
+\address{Centro de Ciências e Tecnologia (CCT) -- Universidade Federal do Cariri (UFCA)\\
+  Juazeiro do Norte -- CE -- Brasil
+  \email{luana.teles@aluno.ufca.edu.br, luann.alves@aluno.ufca.edu.br,\\
+  thiago.nerton@aluno.ufca.edu.br, vitoria.pontes@aluno.ufca.edu.br}
 }
 
 \begin{document} 
@@ -41,113 +31,130 @@
 \end{abstract}
      
 \begin{resumo} 
-  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
-  resumos de artigos para publicação nos anais das conferências organizadas
-  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
-  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
-  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
-  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
-  página do artigo.
+  Sob validação cruzada ($K=10$, $N=2.178$) com atributos demográficos, ambos
+  atingiram desempenho preditivo equivalente (MCC $\approx$ 0,28). Contudo, o
+  XGBoost apresentou viés de gênero e raça significativo (DIR = 1,17 e 0,88,
+  respectivamente), amplificando padrões históricos de auto-seleção. Em
+  contrapartida, o TabPFN manteve paridade relativa em ambas as dimensões
+  (DIR $\approx$ 1,01 e 0,91), evidenciando que diferenças arquiteturais entre
+  foundation models e gradient boosting podem gerar disparidades de equidade
+  relevantes mesmo sob acurácia preditiva equivalente.
 \end{resumo}
 
 
-\section{General Information}
+\section{Introdução}
 
-All full papers and posters (short papers) submitted to some SBC conference,
-including any supporting documents, should be written in English or in
-Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
-margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
-headers or footers. The main font must be Times, 12 point nominal size, with 6
-points of space before each paragraph. Page numbers must be suppressed.
+A predição de resultados eleitorais em eleições majoritárias no Ceará enfrenta desafios
+metodológicos complexos dada a natureza desequilibrada dos dados – muitos candidatos para
+poucas vagas – e a influência de barreiras históricas sociodemográficas. O cargo de
+prefeito, em particular, exige uma análise que vá além da simples performance estatística,
+visando na equidade e integridade dos modelos de decisão.
 
-Full papers must respect the page limits defined by the conference.
-Conferences that publish just abstracts ask for \textbf{one}-page texts.
+Com o  uso dos algoritmos de aprendizado de máquina cada vez mais presente nos processos de 
+tomadas de decisões em diferentes domínios sociais, surge a preocupação urgente em relação a
+amplificação de preconceitos contra um grupo de pessoas, baseados em características sensíveis
+como raça e gênero. Modelos baseados em árvores de decisão, frequentemente utilizados em
+dados tabulares, operam sob a lógica de otimização da acurácia global, o que pode resultar
+em padrões de classificação distintos para diferentes grupos populacionais \cite{grari:2020}. 
 
-\section{First Page} \label{sec:firstpage}
+Historicamente algoritmos que se baseiam no Gradient Boosting, como o XGBoost, viraram padrão
+na indústria quando se trata de dados tabulares devido a suas taxas de acurácia geralmente mais
+altas. Sua eficácia reside na construção iterativa de árvores de decisão, que, através da
+otimização de uma função de perda global, conseguem capturar relações não-lineares complexas
+com alta eficiência computacional \cite{ravichandran:2020}. No entanto, esse paradigma de "minimização de perda empírica"
+impõe limitações estruturais: modelos dependentes exclusivamente de conjuntos de dados locais são
+suscetíveis à cristalização de vieses presentes no histórico de treinamento, além de exigirem uma
+otimização exaustiva de hiperparâmetros para alcançar estabilidade preditiva em “small data”.
 
-The first page must display the paper title, the name and address of the
-authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
-required only for papers written in Portuguese). The title must be centered
-over the whole page, in 16 point boldface font and with 12 points of space
-before itself. Author names must be centered in 12 point font, bold, all of
-them disposed in the same line, separated by commas and with 12 points of
-space after the title. Addresses must be centered in 12 point font, also with
-12 points of space after the authors' names. E-mail addresses should be
-written using font Courier New, 10 point nominal size, with 6 points of space
-before and 6 points of space after.
+Nesse cenário, emerge o paradigma dos Foundation Models para dados tabulares, representados de forma
+proeminente pelo TabPFN (Prior-Data Fitted Network). Diferente dos métodos de boosting, o TabPFN é
+uma rede neural baseada na arquitetura Transformer que realiza inferência através de Aprendizado em
+Contexto (In-Context Learning) \cite{garg:2025,qu:2025}. Em vez de aprender os pesos durante um processo de treinamento
+interativo, o modelo utiliza um conhecimento prévio consolidado durante um vasto treinamento em datasets
+sintéticos e reais, permitindo que a predição em novos dados seja executada como uma consulta bayesiana
+sobre as distribuições previamente aprendidas [4, 9]. Embora a literatura internacional apresenta avanços
+significativos na mitigação desses vieses em aprendizado de máquina, sua aplicação prática na área eleitoral
+em específico é baixa ou quase nula. Estudos recentes têm comparado o desempenho de arquiteturas de fundação
+e métodos tradicionais em benchmarks sintéticos \cite{robertson:2024,garg:2025}, porém, carecem de validação em contextos reais de
+eleições municipais brasileiras. 
 
-The abstract and ``resumo'' (if is the case) must be in 12 point Times font,
-indented 0.8cm on both sides. The word \textbf{Abstract} and \textbf{Resumo},
-should be written in boldface and must precede the text.
+Neste artigo, o objetivo central é realizar uma análise comparativa do desempenho preditivo e das métricas
+de equidade entre o TabPFN e o XGBoost, utilizando dados do Tribunal Superior
+Eleitoral \cite{basedosdados:2026}. A investigação baseia-se em uma abordagem de validação cruzada estratificada
+(StratifiedKFold, $K=10$), buscando observar como essas arquiteturas se comportam frente ao desbalanceamento
+das classes e à presença de atributos sensíveis.  Com base nas propriedades arquiteturais contrastantes
+entre o TabPFN e o XGBoost, formulam-se as seguintes hipóteses de trabalho: H1 (Paridade de Performance):
+Ambas as arquiteturas apresentam desempenho preditivo estatisticamente equivalente em cenários de small
+data eleitoral, conforme mensurado pelo Coeficiente de Correlação de Matthews (MCC). H2 (Divergência de
+Equidade de Gênero): O XGBoost apresenta viés de gênero mensurável ($DIR \neq 1$), enquanto o TabPFN,
+devido ao seu paradigma de inferência bayesiana amortizada, não evidencia disparidade estatisticamente
+significativa nesta dimensão. H3 (Divergência de Equidade Racial): O XGBoost amplifica desigualdades
+raciais latentes nos dados históricos, enquanto o TabPFN atenua tais disparidades, mantendo os indicadores
+de equidade próximos à neutralidade ($DIR \approx 1$). Os resultados obtidos indicam que, embora ambas as
+arquiteturas alcancem desempenho preditivo estatisticamente equivalente, o XGBoost apresenta viés de
+gênero e raça confirmados por indicadores de Impacto Disparado (DIR). Em contraste, o TabPFN não evidencia
+disparidades significativas, sugerindo que as diferenças arquiteturais entre modelos de fundação e métodos
+de Gradient Boosting podem produzir impactos distintos na equidade algorítmica, mesmo sob acurácia preditiva
+equiparável O restante deste artigo está estruturado da seguinte forma: a Seção 3 detalha o protocolo
+experimental, incluindo a descrição dos dados do TSE e o desenho do split temporal. A Seção 4 apresenta
+os resultados quantitativos, com foco nas métricas de performance e justiça algorítmica. Por fim, a Seção
+5  discute as implicações desses achados para a integridade do processo eleitoral, apresentando as
+considerações finais e perspectivas para trabalhos futuros.
 
-\section{CD-ROMs and Printed Proceedings}
+\section{Metodologia} \label{sec:metodologia}
 
-In some conferences, the papers are published on CD-ROM while only the
-abstract is published in the printed Proceedings. In this case, authors are
-invited to prepare two final versions of the paper. One, complete, to be
-published on the CD and the other, containing only the first page, with
-abstract and ``resumo'' (for papers in Portuguese).
+\subsection{Fonte de dados}
 
-\section{Sections and Paragraphs}
+Os dados utilizados neste estudo foram obtidos diretamente do repositório de dados
+abertos do Tribunal Superior Eleitoral (TSE) \cite{basedosdados:2026}, órgão responsável pela organização
+e fiscalização do processo eleitoral brasileiro. Para fins desta pesquisa, foi feito
+um recorte temporal compreende quatro ciclos eleitorais municipais, entre 2012 e 2024,
+e aplicou-se um filtro geográfico restrito ao estado do Ceará. Além disso, foram mantidas
+apenas as candidaturas ao cargo de prefeito municipal, o que delimita um contexto de small
+data, no qual o modelo TabPFN costuma se destacar em relação ao XGBoost.
 
-Section titles must be in boldface, 13pt, flush left. There should be an extra
-12 pt of space before each title. Section numbering is optional. The first
-paragraph of each section should not be indented, while the first lines of
-subsequent paragraphs should be indented by 1.27 cm.
+\subsection{Unidade de Análise}
+A unidade de análise adotada é o indivíduo candidato, de modo que cada instância do conjunto
+de dados corresponde a um registro único de candidatura. O conjunto de dados totaliza 2.216
+instâncias, distribuídas ao longo dos quatro pleitos analisados. Para cada candidato, o
+conjunto de dados contém informações referentes ao município de disputa, características
+sociodemográficas (cor/raça autodeclarada, estado civil, faixa etária, gênero e grau de
+instrução), dados político-partidários (partido de filiação e número de candidatura),
+ocupação declarada, situação final na totalização dos votos, quantitativo de votos válidos,
+votos nominais recebidos e data de carga do registro no sistema do TSE.
 
-\subsection{Subsections}
+\subsection{Variáveis}
 
-The subsection titles must be in boldface, 12pt, flush left.
+As variáveis foram organizadas em dois grupos funcionais. O primeiro reúne as características
+sociodemográficas e político-institucionais do candidato que serão utilizadas como preditores:
+gênero, raça/cor autodeclarada, faixa etária, estado civil, grau de instrução, ocupação declarada,
+partido político de filiação, número do candidato e município. O segundo grupo diz respeito à
+variável dependente, a situação da totalização indicando se aquele indivíduo foi eleito ou não.
 
-\section{Figures and Captions}\label{sec:figs}
+Variáveis que introduzem data leakage foram excluídas do processo de modelagem. Em particular,
+os campos de votos válidos e votos nominais foram descartados, uma vez que constituem informações
+geradas pelo próprio processo eleitoral que se busca predizer. Afinal, sua inclusão como preditores
+produziria modelos trivialmente precisos, porém sem qualquer capacidade de generalização para
+cenários de predição pré-eleitoral \cite{kaufman:2012}.
 
+\subsection{Distribuições relevantes}
 
-Figure and table captions should be centered if less than one line
-(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
-both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
-be Helvetica, 10 point, boldface, with 6 points of space before and after each
-caption.
+O conjunto de dados apresenta desbalanceamento de classes expressivo na variável-alvo: dos 2.216
+registros, 1.411 correspondem a candidatos não eleitos (63,7%) e 767 a candidatos eleitos (34,6%)
+— o restante corresponde aos candidatos em segundo turno que são removidos durante a etapa de
+pré-processamento. Nesse sentido, a disparidade da variável é esperada, tendo em vista a própria
+estrutura competitiva das eleições municipais, nas quais cada disputa comporta apenas um vencedor
+por município. Esse desequilíbrio foi considerado nas etapas de treinamento e avaliação dos modelos,
+conforme descrito nas subseções subsequentes.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.5\textwidth]{fig1.jpg}
-\caption{A typical figure}
-\label{fig:exampleFig1}
-\end{figure}
+No que tange à composição de gênero, observa-se que 1.883 candidatos são do sexo masculino (85%)
+e 333 do sexo feminino (15%), distribuição que reflete a histórica sub-representação feminina nos
+cargos executivos municipais brasileiros e que se mantém consistente com padrões identificados em
+estudos anteriores sobre o perfil das candidaturas no país [12]. Entre as candidatas do sexo feminino,
+a taxa de êxito eleitoral é proporcionalmente inferior à dos candidatos masculinos, o que pode levar
+os modelos a carregar esse preconceito em suas predições \cite{grari:2020}.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.3\textwidth]{fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-\label{fig:exampleFig2}
-\end{figure}
-
-In tables, try to avoid the use of colored or shaded backgrounds, and avoid
-thick, doubled, or unnecessary framing lines. When reporting empirical data,
-do not use more decimal digits than warranted by their precision and
-reproducibility. Table caption must be placed before the table (see Table 1)
-and the font used must also be Helvetica, 10 point, boldface, with 6 points of
-space before and after each caption.
-
-\begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\includegraphics[width=.7\textwidth]{table.jpg}
-\end{table}
-
-\section{Images}
-
-All images and illustrations should be in black-and-white, or gray tones,
-excepting for the papers that will be electronically available (on CD-ROMs,
-internet, etc.). The image resolution on paper should be about 600 dpi for
-black-and-white images, and 150-300 dpi for grayscale images.  Do not include
-images with excessive resolution, as they may take hours to print, without any
-visible difference in the result. 
-
-\section{References}
+\section{Referências Bibliográficas}
 
 Bibliographic references must be unambiguous and uniform.  We recommend giving
 the author names references in brackets, e.g. \cite{knuth:84},
