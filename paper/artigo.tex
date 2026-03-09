@@ -159,7 +159,9 @@ considerações finais e perspectivas para trabalhos futuros.
 
 \section{Metodologia} \label{sec:metodologia}
 
-\subsection{Fonte de dados}
+\subsection{Dados}
+
+\subsubsection{Fonte de dados}
 
 Os dados utilizados neste estudo foram obtidos diretamente do repositório de dados
 abertos do Tribunal Superior Eleitoral (TSE) [5], órgão responsável pela organização
@@ -169,7 +171,7 @@ e aplicou-se um filtro geográfico restrito ao estado do Ceará. Além disso, fo
 apenas as candidaturas ao cargo de prefeito municipal, o que delimita um contexto de small
 data, no qual o modelo TabPFN costuma se destacar em relação ao XGBoost.
 
-\subsection{Unidade de Análise}
+\subsubsection{Unidade de Análise}
 A unidade de análise adotada é o indivíduo candidato, de modo que cada instância do conjunto
 de dados corresponde a um registro único de candidatura. O conjunto de dados totaliza 2.216
 instâncias, distribuídas ao longo dos quatro pleitos analisados. Para cada candidato, o
@@ -179,7 +181,7 @@ instrução), dados político-partidários (partido de filiação e número de c
 ocupação declarada, situação final na totalização dos votos, quantitativo de votos válidos,
 votos nominais recebidos e data de carga do registro no sistema do TSE.
 
-\subsection{Variáveis}
+\subsubsection{Variáveis}
 
 As variáveis foram organizadas em dois grupos funcionais. O primeiro reúne as características
 sociodemográficas e político-institucionais do candidato que serão utilizadas como preditores:
@@ -193,7 +195,7 @@ geradas pelo próprio processo eleitoral que se busca predizer. Afinal, sua incl
 produziria modelos trivialmente precisos, porém sem qualquer capacidade de generalização para
 cenários de predição pré-eleitoral (INSERIR REFERENCIA PARA DATALEAKAGE).
 
-\subsection{Distribuições relevantes}
+\subsubsection{Distribuições relevantes}
 
 O conjunto de dados apresenta desbalanceamento de classes expressivo na variável-alvo: dos 2.216
 registros, 1.411 correspondem a candidatos não eleitos (63,7%) e 767 a candidatos eleitos (34,6%)
@@ -209,6 +211,119 @@ cargos executivos municipais brasileiros e que se mantém consistente com padrõ
 estudos anteriores sobre o perfil das candidaturas no país [12]. Entre as candidatas do sexo feminino,
 a taxa de êxito eleitoral é proporcionalmente inferior à dos candidatos masculinos, o que pode levar
 os modelos a carregar esse preconceito em suas predições [11].
+
+\subsection{Pré-processamento}
+
+\subsubsection{Limpeza e filtros}
+
+Antes da modelagem, o conjunto de dados passou por uma etapa de limpeza orientada tanto pela
+consistência lógica dos registros quanto pela prevenção de vazamento de informação. Registros
+cuja situação de totalização constava como "Segundo Turno" foram removidos, pois candidatos nessa
+condição aparecem duplicados na base, uma entrada referente ao primeiro turno e outra com o
+resultado definitivo, o que introduziria redundância e potencial viés na estimação dos modelos.
+
+Colunas de identificação direta, como o nome do candidato e a data de carga do registro, foram
+descartadas por não carregarem valor preditivo e por representarem risco de memorização espúria.
+O campo de município foi removido, mantendo apenas o seu respectivo código numérico, para melhor
+compatibilidade com os modelos.
+
+A variável de resposta foi recodificada a partir do campo de situação de totalização: candidatos
+com o resultado "Eleito" receberam o valor 1, e os demais o valor 0, produzindo uma variável
+binária diretamente interpretável pelos classificadores. Por fim, todas as variáveis categóricas
+remanescentes — gênero, raça/cor, estado civil, faixa etária, grau de instrução, ocupação e partido
+— foram convertidas para representações numéricas inteiras por meio de mapeamento ordinal, pelas
+mesmas razões.
+
+\subsubsection{Variável cor/raça}
+
+*DEVE SER REVISADO*
+
+O TSE não coletava autodeclaração racial em 2012. Os 649 candidatos daquele pleito (29,8% do
+*dataset*) receberam o valor `#NE#` no campo `Cor/raça`, que foi mapeado para o grupo não-branco
+na auditoria de *fairness*. Por isso, as métricas raciais comparam candidatos de raça branca
+declarada com candidatos de raça não-branca ou com raça não registrada, não apenas com raça
+não-branca.
+
+Para estimar o efeito dessa ambiguidade, o experimento foi repetido excluindo 2012 (N = 1.529).
+O DIR racial do XGBoost passou de 0,880 para 0,939 (ΔDIR = 0,059), acima do limiar de 0,05 usado
+como critério de relevância substantiva. O TabPFN variou menos (DIR: 0,910 para 0,921; ΔDIR = 0,011).
+A diferença indica que parte do desvio racial do XGBoost é associada à mistura temporal com os dados
+de 2012, não unicamente ao atributo racial. O DIR < 1 do XGBoost deve ser lido como limite inferior
+da disparidade real, e não como sua estimativa pontual.
+
+\subsubsection{Codificação de variáveis}
+
+*DEVE SER PREENCHIDO*
+
+- Como cada variável categórica é representada nos modelos.  
+- Diferença entre encoding para XGBoost e para TabPFN.
+
+\subsubsection{Tratamento de desbalanceamento}
+
+*DEVE SER REVISADO*
+
+Dado o desbalanceamento entre classes descrito na Seção 3.1.4, foram adotadas estratégias distintas
+para cada modelo, em função de suas características internas. No XGBoost, o parâmetro scale_pos_weight
+foi ajustado pela razão entre o número de instâncias negativas e positivas, compensando diretamente
+o desequilíbrio durante o treinamento. No TabPFN, o desbalanceamento é tratado implicitamente pelo
+próprio mecanismo de inferência bayesiana do modelo, sem necessidade de ponderação explícita.
+
+A calibração das probabilidades seguiu abordagens diferenciadas para cada classificador. Para o XGBoost,
+a calibração foi realizada por regressão isotônica aplicada sobre previsões out-of-fold em validação
+cruzada com cinco partições. Essa escolha se justifica pelo fato de que o XGBoost treinado com
+scale_pos_weight tende a produzir escores polarizados, concentrados próximos aos extremos 0 e 1,
+quando avaliado sobre o próprio conjunto de treino; calibração in-sample nesse cenário colapsa o
+limiar ótimo τ* para a borda do grid de busca, comprometendo a utilidade das probabilidades estimadas.
+Para o TabPFN, esse comportamento não se manifesta, de modo que a calibração foi conduzida in-sample
+sem prejuízo à qualidade dos escores.
+
+\subsection{Desenho experimental}
+
+*TODA ESSA SUBSEÇÃO DEVE SER PREENCHIDA*
+
+\subsubsection{Esquema de treino/teste}
+- Split temporal entre eleições (treino em anos passados, teste no mais recente).  
+- Detalhes: tamanhos de treino/teste e motivação temporal.
+
+\subsubsection{Validação cruzada}  
+- Se usar K-fold, como é aplicado (dentro do treino, estratificado etc.).  
+- Número de folds, repetição ou não.
+
+A proposta previa *Stratified 5-Fold Cross-Validation*. A implementação usou K = 10 (parâmetro
+`NUMERO_DE_FOLDS` em `src/config.py`). Com K maior, cada fold de teste tem menos instâncias e a
+variância da estimativa de MCC cai em torno de √2, o que favorece a comparação entre modelos.
+O protocolo de 10 folds é padrão em benchmarks com conjuntos de dados na faixa de N ≈ 2.000 e
+não invalida os testes estatísticos aplicados.
+
+\subsubsection{Modelos avaliados}
+- XGBoost baseline: hiperparâmetros, justificativa.  
+- TabPFN: versão usada, forma de chamada, configuração.  
+- XGBoost Blind: quais atributos sensíveis foram removidos (gênero e raça).
+
+\subsubsection{Procedimento experimental}
+- Passo a passo: para cada split, treinar três modelos, gerar predições, calcular métricas
+de desempenho e fairness, salvar resultados.
+
+\subsection{Métricas de avaliação}
+
+*TODA ESSA SEÇÃO DEVE SER PREENCHIDA*
+
+\subsubsection{Métricas de desempenho}  
+- MCC (por que é adequado para desbalanceamento).  
+- Outras (ex.: F1-macro, AUPRC se usar, accuracy para referência).
+
+\subsubsection{Métricas de fairness}
+- DIR (Disparate Impact Ratio): definição, valor ideal, threshold de 0,8.  
+- EOD (Equal Opportunity Difference): definição, valor ideal.  
+- Possível uso de FNR por grupo e predição positiva por grupo.
+
+\subsubsection{Comparações estatísticas}  
+- Teste de Wilcoxon sobre MCC entre modelos.  
+- Tamanho de efeito que será reportado.
+
+\section{Resultados}
+
+\section{Conclusão}
 
 \section{Referências Bibliográficas}
 
