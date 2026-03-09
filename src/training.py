@@ -58,8 +58,10 @@ def _inicializar_caderno_de_resultados() -> CadernoDeResultados:
         },
         # Atributos sociodemograficos do subconjunto de avaliacao preservados
         # para calculo das metricas de fairness (DIR, EOD) apos o loop de folds.
+        # 'eleicao' preservado para analise de sensibilidade racial (2012 sem raca).
         "genero_no_conjunto_avaliacao": [],
         "raca_no_conjunto_avaliacao"  : [],
+        "eleicao_no_conjunto_avaliacao": [],
     }
 
 
@@ -304,9 +306,11 @@ def executar_validacao_cruzada_estratificada(
 
         # Atributos sociodemograficos preservados em forma textual original
         # para calculo de fairness apos o loop (DIR, EOD, FNR_DIFF).
+        # 'eleicao' preservado para analise de sensibilidade racial (2012 sem raça).
         df_test_orig = df.iloc[idx_test]
         caderno["genero_no_conjunto_avaliacao"].extend(df_test_orig["Gênero"])
         caderno["raca_no_conjunto_avaliacao"].extend(df_test_orig["Cor/raça"])
+        caderno["eleicao_no_conjunto_avaliacao"].extend(df_test_orig["eleicao"])
 
         # MCC por fold armazenado diretamente (evita reconstrucao por fatiamento).
         mcc_xgb = matthews_corrcoef(y_test, y_pred_xgb)

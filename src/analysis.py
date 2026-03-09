@@ -188,4 +188,60 @@ def executar_bateria_estatistica_e_fairness(livro_registros: dict) -> dict:
 
     print("[Nota] Se DDIR ou DEOD > 0.02, reportar ambos os valores no artigo.")
 
+    # =========================================================================
+    # Sensibilidade racial: impacto da ausencia de raca em 2012
+    # =========================================================================
+    # Em 2012, o TSE nao coletava autodeclaracao racial — todos os 649 candidatos
+    # receberam o token '#NE#' (mapeado para 'Nao Informado' e incluido no grupo
+    # nao-branco). Para quantificar o impacto dessa limitacao estrutural sobre
+    # as metricas de fairness racial, recalcula-se DIR e EOD excluindo 2012.
+    # Regra: |DIR_sem2012 - DIR_completo| > 0.05 → limitacao substantiva (secao).
+    #        |DIR_sem2012 - DIR_completo| <= 0.05 → nota de rodape.
+    print("\n" + "=" * 60)
+    print("Sensibilidade racial: exclusao de 2012 (raca nao coletada)")
+    print("=" * 60)
+
+    eleicao_oof = np.array(livro_registros["eleicao_no_conjunto_avaliacao"])
+    mask_sem2012 = eleicao_oof != 2012
+    n_total = len(eleicao_oof)
+    n_sem2012 = mask_sem2012.sum()
+    n_2012 = n_total - n_sem2012
+
+    print(f"  Dataset completo: N={n_total} | Excluindo 2012: N={n_sem2012} ({n_2012} removidos)")
+
+    from fairness import _calcular_dir, _calcular_eod
+
+    LIMIAR_2012 = 0.05  # threshold de relevancia substantiva
+
+    for algorit_nome in ["xgboost", "tabpfn"]:
+        pred_all = np.array(livro_registros[algorit_nome]["predicoes_duras"])
+        pred_sem = pred_all[mask_sem2012]
+        y_sem    = y_true[mask_sem2012]
+        branca_sem = is_branca[mask_sem2012]
+
+        dir_completo = livro_registros["fairness_raca"][algorit_nome]["DIR"]
+        eod_completo = livro_registros["fairness_raca"][algorit_nome]["EOD"]
+        dir_sem = _calcular_dir(pred_sem, branca_sem, 1, 0)
+        eod_sem = _calcular_eod(y_sem, pred_sem, branca_sem, 1, 0)
+
+        delta_dir = abs(dir_sem - dir_completo)
+        delta_eod = abs(eod_sem - eod_completo)
+        substantiva = delta_dir > LIMIAR_2012
+
+        print(f"  {algorit_nome.upper()}")
+        print(f"    DIR racial completo={dir_completo:.3f}  sem-2012={dir_sem:.3f}  Delta={delta_dir:.3f}")
+        print(f"    EOD racial completo={eod_completo:.3f}  sem-2012={eod_sem:.3f}  Delta={delta_eod:.3f}")
+        if substantiva:
+            print(f"    [ATENCAO] Delta DIR > 0.05: limitacao racial de 2012 e SUBSTANTIVA")
+            print(f"    Acao: incluir secao de limitacoes no artigo sobre fairness under unawareness")
+        else:
+            print(f"    [OK] Delta DIR <= 0.05: impacto de 2012 e marginal (nota de rodape)")
+
+        # Salva no livro para uso em visualizacao/checklist
+        livro_registros["fairness_raca"][algorit_nome]["DIR_sem2012"] = float(dir_sem)
+        livro_registros["fairness_raca"][algorit_nome]["EOD_sem2012"] = float(eod_sem)
+        livro_registros["fairness_raca"][algorit_nome]["delta_DIR_2012"] = float(delta_dir)
+        livro_registros["fairness_raca"][algorit_nome]["delta_EOD_2012"] = float(delta_eod)
+        livro_registros["fairness_raca"][algorit_nome]["limitacao_raca_substantiva"] = substantiva
+
     return livro_registros
