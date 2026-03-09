@@ -64,3 +64,11 @@ src/*.csv
 benchmark_*.txt
 docs/Aula 03 - Método Científico.pdf
 old/*
+paper.ipynb
+paper.ipynb
+.gitignore
+docs/auditoria_cruzada.md
+docs/evidencias_raw.md
+docs/limitacoes_fontes.md
+.gitignore
+docs/limitacoes_rascunho.md
