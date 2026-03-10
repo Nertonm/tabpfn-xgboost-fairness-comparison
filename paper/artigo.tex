@@ -270,7 +270,7 @@ estudos anteriores sobre o perfil das candidaturas no país~\cite{miguel:2010}. 
 
 Antes da modelagem, o conjunto de dados passou por uma etapa de limpeza orientada tanto pela
 consistência lógica dos registros quanto pela prevenção de vazamento de informação. Registros
-cuja situação de totalização constava como "Segundo Turno" foram removidos, pois candidatos nessa
+cuja situação de totalização constava como ``Segundo Turno'' foram removidos, pois candidatos nessa
 condição aparecem duplicados na base, uma entrada referente ao primeiro turno e outra com o
 resultado definitivo, o que introduziria redundância e potencial viés na estimação dos modelos.
 
@@ -280,7 +280,7 @@ O campo de município foi removido, mantendo apenas o seu respectivo código num
 compatibilidade com os modelos.
 
 A variável de resposta foi recodificada a partir do campo de situação de totalização: candidatos
-com o resultado "Eleito" receberam o valor 1, e os demais o valor 0, produzindo uma variável
+com o resultado ``Eleito'' receberam o valor 1, e os demais o valor 0, produzindo uma variável
 binária diretamente interpretável pelos classificadores. Por fim, todas as variáveis categóricas
 remanescentes, a saber, gênero, raça/cor, estado civil, faixa etária, grau de instrução, ocupação e partido,
 foram convertidas para representações numéricas inteiras por meio de mapeamento ordinal, pelas
@@ -288,7 +288,7 @@ mesmas razões.
 
 \subsubsection{Variável cor/raça}
 
-O TSE não coletava autodeclaração racial de forma sistematizada em 2012. Os 649 candidatos daquele pleito (29,8\% do \textit{dataset}) receberam o valor \texttt{\#NE\#} no campo \texttt{Cor/raça}, que foi normalizado para ``Não Informado'' durante o pré-processamento. Na análise de \textit{fairness}, esses candidatos foram agrupados com os não-brancos, de modo que as métricas raciais comparam candidatos de raça branca declarada ($n=792$) com candidatos de raça não-branca ou não registrada ($n=1.386$).
+O TSE não coletava autodeclaração racial de forma sistematizada em 2012. Os 649 candidatos daquele pleito (29,8\% do \textit{dataset}) receberam o valor \texttt{\#NE\#} no campo \textit{Cor/raça}, que foi normalizado para ``Não Informado'' durante o pré-processamento. Na análise de \textit{fairness}, esses candidatos foram agrupados com os não-brancos, de modo que as métricas raciais comparam candidatos de raça branca declarada ($n=792$) com candidatos de raça não-branca ou não registrada ($n=1.386$).
 
 Para quantificar o impacto dessa limitação estrutural, o experimento foi replicado excluindo o ciclo de 2012 ($N = 1.529$). O DIR racial do XGBoost passou de 0,875 para 0,938 ($\Delta$DIR = 0,063), acima do limiar de 0,05 adotado como critério de relevância substantiva. O TabPFN apresentou variação marginal (DIR: 0,910 para 0,921; $\Delta$DIR = 0,011). A diferença indica que parte da disparidade racial detectada no XGBoost é confundida pelo componente temporal 2012--2024 e pela não-observabilidade racial daquele ciclo. As métricas de \textit{fairness} racial devem ser interpretadas como limite inferior plausível da disparidade real.
 
@@ -300,15 +300,15 @@ Essa estratégia de codificação é compatível com ambos os modelos avaliados.
 
 \subsubsection{Tratamento de desbalanceamento}
 
-Dado o desbalanceamento entre classes descrito na Seção~\ref{sec:metodologia} (64,8\% não eleitos vs. 35,2\% eleitos), foram adotadas estratégias distintas para cada modelo. No XGBoost, o parâmetro \texttt{scale\_pos\_weight} foi ajustado pela razão $N_{\text{negativos}} / N_{\text{positivos}}$ calculada sobre o conjunto de treinamento de cada \textit{fold}, compensando diretamente o desequilíbrio durante a otimização da função de perda. No TabPFN, o desbalanceamento é tratado implicitamente pelo mecanismo de inferência bayesiana do modelo, que incorpora a distribuição de classes observada no contexto de treinamento sem necessidade de ponderação explícita.
+Dado o desbalanceamento entre classes descrito na Seção~\ref{sec:metodologia} (64,8\% não eleitos vs. 35,2\% eleitos), foram adotadas estratégias distintas para cada modelo. No XGBoost, o parâmetro \textit{scale\_pos\_weight} foi ajustado pela razão $N_{\text{negativos}} / N_{\text{positivos}}$ calculada sobre o conjunto de treinamento de cada \textit{fold}, compensando diretamente o desequilíbrio durante a otimização da função de perda. No TabPFN, o desbalanceamento é tratado implicitamente pelo mecanismo de inferência bayesiana do modelo, que incorpora a distribuição de classes observada no contexto de treinamento sem necessidade de ponderação explícita.
 
-A calibração das probabilidades seguiu abordagens diferenciadas para cada classificador. Para o XGBoost, a calibração foi realizada por regressão isotônica aplicada sobre previsões \textit{out-of-fold} (OOF) em validação cruzada interna com cinco partições. Essa escolha se justifica pelo fato de que o XGBoost treinado com \texttt{scale\_pos\_weight} produz escores comprimidos em torno da média quando avaliado sobre o próprio conjunto de treino; calibração \textit{in-sample} nesse cenário colapsaria o limiar ótimo $\tau^*$ para a borda do \textit{grid} de busca, comprometendo a utilidade das probabilidades estimadas. Para o TabPFN, esse comportamento não se manifesta — os escores apresentam distribuição mais dispersa —, de modo que a calibração foi conduzida \textit{in-sample} sem prejuízo à qualidade das probabilidades.
+A calibração das probabilidades seguiu abordagens diferenciadas para cada classificador. Para o XGBoost, a calibração foi realizada por regressão isotônica aplicada sobre previsões \textit{out-of-fold} (OOF) em validação cruzada interna com cinco partições. Essa escolha se justifica pelo fato de que o XGBoost treinado com \textit{scale\_pos\_weight} produz escores comprimidos em torno da média quando avaliado sobre o próprio conjunto de treino; calibração \textit{in-sample} nesse cenário colapsaria o limiar ótimo $\tau^*$ para a borda do \textit{grid} de busca, comprometendo a utilidade das probabilidades estimadas. Para o TabPFN, esse comportamento não se manifesta — os escores apresentam distribuição mais dispersa —, de modo que a calibração foi conduzida \textit{in-sample} sem prejuízo à qualidade das probabilidades.
 
 \subsection{Desenho experimental}
 
 \subsubsection{Esquema de validação}
 
-A avaliação dos modelos foi conduzida por validação cruzada estratificada com $K=10$ partições (\textit{Stratified K-Fold}), utilizando semente aleatória fixa (\texttt{random\_state=42}) para garantir reprodutibilidade. A estratificação foi realizada sobre um estrato composto formado pela combinação de três atributos: gênero (masculino/feminino), raça binarizada (branca/não-branca) e classe-alvo (eleito/não eleito), totalizando 8 grupos estratificados. O menor estrato (Feminino $\times$ Branca $\times$ Eleito) contém 62 instâncias, suficiente para garantir representação em todos os \textit{folds}.
+A avaliação dos modelos foi conduzida por validação cruzada estratificada com $K=10$ partições (\textit{Stratified K-Fold}), utilizando semente aleatória fixa (\textit{random\_state=42}) para garantir reprodutibilidade. A estratificação foi realizada sobre um estrato composto formado pela combinação de três atributos: gênero (masculino/feminino), raça binarizada (branca/não-branca) e classe-alvo (eleito/não eleito), totalizando 8 grupos estratificados. O menor estrato (Feminino $\times$ Branca $\times$ Eleito) contém 62 instâncias, suficiente para garantir representação em todos os \textit{folds}.
 
 Em cada iteração, 90\% das instâncias compõem o conjunto de treinamento ($n \approx 1.960$) e 10\% o conjunto de teste ($n \approx 218$). Nenhuma informação do conjunto de teste é utilizada durante o treinamento, calibração ou otimização de limiares — todas essas etapas são restritas ao conjunto de treinamento.
 
@@ -331,11 +331,11 @@ Para cada um dos $K=10$ \textit{folds}, o procedimento executado foi:
 \begin{enumerate}
   \item \textbf{Particionamento:} separar conjuntos de treinamento e teste conforme os índices do \textit{fold} corrente.
   \item \textbf{Codificação:} aplicar codificação ordinal às variáveis categóricas, ajustando o mapeamento apenas sobre o conjunto de treinamento.
-  \item \textbf{Treinamento XGBoost:} treinar o modelo com \texttt{scale\_pos\_weight} ajustado; gerar probabilidades OOF via validação cruzada interna ($K_{\text{inner}}=5$); ajustar calibrador isotônico sobre as probabilidades OOF; buscar limiar $\tau^*$ que maximiza o MCC no conjunto de treinamento calibrado.
+  \item \textbf{Treinamento XGBoost:} treinar o modelo com \textit{scale\_pos\_weight} ajustado; gerar probabilidades OOF via validação cruzada interna ($K_{\text{inner}}=5$); ajustar calibrador isotônico sobre as probabilidades OOF; buscar limiar $\tau^*$ que maximiza o MCC no conjunto de treinamento calibrado.
   \item \textbf{Treinamento TabPFN:} ajustar o modelo sobre o conjunto de treinamento; gerar probabilidades \textit{in-sample}; ajustar calibrador isotônico; buscar limiar $\tau^*$ por maximização do MCC no treino.
   \item \textbf{Inferência:} aplicar os modelos treinados ao conjunto de teste, utilizando os calibradores e limiares congelados.
   \item \textbf{Registro:} armazenar rótulos reais, predições binárias, probabilidades calibradas, limiares otimizados e atributos sociodemográficos do conjunto de teste para análise posterior.
-\end{enumerate}
+\end{enumerate}  
 
 Ao final das $K$ iterações, as predições \textit{out-of-sample} acumuladas cobrem a totalidade das 2.178 instâncias, permitindo o cálculo de métricas agregadas de desempenho e \textit{fairness}.
 
