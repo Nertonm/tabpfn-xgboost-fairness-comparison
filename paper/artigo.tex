@@ -72,11 +72,11 @@
 
 
 \begin{abstract}
-  This study investigates whether TabPFN's Bayesian inference architecture mitigates algorithmic bias compared to XGBoost in predicting elected mayors in Ceará, Brazil (2012--2024). Under cross-validation ($K=10$, $N=2{,}178$) with demographic attributes, both achieved equivalent predictive performance (MCC $\approx$ 0.28). However, XGBoost exhibited significant gender and racial disparities (DIR = 1.18 and 0.88, respectively), consistent with historical distributional patterns in the data. In contrast, TabPFN maintained relative parity in both dimensions (DIR $\approx$ 1.01 and 0.91), evidencing that architectural differences between \textit{foundation models} and \textit{gradient boosting} can produce relevant fairness disparities even under equivalent predictive accuracy.
+  This study investigates whether TabPFN's Bayesian inference architecture mitigates algorithmic bias compared to XGBoost in predicting elected mayors in Ceará, Brazil (2012--2024). Under cross-validation ($K=10$, $N=2{,}178$) with demographic attributes, both achieved equivalent predictive performance (MCC $\approx$ 0.28). However, XGBoost exhibited significant gender and racial disparities (DIR = 1.17 and 0.88, respectively), consistent with historical distributional patterns in the data. In contrast, TabPFN maintained relative parity in both dimensions (DIR $\approx$ 1.01 and 0.91), evidencing that architectural differences between \textit{foundation models} and \textit{gradient boosting} can produce relevant fairness disparities even under equivalent predictive accuracy.
 \end{abstract}
 
 \begin{resumo}
-  Este estudo investiga se a arquitetura de inferência bayesiana do TabPFN atenua o viés algorítmico em relação ao XGBoost na predição de prefeitos eleitos no Ceará (2012--2024). Sob validação cruzada ($K=10$, $N=2.178$) com atributos demográficos, ambos atingiram desempenho preditivo equivalente (MCC $\approx$ 0,28). Contudo, o XGBoost apresentou disparidades de gênero e raça estatisticamente significativas (DIR = 1,18 e 0,88, respectivamente), consistentes com os padrões distribucionais históricos observados nos dados. Em contrapartida, o TabPFN manteve paridade relativa em ambas as dimensões (DIR $\approx$ 1,01 e 0,91), evidenciando que diferenças arquiteturais entre \textit{foundation models} e \textit{gradient boosting} podem gerar disparidades de equidade relevantes mesmo sob acurácia preditiva equivalente.
+  Este estudo investiga se a arquitetura de inferência bayesiana do TabPFN atenua o viés algorítmico em relação ao XGBoost na predição de prefeitos eleitos no Ceará (2012--2024). Sob validação cruzada ($K=10$, $N=2.178$) com atributos demográficos, ambos atingiram desempenho preditivo equivalente (MCC $\approx$ 0,28). Contudo, o XGBoost apresentou disparidades de gênero e raça estatisticamente significativas (DIR = 1,17 e 0,88, respectivamente), consistentes com os padrões distribucionais históricos observados nos dados. Em contrapartida, o TabPFN manteve paridade relativa em ambas as dimensões (DIR $\approx$ 1,01 e 0,91), evidenciando que diferenças arquiteturais entre \textit{foundation models} e \textit{gradient boosting} podem gerar disparidades de equidade relevantes mesmo sob acurácia preditiva equivalente.
 \end{resumo}
 
 \section{Introdução}
@@ -100,7 +100,7 @@ grupos de gênero e raça ao fazê-lo.
 Algoritmos de \textit{Gradient Boosting}, como o XGBoost,
 representam o paradigma dominante para dados tabulares: sua
 construção iterativa de árvores de decisão maximiza desempenho
-preditivo capturando relações não lineares com alta eficiência
+preditivo capturando relações não-lineares com alta eficiência
 computacional~\cite{ravichandran:2020}. O XGBoost otimiza uma função
 de perda global sem restrições explícitas sobre a distribuição de
 erros entre subgrupos populacionais. Em cenários de \textit{small
@@ -165,13 +165,13 @@ nesse protocolo, formulam-se as seguintes hipóteses:
 
 Os resultados confirmam H\textsubscript{1}: ambas as arquiteturas
 atingem desempenho equivalente
-(MCC\textsubscript{XGB}\,=\,0{,}275\,$\pm$\,0{,}032;
+(MCC\textsubscript{XGB}\,=\,0{,}285\,$\pm$\,0{,}057;
 MCC\textsubscript{TabPFN}\,=\,0{,}279\,$\pm$\,0{,}072;
 $F=1{,}18$, $p=0{,}455$), embora produzam predições discordantes
-em 39{,}2\% dos casos (McNemar $p<0{,}001$). No protocolo adotado,
+em 35{,}6\% dos casos (McNemar $p<0{,}001$). No protocolo adotado,
 H\textsubscript{2} e H\textsubscript{3} são confirmadas: o XGBoost
-apresenta DIR de gênero de 1{,}18 (IC\,95\%\,[1{,}11;\,1{,}24]) e
-DIR racial de 0{,}88 (IC\,95\%\,[0{,}83;\,0{,}92]), com intervalos
+apresenta DIR de gênero de 1{,}17 (IC\,95\%\,[1{,}09;\,1{,}26]) e
+DIR racial de 0{,}88 (IC\,95\%\,[0{,}83;\,0{,}93]), com intervalos
 que excluem a neutralidade; o TabPFN não evidencia disparidade
 estatisticamente significativa em nenhuma das duas dimensões. As
 diferenças de oportunidade (EOD) não são estatisticamente
@@ -252,9 +252,7 @@ cenários de predição pré-eleitoral~\cite{kaufman:2012}.
 \subsubsection{Distribuições relevantes}
 
 O conjunto de dados apresenta desbalanceamento de classes expressivo na variável-alvo: dos 2.178
-registros após filtragem, 1.411 correspondem a candidatos não eleitos (64,8\%) e 767 a candidatos eleitos (35,2\%)
-; o restante corresponde aos candidatos em segundo turno que são removidos durante a etapa de
-pré-processamento. Nesse sentido, a disparidade da variável é esperada, tendo em vista a própria
+registros após filtragem (que exclui 38 candidatos em segundo turno), 1.411 correspondem a candidatos não eleitos (64,8\%) e 767 a candidatos eleitos (35,2\%). Nesse sentido, a disparidade da variável é esperada, tendo em vista a própria
 estrutura competitiva das eleições municipais, nas quais cada disputa comporta apenas um vencedor
 por município. Esse desequilíbrio foi considerado nas etapas de treinamento e avaliação dos modelos,
 conforme descrito nas subseções subsequentes.
@@ -262,7 +260,7 @@ conforme descrito nas subseções subsequentes.
 No que tange à composição de gênero, observa-se que 1.845 candidatos são do sexo masculino (84,7\%)
 e 333 do sexo feminino (15,3\%), distribuição que reflete a histórica sub-representação feminina nos
 cargos executivos municipais brasileiros e que se mantém consistente com padrões identificados em
-estudos anteriores sobre o perfil das candidaturas no país~\cite{miguel:2010}. Entre as candidatas do sexo feminino, a taxa de êxito eleitoral varia entre os ciclos eleitorais analisados, conforme discutido na Seção~\ref{sec:resultados}.
+estudos anteriores sobre o perfil das candidaturas no país~\cite{miguel:2010}.
 
 \subsection{Pré-processamento}
 
@@ -274,10 +272,8 @@ cuja situação de totalização constava como ``Segundo Turno'' foram removidos
 condição aparecem duplicados na base, uma entrada referente ao primeiro turno e outra com o
 resultado definitivo, o que introduziria redundância e potencial viés na estimação dos modelos.
 
-Colunas de identificação direta, como o nome do candidato e a data de carga do registro, foram
+Colunas de identificação direta, como o nome do candidato, a data de carga do registro e o nome do município, foram
 descartadas por não carregarem valor preditivo e por representarem risco de memorização espúria.
-O campo de município foi removido, mantendo apenas o seu respectivo código numérico, para melhor
-compatibilidade com os modelos.
 
 A variável de resposta foi recodificada a partir do campo de situação de totalização: candidatos
 com o resultado ``Eleito'' receberam o valor 1, e os demais o valor 0, produzindo uma variável
@@ -290,7 +286,7 @@ mesmas razões.
 
 O TSE não coletava autodeclaração racial de forma sistematizada em 2012. Os 649 candidatos daquele pleito (29,8\% do \textit{dataset}) receberam o valor \texttt{\#NE\#} no campo \textit{Cor/raça}, que foi normalizado para ``Não Informado'' durante o pré-processamento. Na análise de \textit{fairness}, esses candidatos foram agrupados com os não-brancos, de modo que as métricas raciais comparam candidatos de raça branca declarada ($n=792$) com candidatos de raça não-branca ou não registrada ($n=1.386$).
 
-Para quantificar o impacto dessa limitação estrutural, o experimento foi replicado excluindo o ciclo de 2012 ($N = 1.529$). O DIR racial do XGBoost passou de 0,875 para 0,938 ($\Delta$DIR = 0,063), acima do limiar de 0,05 adotado como critério de relevância substantiva. O TabPFN apresentou variação marginal (DIR: 0,910 para 0,921; $\Delta$DIR = 0,011). A diferença indica que parte da disparidade racial detectada no XGBoost é confundida pelo componente temporal 2012--2024 e pela não-observabilidade racial daquele ciclo. As métricas de \textit{fairness} racial devem ser interpretadas como limite inferior plausível da disparidade real.
+Para quantificar o impacto dessa limitação estrutural, o experimento foi replicado excluindo o ciclo de 2012 ($N = 1.529$). O DIR racial do XGBoost passou de 0,880 para 0,939 ($\Delta$DIR = 0,059), acima do limiar de 0,05 adotado como critério de relevância substantiva. O TabPFN apresentou variação marginal (DIR: 0,910 para 0,921; $\Delta$DIR = 0,011). A diferença indica que parte da disparidade racial detectada no XGBoost é confundida pelo componente temporal 2012--2024 e pela não-observabilidade racial daquele ciclo. As métricas de \textit{fairness} racial devem ser interpretadas com cautela, pois a inclusão dos dados de 2012 pode amplificar artificialmente a disparidade observada.
 
 \subsubsection{Codificação de variáveis}
 
@@ -302,7 +298,7 @@ Essa estratégia de codificação é compatível com ambos os modelos avaliados.
 
 Dado o desbalanceamento entre classes descrito na Seção~\ref{sec:metodologia} (64,8\% não eleitos vs. 35,2\% eleitos), foram adotadas estratégias distintas para cada modelo. No XGBoost, o parâmetro \textit{scale\_pos\_weight} foi ajustado pela razão $N_{\text{negativos}} / N_{\text{positivos}}$ calculada sobre o conjunto de treinamento de cada \textit{fold}, compensando diretamente o desequilíbrio durante a otimização da função de perda. No TabPFN, o desbalanceamento é tratado implicitamente pelo mecanismo de inferência bayesiana do modelo, que incorpora a distribuição de classes observada no contexto de treinamento sem necessidade de ponderação explícita.
 
-A calibração das probabilidades seguiu abordagens diferenciadas para cada classificador. Para o XGBoost, a calibração foi realizada por regressão isotônica aplicada sobre previsões \textit{out-of-fold} (OOF) em validação cruzada interna com cinco partições. Essa escolha se justifica pelo fato de que o XGBoost treinado com \textit{scale\_pos\_weight} produz escores comprimidos em torno da média quando avaliado sobre o próprio conjunto de treino; calibração \textit{in-sample} nesse cenário colapsaria o limiar ótimo $\tau^*$ para a borda do \textit{grid} de busca, comprometendo a utilidade das probabilidades estimadas. Para o TabPFN, esse comportamento não se manifesta — os escores apresentam distribuição mais dispersa —, de modo que a calibração foi conduzida \textit{in-sample} sem prejuízo à qualidade das probabilidades.
+A calibração das probabilidades seguiu abordagens diferenciadas para cada classificador. Para o XGBoost, a calibração foi realizada por regressão isotônica aplicada sobre previsões \textit{out-of-fold} (OOF) em validação cruzada interna com cinco partições. Essa escolha se justifica pelo fato de que o XGBoost treinado com \textit{scale\_pos\_weight} produz escores comprimidos em torno da média quando avaliado sobre o próprio conjunto de treino; calibração \textit{in-sample} nesse cenário colapsaria o limiar ótimo $\tau^*$ para a borda do \textit{grid} de busca, comprometendo a utilidade das probabilidades estimadas. Para o TabPFN, esse comportamento não se manifesta, os escores apresentam distribuição mais dispersa, de modo que a calibração foi conduzida \textit{in-sample} sem prejuízo à qualidade das probabilidades.
 
 \subsection{Desenho experimental}
 
@@ -310,7 +306,7 @@ A calibração das probabilidades seguiu abordagens diferenciadas para cada clas
 
 A avaliação dos modelos foi conduzida por validação cruzada estratificada com $K=10$ partições (\textit{Stratified K-Fold}), utilizando semente aleatória fixa (\textit{random\_state=42}) para garantir reprodutibilidade. A estratificação foi realizada sobre um estrato composto formado pela combinação de três atributos: gênero (masculino/feminino), raça binarizada (branca/não-branca) e classe-alvo (eleito/não eleito), totalizando 8 grupos estratificados. O menor estrato (Feminino $\times$ Branca $\times$ Eleito) contém 62 instâncias, suficiente para garantir representação em todos os \textit{folds}.
 
-Em cada iteração, 90\% das instâncias compõem o conjunto de treinamento ($n \approx 1.960$) e 10\% o conjunto de teste ($n \approx 218$). Nenhuma informação do conjunto de teste é utilizada durante o treinamento, calibração ou otimização de limiares — todas essas etapas são restritas ao conjunto de treinamento.
+Em cada iteração, 90\% das instâncias compõem o conjunto de treinamento ($n \approx 1.960$) e 10\% o conjunto de teste ($n \approx 218$). Nenhuma informação do conjunto de teste é utilizada durante o treinamento, calibração ou otimização de limiares, todas essas etapas são restritas ao conjunto de treinamento.
 
 \subsubsection{Validação cruzada}
 
@@ -419,22 +415,22 @@ A Tabela~\ref{tab:desempenho} sumariza os resultados de desempenho preditivo obt
 \hline
 \textbf{Modelo} & \textbf{MCC} & $\boldsymbol{\sigma}$ & \textbf{AUC-ROC} & $\boldsymbol{\tau^*}$ \textbf{médio} \\
 \hline
-XGBoost & 0,275 & 0,032 & 0,685 & 0,27 \\
+XGBoost & 0,285 & 0,057 & 0,690 & 0,30 \\
 TabPFN  & 0,279 & 0,072 & 0,719 & 0,41 \\
 \hline
 \end{tabular}
 \end{table}
 
-Ambos os modelos apresentaram desempenho preditivo moderado, compatível com a natureza ruidosa de dados eleitorais baseados exclusivamente em atributos sociodemográficos pré-eleitorais. O XGBoost obteve MCC médio de $0{,}275 \pm 0{,}032$, enquanto o TabPFN atingiu $0{,}279 \pm 0{,}072$. O TabPFN apresenta AUC-ROC ligeiramente superior (0,719 vs. 0,685) e exibe maior variância entre \textit{folds} ($\sigma = 0{,}072$), indicando menor estabilidade preditiva.
+Ambos os modelos apresentaram desempenho preditivo moderado, compatível com a natureza ruidosa de dados eleitorais baseados exclusivamente em atributos sociodemográficos pré-eleitorais. O XGBoost obteve MCC médio de $0{,}285 \pm 0{,}057$, enquanto o TabPFN atingiu $0{,}279 \pm 0{,}072$. O TabPFN apresenta AUC-ROC ligeiramente superior (0,719 vs. 0,690) e exibe maior variância entre \textit{folds} ($\sigma = 0{,}072$), indicando menor estabilidade preditiva.
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{../output/roc_mcc.png}
-\caption{Curvas ROC dos modelos XGBoost (AUC = 0,685) e TabPFN (AUC = 0,719).}
+\caption{Curvas ROC dos modelos XGBoost (AUC = 0,690) e TabPFN (AUC = 0,719).}
 \label{fig:roc}
 \end{figure}
 
-O limiar ótimo de classificação ($\tau^*$), calibrado por maximização do MCC em cada \textit{fold}, produziu medianas distintas entre os modelos: $\tau^*_{XGB} = 0{,}27$ e $\tau^*_{TabPFN} = 0{,}41$ (mediana dos \textit{folds}), refletindo diferenças na distribuição das probabilidades calibradas.
+O limiar ótimo de classificação ($\tau^*$), calibrado por maximização do MCC em cada \textit{fold}, produziu medianas distintas entre os modelos: $\tau^*_{XGB} = 0{,}30$ e $\tau^*_{TabPFN} = 0{,}41$ (mediana dos \textit{folds}), refletindo diferenças na distribuição das probabilidades calibradas.
 
 \begin{figure}[htbp]
 \centering
@@ -446,7 +442,6 @@ O limiar ótimo de classificação ($\tau^*$), calibrado por maximização do MC
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{../output/confusion_matrices.png}
-% PENDENTE: valores 879 / 334 (FP) e 375 / 92 (FN) não constam nos canônicos do pipeline — verificar na figura gerada
 \caption{Matrizes de confusão agregadas. O XGBoost favorece a classe positiva (eleito), gerando mais falsos positivos, enquanto o TabPFN é mais conservador, com maior número de falsos negativos.}
 \label{fig:confusion}
 \end{figure}
@@ -461,16 +456,16 @@ O limiar ótimo de classificação ($\tau^*$), calibrado por maximização do MC
 \hline
 \textbf{Teste} & \textbf{Estatística} & \textbf{p-valor} \\
 \hline
-Wilcoxon (pareado) & $W = 27{,}000$ & 1,0000 \\
-Cohen $d$ & 0,059 & IC-95\%: [$-$0,581; 1,073] \\
-McNemar & $\chi^2 = 79{,}77$ & $< 0{,}001$ \\
+Wilcoxon (pareado) & $W = 25{,}000$ & 0,8457 \\
+Cohen $d$ & $-$0,084 & IC-95\%: [$-$0,635; 0,635] \\
+McNemar & $\chi^2 = 57{,}37$ & $< 0{,}001$ \\
 \hline
 \end{tabular}
 \end{table}
 
-O teste de Wilcoxon pareado ($W = 27{,}000$, $p = 1{,}0000$) e o tamanho de efeito Cohen $d = 0{,}059$ (IC-95\%: [$-$0,581; 1,073]) confirmam a ausência de diferença estatisticamente significativa no MCC entre os modelos. O intervalo de confiança do Cohen $d$ inclui zero, indicando equivalência prática.
+O teste de Wilcoxon pareado ($W = 25{,}000$, $p = 0{,}8457$) e o tamanho de efeito Cohen $d = -0{,}084$ (IC-95\%: [$-$0,635; 0,635]) confirmam a ausência de diferença estatisticamente significativa no MCC entre os modelos. O intervalo de confiança do Cohen $d$ inclui zero, indicando equivalência prática.
 
-Contudo, o teste de McNemar ($\chi^2 = 79{,}77$, $p < 0{,}001$) revela discordância significativa nas predições individuais: o TabPFN acertou 558 instâncias que o XGBoost errou, enquanto o XGBoost acertou 296 instâncias que o TabPFN errou. Essa assimetria indica que, embora o desempenho agregado seja equivalente, os modelos cometem erros em subconjuntos distintos da população — um achado relevante para análise de equidade.
+Contudo, o teste de McNemar ($\chi^2 = 57{,}37$, $p < 0{,}001$) revela discordância significativa nas predições individuais: o TabPFN acertou 494 instâncias que o XGBoost errou, enquanto o XGBoost acertou 282 instâncias que o TabPFN errou. Essa assimetria indica que, embora o desempenho agregado seja equivalente, os modelos cometem erros em subconjuntos distintos da população, um achado relevante para análise de equidade.
 
 \subsection{Equidade Algorítmica por Gênero}
 
@@ -483,7 +478,7 @@ Contudo, o teste de McNemar ($\chi^2 = 79{,}77$, $p < 0{,}001$) revela discordâ
 \hline
 \textbf{Modelo} & \textbf{DIR} & \textbf{IC-95\% DIR} & \textbf{EOD} & \textbf{IC-95\% EOD} & $\boldsymbol{\Delta}$\textbf{FNR} \\
 \hline
-XGBoost & 1,176 & [1,107; 1,241] & $-$0,012 & [$-$0,076; 0,044] & 0,012 \\
+XGBoost & 1,173 & [1,092; 1,255] & $-$0,041 & [$-$0,122; 0,031] & 0,041 \\
 TabPFN  & 1,011 & [0,847; 1,185] & $-$0,082 & [$-$0,172; 0,012] & 0,082 \\
 \hline
 \end{tabular}
@@ -496,11 +491,11 @@ TabPFN  & 1,011 & [0,847; 1,185] & $-$0,082 & [$-$0,172; 0,012] & 0,082 \\
 \label{fig:fairness_genero}
 \end{figure}
 
-O XGBoost apresentou DIR = 1,176 (IC-95\%: [1,107; 1,241]), indicando que o modelo prevê candidatas femininas como eleitas com taxa 17,6\% superior à taxa para candidatos masculinos. O intervalo de confiança não inclui 1,0, configurando disparidade estatisticamente significativa.
+O XGBoost apresentou DIR = 1,173 (IC-95\%: [1,092; 1,255]), indicando que o modelo prevê candidatas femininas como eleitas com taxa 17,3\% superior à taxa para candidatos masculinos. O intervalo de confiança não inclui 1,0, configurando disparidade estatisticamente significativa.
 
-Este resultado aparentemente paradoxal, um viés ``favorável'' ao grupo minoritário, reflete um padrão empiricamente presente nos dados: mulheres representam apenas 15,3\% das candidaturas ($n=333$ de 2.178), mas as que se candidatam são eleitas em proporção ligeiramente superior em 3 dos 4 ciclos eleitorais analisados. O XGBoost amplifica esse padrão histórico de auto-seleção; o TabPFN, com DIR = 1,011 (IC-95\%: [0,847; 1,185]), mantém neutralidade relativa.
+Este resultado aparentemente paradoxal, um viés ``favorável'' ao grupo minoritário, reflete um padrão empiricamente presente nos dados: mulheres representam apenas 15,3\% das candidaturas ($n=333$ de 2.178), mas as que se candidatam apresentam taxa de eleição superior à dos homens na maioria dos ciclos eleitorais analisados. O XGBoost amplifica esse padrão histórico de auto-seleção; o TabPFN, com DIR = 1,011 (IC-95\%: [0,847; 1,185]), mantém neutralidade relativa.
 
-Quanto às métricas de oportunidade equalizada, o XGBoost apresentou EOD = $-$0,012 (IC-95\%: [$-$0,076; 0,044]), com intervalo que inclui zero, indicando ausência de disparidade de oportunidade estatisticamente significativa por gênero. O TabPFN registrou EOD = $-$0,082 (IC-95\%: [$-$0,172; 0,012]), igualmente com intervalo que inclui zero. A diferença de taxa de falsos negativos ($\Delta$FNR) complementa essa leitura: XGBoost = 0,012 e TabPFN = 0,082, ambos com ICs que cruzam zero e sem significância estatística.
+Quanto às métricas de oportunidade equalizada, o XGBoost apresentou EOD = $-$0,041 (IC-95\%: [$-$0,122; 0,031]), com intervalo que inclui zero, indicando ausência de disparidade de oportunidade estatisticamente significativa por gênero. O TabPFN registrou EOD = $-$0,082 (IC-95\%: [$-$0,172; 0,012]), igualmente com intervalo que inclui zero. A diferença de taxa de falsos negativos ($\Delta$FNR) complementa essa leitura: XGBoost = 0,041 e TabPFN = 0,082, ambos com ICs que cruzam zero e sem significância estatística.
 
 A questão normativa subjacente é: deve um modelo amplificar padrões históricos de seleção enviesada (XGBoost) ou manter neutralidade preditiva (TabPFN)? Essa tensão constitui contribuição empírica relevante para o debate sobre \textit{fairness} algorítmica.
 
@@ -515,7 +510,7 @@ A questão normativa subjacente é: deve um modelo amplificar padrões históric
 \hline
 \textbf{Modelo} & \textbf{DIR} & \textbf{IC-95\% DIR} & \textbf{EOD} & \textbf{IC-95\% EOD} & $\boldsymbol{\Delta}$\textbf{FNR} \\
 \hline
-XGBoost & 0,875 & [0,831; 0,921] & $-$0,013 & [$-$0,061; 0,034] & 0,013 \\
+XGBoost & 0,880 & [0,833; 0,933] & 0,014 & [$-$0,042; 0,070] & $-$0,014 \\
 TabPFN  & 0,910 & [0,804; 1,024] & 0,037 & [$-$0,039; 0,108] & $-$0,037 \\
 \hline
 \end{tabular}
@@ -528,9 +523,9 @@ TabPFN  & 0,910 & [0,804; 1,024] & 0,037 & [$-$0,039; 0,108] & $-$0,037 \\
 \label{fig:fairness_raca}
 \end{figure}
 
-Ambos os modelos apresentaram DIR $< 1$ para raça, indicando subpredição para candidatos não-brancos. O XGBoost registrou DIR = 0,875 (IC-95\%: [0,831; 0,921]), com intervalo que não inclui 1,0, configurando disparidade estatisticamente significativa. O TabPFN apresentou DIR = 0,910 (IC-95\%: [0,804; 1,024]), com intervalo que inclui 1,0, indicando ausência de disparidade estatisticamente significativa.
+Ambos os modelos apresentaram DIR $< 1$ para raça, indicando subpredição para candidatos não-brancos. O XGBoost registrou DIR = 0,880 (IC-95\%: [0,833; 0,933]), com intervalo que não inclui 1,0, configurando disparidade estatisticamente significativa. O TabPFN apresentou DIR = 0,910 (IC-95\%: [0,804; 1,024]), com intervalo que inclui 1,0, indicando ausência de disparidade estatisticamente significativa.
 
-Quanto às métricas de oportunidade equalizada (EOD e $\Delta$FNR), o XGBoost apresentou EOD = $-$0{,}013 (IC-95\%: [$-$0{,}061; 0{,}034]), com intervalo que inclui zero, indicando ausência de disparidade de oportunidade estatisticamente significativa. O TabPFN apresentou EOD = 0{,}037 (IC-95\%: [$-$0{,}039; 0{,}108]), igualmente com intervalo que inclui zero, sugerindo paridade aproximada.
+Quanto às métricas de oportunidade equalizada (EOD e $\Delta$FNR), o XGBoost apresentou EOD = 0{,}014 (IC-95\%: [$-$0{,}042; 0{,}070]), com intervalo que inclui zero, indicando ausência de disparidade de oportunidade estatisticamente significativa. O TabPFN apresentou EOD = 0{,}037 (IC-95\%: [$-$0{,}039; 0{,}108]), igualmente com intervalo que inclui zero, sugerindo paridade aproximada.
 
 \subsection{Análise de Sensibilidade}
 
@@ -546,16 +541,15 @@ A variação do limiar de classificação ($\tau \pm 0{,}05$) produziu impactos 
 \hline
 \textbf{Modelo} & \textbf{Atributo} & $\boldsymbol{\tau^*}$ \textbf{med.} & $\boldsymbol{\Delta}$\textbf{DIR} & $\boldsymbol{\Delta}$\textbf{EOD} & $\boldsymbol{\Delta}$\textbf{FNR} & \textbf{Status} \\
 \hline
-XGBoost & Gênero & 0,27 & 0,0104 & 0,0133 & 0,0133 & OK \\
-XGBoost & Raça   & 0,27 & 0,0106 & 0,0258 & 0,0258 & ALERTA \\
+XGBoost & Gênero & 0,30 & 0,0089 & 0,0188 & 0,0188 & OK \\
+XGBoost & Raça   & 0,30 & 0,0212 & 0,0193 & 0,0193 & ALERTA \\
 TabPFN  & Gênero & 0,41 & 0,0392 & 0,0198 & 0,0198 & ALERTA \\
 TabPFN  & Raça   & 0,41 & 0,0005 & 0,0108 & 0,0108 & OK \\
 \hline
 \end{tabular}
 \end{table}
 
-XGBoost em raça ($\Delta$EOD = 0{,}026) e TabPFN em gênero ($\Delta$DIR = 0{,}039) apresentaram valores acima do limiar de 0{,}02, indicando sensibilidade moderada ao limiar nesses dois cenários específicos.
-% PENDENTE: justificativa para DDIR=0,039 em TAB Gênero
+XGBoost em raça ($\Delta$DIR = 0{,}021) e TabPFN em gênero ($\Delta$DIR = 0{,}039) apresentaram valores acima do limiar de 0{,}02, indicando sensibilidade moderada ao limiar nesses dois cenários específicos.
 
 \subsubsection{Sensibilidade à Exclusão de 2012}
 
@@ -569,24 +563,24 @@ O TSE não coletava autodeclaração racial sistematizada em 2012, resultando em
 \hline
 \textbf{Modelo} & \textbf{DIR completo} & \textbf{DIR sem 2012} & $\boldsymbol{\Delta}$\textbf{DIR} & \textbf{Classificação} \\
 \hline
-XGBoost & 0,875 & 0,938 & 0,063 & Substantivo \\
+XGBoost & 0,880 & 0,939 & 0,059 & Substantivo \\
 TabPFN  & 0,910 & 0,921 & 0,011 & Marginal \\
 \hline
 \end{tabular}
 \end{table}
 
-O impacto da exclusão de 2012 foi substantivo para o XGBoost ($\Delta$DIR = 0{,}063, acima do limiar de 0{,}05), indicando que parte da disparidade racial detectada é confundida pelo componente temporal e pela não-observabilidade racial daquele ciclo. Para o TabPFN, a variação foi marginal ($\Delta$DIR = 0{,}011). As métricas de \textit{fairness} racial do XGBoost devem ser interpretadas como limite inferior plausível da disparidade real.
+O impacto da exclusão de 2012 foi substantivo para o XGBoost ($\Delta$DIR = 0{,}059, acima do limiar de 0{,}05), indicando que parte da disparidade racial detectada é confundida pelo componente temporal e pela não-observabilidade racial daquele ciclo. Para o TabPFN, a variação foi marginal ($\Delta$DIR = 0{,}011). Como a exclusão de 2012 aproxima o DIR da neutralidade, as métricas raciais reportadas para o XGBoost podem superestimar a disparidade real presente nos ciclos com coleta padronizada.
 
 \subsection{Síntese e Implicações}
 
-Os resultados demonstram empiricamente que dois classificadores arquiteturalmente distintos podem atingir acurácia estatisticamente equivalente (MCC $\approx$ 0,28; Wilcoxon $p = 1{,}000$; Cohen $d = 0{,}059$), mas produzir perfis de equidade mensuravelmente diferentes:
+Os resultados demonstram empiricamente que dois classificadores arquiteturalmente distintos podem atingir acurácia estatisticamente equivalente (MCC $\approx$ 0,28; Wilcoxon $p = 0{,}846$; Cohen $d = -0{,}084$), mas produzir perfis de equidade mensuravelmente diferentes:
 
 \begin{itemize}
-  \item \textbf{Gênero:} O XGBoost amplifica o padrão histórico de auto-seleção (DIR = 1,18); o TabPFN mantém neutralidade (DIR $\approx$ 1,01).
+  \item \textbf{Gênero:} O XGBoost amplifica o padrão histórico de auto-seleção (DIR = 1,17); o TabPFN mantém neutralidade (DIR $\approx$ 1,01).
   \item \textbf{Raça:} O XGBoost apresenta disparidade significativa (DIR = 0,88); o TabPFN não apresenta disparidade estatisticamente significativa (DIR = 0,91, IC inclui 1,0).
 \end{itemize}
 
-A assimetria revelada pelo teste de McNemar ($b = 558$, $c = 296$) indica que os modelos erram em subpopulações distintas, o que pode ter implicações práticas para sistemas de apoio à decisão: a combinação dos modelos (\textit{ensemble}) poderia potencialmente melhorar tanto o desempenho quanto a equidade.
+A assimetria revelada pelo teste de McNemar ($b = 494$, $c = 282$) indica que os modelos erram em subpopulações distintas, o que pode ter implicações práticas para sistemas de apoio à decisão: a combinação dos modelos (\textit{ensemble}) poderia potencialmente melhorar tanto o desempenho quanto a equidade.
 
 A escolha entre XGBoost e TabPFN, portanto, não é apenas técnica, mas carrega implicações éticas: o XGBoost reflete mais fielmente os padrões históricos dos dados (incluindo suas desigualdades estruturais), enquanto o TabPFN produz predições mais neutras em relação aos atributos protegidos. A definição de qual comportamento é ``mais justo'' depende do contexto de aplicação e dos valores normativos adotados pelo tomador de decisão.
 
@@ -598,11 +592,11 @@ Os resultados deste estudo têm implicações diretas para o desenvolvimento de 
 
 A equivalência de desempenho preditivo entre XGBoost e TabPFN (MCC $\approx$ 0,28) demonstra que a escolha entre essas arquiteturas não pode ser justificada apenas por critérios de acurácia. Em cenários onde métricas de \textit{fairness} são relevantes, como na alocação de recursos públicos, triagem de candidaturas ou sistemas de recomendação política, o perfil de equidade do modelo deve ser considerado como critério de seleção complementar ao desempenho.
 
-A divergência observada no teste de McNemar ($b = 558$, $c = 296$) sugere que os modelos capturam padrões distintos nos dados. Essa complementaridade abre a possibilidade de estratégias de \textit{ensemble} que combinem as predições de ambos os modelos, potencialmente mitigando vieses individuais enquanto preservam ou melhoram o desempenho agregado.
+A divergência observada no teste de McNemar ($b = 494$, $c = 282$) sugere que os modelos capturam padrões distintos nos dados. Essa complementaridade abre a possibilidade de estratégias de \textit{ensemble} que combinem as predições de ambos os modelos, potencialmente mitigando vieses individuais enquanto preservam ou melhoram o desempenho agregado.
 
 \subsection{Limitações do estudo}
 
-\paragraph{Limitação temporal da variável racial.} A ausência de autodeclaração racial sistematizada pelo TSE em 2012 constitui a principal limitação metodológica deste estudo. Os 649 candidatos daquele ciclo (29,8\% do \textit{dataset}) foram agrupados com candidatos não-brancos na análise de \textit{fairness}, introduzindo ruído na estimativa das métricas raciais. A análise de sensibilidade demonstrou que o impacto dessa limitação é substantivo para o XGBoost ($\Delta$DIR = 0,063) e marginal para o TabPFN ($\Delta$DIR = 0,011). As métricas de \textit{fairness} racial reportadas devem ser interpretadas como limites inferiores plausíveis da disparidade real.
+\paragraph{Limitação temporal da variável racial.} A ausência de autodeclaração racial sistematizada pelo TSE em 2012 constitui a principal limitação metodológica deste estudo. Os 649 candidatos daquele ciclo (29,8\% do \textit{dataset}) foram agrupados com candidatos não-brancos na análise de \textit{fairness}, introduzindo ruído na estimativa das métricas raciais. A análise de sensibilidade demonstrou que o impacto dessa limitação é substantivo para o XGBoost ($\Delta$DIR = 0,059) e marginal para o TabPFN ($\Delta$DIR = 0,011). Como a exclusão de 2012 aproxima o DIR da neutralidade, as métricas raciais reportadas podem superestimar a disparidade presente nos ciclos com coleta padronizada de autodeclaração.
 
 \paragraph{Escopo geográfico restrito.} O estudo foi conduzido exclusivamente sobre candidaturas a prefeito no estado do Ceará, limitando a generalização dos resultados para outros estados ou cargos eletivos. Padrões de sub-representação de gênero e raça variam regionalmente no Brasil, e os achados deste estudo podem não se replicar em contextos com distribuições demográficas distintas.
 
@@ -619,11 +613,11 @@ Este estudo investigou empiricamente se a arquitetura de inferência bayesiana d
 Os resultados confirmaram as três hipóteses formuladas:
 
 \begin{itemize}
-  \item \textbf{H\textsubscript{1} (Paridade de Performance):} Confirmada. Ambos os modelos apresentaram desempenho preditivo estatisticamente equivalente (MCC $\approx$ 0,28; Wilcoxon $p = 1{,}000$; Cohen $d = 0{,}059$).
+  \item \textbf{H\textsubscript{1} (Paridade de Performance):} Confirmada. Ambos os modelos apresentaram desempenho preditivo estatisticamente equivalente (MCC $\approx$ 0,28; Wilcoxon $p = 0{,}846$; Cohen $d = -0{,}084$).
 
-  \item \textbf{H\textsubscript{2} (Divergência de Equidade por Gênero):} Confirmada. O XGBoost apresentou DIR = 1,18 (IC-95\%: [1,11; 1,24]), excluindo a neutralidade, enquanto o TabPFN manteve DIR = 1,01 (IC-95\%: [0,85; 1,19]), sem evidência de disparidade significativa.
+  \item \textbf{H\textsubscript{2} (Divergência de Equidade por Gênero):} Confirmada. O XGBoost apresentou DIR = 1,17 (IC-95\%: [1,09; 1,26]), excluindo a neutralidade, enquanto o TabPFN manteve DIR = 1,01 (IC-95\%: [0,85; 1,19]), sem evidência de disparidade significativa.
 
-  \item \textbf{H\textsubscript{3} (Divergência de Equidade Racial):} Confirmada. O XGBoost apresentou DIR = 0,88 (IC-95\%: [0,83; 0,92]), indicando subpredição para candidatos não-brancos, enquanto o TabPFN apresentou DIR = 0,91 (IC-95\%: [0,80; 1,02]), sem disparidade estatisticamente significativa.
+  \item \textbf{H\textsubscript{3} (Divergência de Equidade Racial):} Confirmada. O XGBoost apresentou DIR = 0,88 (IC-95\%: [0,83; 0,93]), indicando subpredição para candidatos não-brancos, enquanto o TabPFN apresentou DIR = 0,91 (IC-95\%: [0,80; 1,02]), sem disparidade estatisticamente significativa.
 \end{itemize}
 
 A principal contribuição deste trabalho é a demonstração empírica de que dois classificadores arquiteturalmente distintos podem atingir acurácia equivalente, mas produzir perfis de equidade mensuravelmente diferentes. Esse achado tem implicações práticas para a seleção de modelos em contextos sensíveis a \textit{fairness}: a escolha entre XGBoost e TabPFN não é apenas técnica, mas carrega consequências éticas sobre quais padrões históricos o modelo irá reproduzir ou atenuar.
